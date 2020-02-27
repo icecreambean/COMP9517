@@ -1,0 +1,53 @@
+Use jupyter (for experimentation) and python3+ (popular language for ML and CV)
+
+numpy for matrices
+cv2 (OpenCV package)
+matplotlib.pyplot (to show image)
+
+####################################
+
+img = cv2.imread('test1.jpg', 1) # open image
+
+cv2.imshow('image', img) # opens window of the image
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+print(img.shape)  # flower image gives (225,225,3) --> height,width,colour(RGB)
+px = img[100,100] # get single pixel
+print(px) # opencv opens as BRG, not RGB...
+
+roi = img[100:120, 100:120] # get a region of the image
+
+cv2.imwrite('res_1.jpg', img) # write output image
+
+matplotlib plot of the image (on a graph...) ---> shows that it is BRG
+
+rgb_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
+
+######################################
+plot histogram of image using matplotlib
+
+equ = cv2.equalizeHist(img)  # histogram equalization
+
+plt.imshow(equ, 'grey)
+plt.hist(equ.revel(),256,[0,256])
+
+
+# applying equalization multiple times should eventually lead to convergence.
+# seeding/flooring (discrete values) lead to non-perfect result 1st time.
+
+
+######################################
+# we will mostly be doing filtering in labs and assignments
+
+open noisy coloured image
+
+# Gaussian filtering
+blur = cv2.GaussianBlur(img,(5,5),3)  # removed some noise by blurring the image...
+plt.imshow(blur)
+
+# Gaussian filtering v2
+G = cv2.getGaussianKernel(5,3)
+GM = G*G.T  # make a custom filter
+
