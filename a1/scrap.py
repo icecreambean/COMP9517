@@ -112,3 +112,12 @@ def alignComponents(b,g,r):
 
 
 mt: off(54,54): imgsize=(106, 167) (maxsize=(160, 221)); res=1290.5042508521697
+
+
+def downsize(img):
+    r,c = img.shape
+    nr = r/2
+    nc = c/2
+    if nr < 1 or nc < 1: # can't scale down any further
+        return None
+    return cv2.resize(img, ( int(r/2), int(c/2) ))
