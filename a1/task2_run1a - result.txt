@@ -1,0 +1,89 @@
+[LOOP 0]: Running for downfactor: 1
+Border: nrow=112, ncol=96
+Running mt() on (r,g)
+ * [Done]: took 310.38240790367126 seconds.
+Running mt() on (b,g)
+ * [Done]: took 616.5995988845825 seconds.
+Red  offset: row=150, col=88
+Blue offset: row=84, col=102
+
+[LOOP 1]: Running for downfactor: 2
+Border: nrow=56, ncol=48
+Running mt() on (r,g)
+ * [Done]: took 14.243147373199463 seconds.
+Running mt() on (b,g)
+ * [Done]: took 28.522789478302002 seconds.
+Red  offset: row=150, col=88
+Blue offset: row=84, col=102
+
+[LOOP 2]: Running for downfactor: 4
+Border: nrow=28, ncol=24
+Running mt() on (r,g)
+ * [Done]: took 0.9739556312561035 seconds.
+Running mt() on (b,g)
+ * [Done]: took 1.9130830764770508 seconds.
+Red  offset: row=152, col=88
+Blue offset: row=84, col=104
+
+[LOOP 3]: Running for downfactor: 8
+Border: nrow=14, ncol=12
+Running mt() on (r,g)
+ * [Done]: took 0.06672286987304688 seconds.
+Running mt() on (b,g)
+ * [Done]: took 0.13952851295471191 seconds.
+Red  offset: row=152, col=88
+Blue offset: row=88, col=96
+
+[LOOP 4]: Running for downfactor: 16
+Border: nrow=10, ncol=10
+Running mt() on (r,g)
+ * [Done]: took 0.0139617919921875 seconds.
+Running mt() on (b,g)
+ * [Done]: took 0.027924537658691406 seconds.
+Red  offset: row=193, col=160
+Blue offset: row=129, col=160
+
+[LOOP 5]: Running for downfactor: 32
+Border: nrow=10, ncol=10
+Running mt() on (r,g)
+ * [Done]: took 0.006982326507568359 seconds.
+Running mt() on (b,g)
+ * [Done]: took 0.012966156005859375 seconds.
+Red  offset: row=354, col=321
+Blue offset: row=322, col=321
+
+[LOOP 6]: Running for downfactor: 64
+Border: nrow=10, ncol=10
+Running mt() on (r,g)
+ * [Done]: took 0.003988742828369141 seconds.
+Running mt() on (b,g)
+ * [Done]: took 0.007977962493896484 seconds.
+Red  offset: row=645, col=450
+Blue offset: row=580, col=514
+
+[LOOP 7]: Running for downfactor: 128
+Border: nrow=10, ncol=10
+Running mt() on (r,g)
+ * [Done]: took 0.002991914749145508 seconds.
+Running mt() on (b,g)
+ * [Done]: took 0.005984067916870117 seconds.
+Red  offset: row=1290, col=1285
+Blue offset: row=1290, col=1414
+
+[LOOP 8]: Running for downfactor: 256
+Border: nrow=10, ncol=10
+Running mt() on (r,g)
+ * [Done]: took 0.0029916763305664062 seconds.
+Running mt() on (b,g)
+ * [Done]: took 0.00498652458190918 seconds.
+Red  offset: row=2323, col=3085
+Blue offset: row=2581, col=2571
+
+[LOOP 9]: Running for downfactor: 512
+Border: nrow=10, ncol=10
+Running mt() on (r,g)
+ * [Done]: took 0.001993894577026367 seconds.
+Running mt() on (b,g)
+ * [Done]: took 0.0059871673583984375 seconds.
+Red  offset: row=5163, col=5400
+Blue offset: row=5163, col=6000
