@@ -117,13 +117,18 @@ if __name__ == '__main__':
                                               kp2_new_len/kp1_default_len*100))
 
     # BFMatcher with default params
-    bf = cv2.BFMatcher(cv2.NORM_L1, crossCheck=False)
-    matches = bf.match(des1,des2)
-    matches = sorted(matches, key = lambda x:x.distance)
+    bf = cv2.BFMatcher(cv2.NORM_L2, crossCheck=False)
+    matches = bf.knnMatch(des1,des2, k=2)   # k=2 for ratio test
 
     # Apply ratio test
-    kp3_img = cv2.drawMatches(img1,kp1,img2,kp2,matches[:10], None, flags=2)
+    good = []
+    for m,n in matches:
+        if m.distance < 0.75*n.distance:
+            good.append([m])
+    # cv2.drawMatchesKnn to draw matches
+    # cv2.drawMatchesKnn expects list of lists as matches.
+    kp3_img = cv2.drawMatchesKnn(img1,kp1,img2,kp2,good,None,flags=2)
     cv2.imwrite('task3c_result.jpg', kp3_img)
 
-    # cv2.drawMatchesKnn to draw matches
+
         

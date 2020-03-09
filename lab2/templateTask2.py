@@ -74,19 +74,30 @@ if __name__ == '__main__':
     # * https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_matcher/py_matcher.html
     # * https://docs.opencv.org/3.4/d3/da1/classcv_1_1BFMatcher.html#ac6418c6f87e0e12a88979ea57980c020
 
-    bf = cv2.BFMatcher(cv2.NORM_L1, crossCheck=False)
+    bf = cv2.BFMatcher(cv2.NORM_L2, crossCheck=False)
     # * Match descriptors.
-    matches = bf.match(des1,des2)
+    #matches = bf.match(des1,des2)
     # * Sort them in the order of their distance.
-    matches = sorted(matches, key = lambda x:x.distance)
-
+    #matches = sorted(matches, key = lambda x:x.distance)
     # * Draw first 10 matches.
-    kp3_img = cv2.drawMatches(img1,kp1,img2,kp2,matches[:10], None, flags=2)
+    #kp3_img = cv2.drawMatches(img1,kp1,img2,kp2,matches[:10], None, flags=2)
+    
+    matches = bf.knnMatch(des1,des2, k=2)   # k=2 for ratio test
+    # Apply ratio test
+    good = []
+    for m,n in matches:
+        if m.distance < 0.75*n.distance:
+            good.append([m])
+    # cv2.drawMatchesKnn expects list of lists as matches.
+    kp3_img = cv2.drawMatchesKnn(img1,kp1,img2,kp2,good,None,flags=2)
+    
     cv2.imwrite('task2c_result.jpg', kp3_img)
 
     # visual inspection
-    print("Task 2d: Results look the same. Suggests that SIFT can handle scaling, or at least for examples "
-          "like this one where the scaling is evenly applied to both directions.")
+    print("Task 2d: Many of the results look the same, though maybe the result could be "
+          "improved by tweaking the ratio test. There are a few errors as not all lines are parallel. "
+          "Suggests that SIFT can handle scaling, or at least for cases where the scaling "
+          "is evenly applied in both directions.")
 
     # Store SIFT keypoints of original image in a Numpy array
     #kp = sd.detector.detect(img,None)
