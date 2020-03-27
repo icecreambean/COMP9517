@@ -1,4 +1,5 @@
-[TEST 1] ################################w
+###################################################################
+[TEST 1]
 
 DIR = 'Individual_Component'
 SEED = 42
@@ -68,11 +69,55 @@ Reshuffling data...
 [[2893  107]
  [  25 2975]]
 
+svm_model_4-4_12_1-1.pickle: 56,378 KB
 
  Comments:
   * Modify code such that we can see what the false positives and false negatives are (DONE)
   * Training and prediction time are really high; see if this can be reduced
-  * Considering that the head is really small, wouldn't cell size (4,4) be the best we can already do?
+  * Considering that the head is really small, wouldn't cell size (4,4) be the best we can already do? 
 
   * Class imbalance problem
   * Over-fitting
+  * Is there a way to plot the actual class distribution?
+
+  [!REPORT]
+  The whole point of this assignment is experimentation. Therefore:
+   2. Experiment for different cell sizes + orientations (TABULATE RESULTS)
+   3. Experiment for different algorithms
+   1. AUC suggests this is a good result. Double-check with theory this is not overfitted, etc.
+   0. Read the relevant paper - see what statistical measures are useful.
+
+
+###################################################################
+[TEST 2]
+
+CELL_PIXELSHAPE = (8,8)
+NORIENTATIONS = 12
+CELLS_PER_BLOCK = (1,1)
+
+HOG descriptor size: (960,)
+
+[Loading Images]:
+8.642s runtime: Individual_Component\train\train_positive_A\00000000
+8.521s runtime: Individual_Component\train\train_positive_A\00000001
+7.700s runtime: Individual_Component\train\train_positive_A\00000002
+7.860s runtime: Individual_Component\train\train_negative_A\00000000
+7.868s runtime: Individual_Component\train\train_negative_A\00000001
+8.141s runtime: Individual_Component\train\train_negative_A\00000002
+Reformatting data...
+Reshuffling data...
+0.025s runtime: shuffling
+
+117.138s runtime: training
+Images loaded: 6000
+
+[Evaluating classifier with data]:
+  * 31.144s prediction time
+  * AUC (weighted): 0.995
+  * Accuracy: 0.966
+  * Recall (weighted): 0.966
+  * Confusion Matrix:
+[[5733  267]
+ [  51 3406]]
+
+ svm_model_8-8_12_1-1.pickle: 11,627 KB
