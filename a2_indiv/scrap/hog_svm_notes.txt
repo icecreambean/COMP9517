@@ -1,0 +1,78 @@
+[TEST 1] ################################w
+
+DIR = 'Individual_Component'
+SEED = 42
+NO_PERSON = 0
+IS_PERSON = 1
+
+CELL_PIXELSHAPE = (4,4)
+NORIENTATIONS = 12
+CELLS_PER_BLOCK = (1,1)
+
+x_train, y_train = load_images(True,True, 3000,3000)
+
+0.100s runtime: Individual_Component\train\train_positive_A\00000000\item_00000000.pnm
+HOG descriptor size: (3840,)
+
+## TRAINING
+[Loading Images]:
+5.501s runtime: Individual_Component\train\train_positive_A\00000000
+5.979s runtime: Individual_Component\train\train_positive_A\00000001
+5.081s runtime: Individual_Component\train\train_positive_A\00000002
+5.042s runtime: Individual_Component\train\train_negative_A\00000000
+4.950s runtime: Individual_Component\train\train_negative_A\00000001
+5.387s runtime: Individual_Component\train\train_negative_A\00000002
+Reformatting data...
+Reshuffling data...
+0.068s runtime: shuffling
+
+[Training SVM model]:
+273.344s runtime: training
+
+
+x_test, y_test = load_images(False,True)
+
+## TESTING
+[Loading Images]:
+4.934s runtime: Individual_Component\test\test_positive\00000000
+5.498s runtime: Individual_Component\test\test_positive\00000001
+5.360s runtime: Individual_Component\test\test_positive\00000002
+2.453s runtime: Individual_Component\test\test_positive\00000003
+4.887s runtime: Individual_Component\test\test_negative\00000000
+5.406s runtime: Individual_Component\test\test_negative\00000001
+5.876s runtime: Individual_Component\test\test_negative\00000002
+5.444s runtime: Individual_Component\test\test_negative\00000003
+5.382s runtime: Individual_Component\test\test_negative\00000004
+5.417s runtime: Individual_Component\test\test_negative\00000005
+Reformatting data...
+Reshuffling data...
+0.117s runtime: shuffling
+
+[Test set evaluation]
+  * 154.064s prediction time
+  * AUC (weighted): 0.995
+  * Accuracy: 0.969
+  * Recall (weighted): 0.969
+  * Confusion Matrix:
+[[5744  256]
+ [  40 3417]]
+
+
+## EVALUATING ON THE SAME TRAINING DATA
+[Evaluating classifier with test data]:
+  * 94.340s prediction time
+  * AUC (weighted): 0.996
+  * Accuracy: 0.978
+  * Recall (weighted): 0.978
+  * Confusion Matrix:
+[[2893  107]
+ [  25 2975]]
+
+
+ Comments:
+  * Modify code such that we can see what the false positives and false negatives are (DONE)
+  * Training and prediction time are really high; see if this can be reduced
+  * Considering that the head is really small, wouldn't cell size (4,4) be the best we can already do?
+
+  * Class imbalance problem
+  * Over-fitting
