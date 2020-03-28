@@ -1,0 +1,5230 @@
+####[TEST 1/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * 0.635s runtime (images loaded): Individual_Component\train\train_positive_A\00000000
+  * 0.594s runtime (images loaded): Individual_Component\train\train_positive_A\00000001
+  * 0.690s runtime (images loaded): Individual_Component\train\train_positive_A\00000002
+  * 0.558s runtime (images loaded): Individual_Component\train\train_negative_A\00000000
+  * 0.618s runtime (images loaded): Individual_Component\train\train_negative_A\00000001
+  * 0.645s runtime (images loaded): Individual_Component\train\train_negative_A\00000002
+  * 42.006s runtime (conversion to HOG)
+  * 0.038s runtime (shuffling)
+HOG descriptor size: (1920,)
+6.046s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * 0.711s runtime (images loaded): Individual_Component\test\test_positive\00000000
+  * 0.585s runtime (images loaded): Individual_Component\test\test_positive\00000001
+  * 0.578s runtime (images loaded): Individual_Component\test\test_positive\00000002
+  * 0.273s runtime (images loaded): Individual_Component\test\test_positive\00000003
+  * 0.570s runtime (images loaded): Individual_Component\test\test_negative\00000000
+  * 0.591s runtime (images loaded): Individual_Component\test\test_negative\00000001
+  * 0.569s runtime (images loaded): Individual_Component\test\test_negative\00000002
+  * 0.569s runtime (images loaded): Individual_Component\test\test_negative\00000003
+  * 0.563s runtime (images loaded): Individual_Component\test\test_negative\00000004
+  * 0.576s runtime (images loaded): Individual_Component\test\test_negative\00000005
+  * 73.481s runtime (conversion to HOG)
+  * 0.067s runtime (shuffling)
+HOG descriptor size: (1920,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.283s prediction time (0.000136 s/image)
+  * AUC (weighted): 0.996
+  * Accuracy: 0.974
+  * Precision (weighted): 0.974
+  * Recall (weighted): 0.974
+  * Confusion Matrix:
+[[5865  135]
+ [ 107 3350]]
+
+[Classifier statistics (on training data)]:
+  * 0.790s prediction time (0.000132 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 2/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.050s loading time
+  * 43.547s runtime (conversion to HOG)
+  * 0.048s runtime (shuffling)
+HOG descriptor size: (2560,)
+4.787s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.180s loading time
+  * 69.545s runtime (conversion to HOG)
+  * 0.078s runtime (shuffling)
+HOG descriptor size: (2560,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.835s prediction time (0.000194 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.979
+  * Precision (weighted): 0.979
+  * Recall (weighted): 0.979
+  * Confusion Matrix:
+[[5888  112]
+ [  90 3367]]
+
+[Classifier statistics (on training data)]:
+  * 1.314s prediction time (0.000219 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 3/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.057s loading time
+  * 45.060s runtime (conversion to HOG)
+  * 0.051s runtime (shuffling)
+HOG descriptor size: (2880,)
+5.266s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.091s loading time
+  * 69.404s runtime (conversion to HOG)
+  * 0.084s runtime (shuffling)
+HOG descriptor size: (2880,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.956s prediction time (0.000207 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.978
+  * Precision (weighted): 0.978
+  * Recall (weighted): 0.978
+  * Confusion Matrix:
+[[5887  113]
+ [  92 3365]]
+
+[Classifier statistics (on training data)]:
+  * 1.241s prediction time (0.000207 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 4/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.053s loading time
+  * 43.065s runtime (conversion to HOG)
+  * 0.064s runtime (shuffling)
+HOG descriptor size: (3200,)
+4.234s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.127s loading time
+  * 67.323s runtime (conversion to HOG)
+  * 0.097s runtime (shuffling)
+HOG descriptor size: (3200,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.299s prediction time (0.000243 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.980
+  * Precision (weighted): 0.980
+  * Recall (weighted): 0.980
+  * Confusion Matrix:
+[[5895  105]
+ [  81 3376]]
+
+[Classifier statistics (on training data)]:
+  * 1.517s prediction time (0.000253 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 5/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.061s loading time
+  * 230.954s runtime (conversion to HOG)
+  * 0.075s runtime (shuffling)
+HOG descriptor size: (3840,)
+4.266s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.096s loading time
+  * 3970.713s runtime (conversion to HOG)
+  * 0.112s runtime (shuffling)
+HOG descriptor size: (3840,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.659s prediction time (0.000281 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.981
+  * Precision (weighted): 0.981
+  * Recall (weighted): 0.981
+  * Confusion Matrix:
+[[5893  107]
+ [  75 3382]]
+
+[Classifier statistics (on training data)]:
+  * 1.712s prediction time (0.000285 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 6/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.075s loading time
+  * 18.085s runtime (conversion to HOG)
+  * 0.015s runtime (shuffling)
+HOG descriptor size: (480,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+3.204s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.157s loading time
+  * 28.604s runtime (conversion to HOG)
+  * 0.024s runtime (shuffling)
+HOG descriptor size: (480,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.457s prediction time (0.000048 s/image)
+  * AUC (weighted): 0.993
+  * Accuracy: 0.963
+  * Precision (weighted): 0.963
+  * Recall (weighted): 0.963
+  * Confusion Matrix:
+[[5790  210]
+ [ 143 3314]]
+
+[Classifier statistics (on training data)]:
+  * 0.284s prediction time (0.000047 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.985
+  * Precision (weighted): 0.985
+  * Recall (weighted): 0.985
+  * Confusion Matrix:
+[[2966   34]
+ [  54 2946]]
+
+[Falsely detected images]:
+
+####[TEST 7/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.052s loading time
+  * 17.925s runtime (conversion to HOG)
+  * 0.017s runtime (shuffling)
+HOG descriptor size: (640,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+3.891s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.117s loading time
+  * 29.879s runtime (conversion to HOG)
+  * 0.028s runtime (shuffling)
+HOG descriptor size: (640,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.516s prediction time (0.000055 s/image)
+  * AUC (weighted): 0.995
+  * Accuracy: 0.968
+  * Precision (weighted): 0.968
+  * Recall (weighted): 0.968
+  * Confusion Matrix:
+[[5818  182]
+ [ 118 3339]]
+
+[Classifier statistics (on training data)]:
+  * 0.498s prediction time (0.000083 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.995
+  * Precision (weighted): 0.995
+  * Recall (weighted): 0.995
+  * Confusion Matrix:
+[[2992    8]
+ [  21 2979]]
+
+[Falsely detected images]:
+
+####[TEST 8/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.150s loading time
+  * 19.775s runtime (conversion to HOG)
+  * 0.018s runtime (shuffling)
+HOG descriptor size: (720,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+5.519s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.221s loading time
+  * 31.112s runtime (conversion to HOG)
+  * 0.031s runtime (shuffling)
+HOG descriptor size: (720,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.527s prediction time (0.000056 s/image)
+  * AUC (weighted): 0.994
+  * Accuracy: 0.967
+  * Precision (weighted): 0.967
+  * Recall (weighted): 0.967
+  * Confusion Matrix:
+[[5794  206]
+ [ 110 3347]]
+
+[Classifier statistics (on training data)]:
+  * 0.368s prediction time (0.000061 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.997
+  * Precision (weighted): 0.997
+  * Recall (weighted): 0.997
+  * Confusion Matrix:
+[[2994    6]
+ [  10 2990]]
+
+[Falsely detected images]:
+
+####[TEST 9/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.092s loading time
+  * 17.231s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (800,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+4.731s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.105s loading time
+  * 28.500s runtime (conversion to HOG)
+  * 0.033s runtime (shuffling)
+HOG descriptor size: (800,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.593s prediction time (0.000063 s/image)
+  * AUC (weighted): 0.995
+  * Accuracy: 0.969
+  * Precision (weighted): 0.969
+  * Recall (weighted): 0.969
+  * Confusion Matrix:
+[[5822  178]
+ [ 114 3343]]
+
+[Classifier statistics (on training data)]:
+  * 0.376s prediction time (0.000063 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.999
+  * Precision (weighted): 0.999
+  * Recall (weighted): 0.999
+  * Confusion Matrix:
+[[2995    5]
+ [   1 2999]]
+
+[Falsely detected images]:
+
+####[TEST 10/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.070s loading time
+  * 23.999s runtime (conversion to HOG)
+  * 0.023s runtime (shuffling)
+HOG descriptor size: (960,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+6.486s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.144s loading time
+  * 32.974s runtime (conversion to HOG)
+  * 0.037s runtime (shuffling)
+HOG descriptor size: (960,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.693s prediction time (0.000073 s/image)
+  * AUC (weighted): 0.996
+  * Accuracy: 0.972
+  * Precision (weighted): 0.972
+  * Recall (weighted): 0.972
+  * Confusion Matrix:
+[[5825  175]
+ [  92 3365]]
+
+[Classifier statistics (on training data)]:
+  * 0.451s prediction time (0.000075 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 11/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.062s loading time
+  * 19.390s runtime (conversion to HOG)
+  * 0.022s runtime (shuffling)
+HOG descriptor size: (336,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+4.862s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.189s loading time
+  * 31.154s runtime (conversion to HOG)
+  * 0.023s runtime (shuffling)
+HOG descriptor size: (336,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.278s prediction time (0.000029 s/image)
+  * AUC (weighted): 0.986
+  * Accuracy: 0.947
+  * Precision (weighted): 0.947
+  * Recall (weighted): 0.947
+  * Confusion Matrix:
+[[5679  321]
+ [ 184 3273]]
+
+[Classifier statistics (on training data)]:
+  * 0.142s prediction time (0.000024 s/image)
+  * AUC (weighted): 0.991
+  * Accuracy: 0.966
+  * Precision (weighted): 0.966
+  * Recall (weighted): 0.966
+  * Confusion Matrix:
+[[2901   99]
+ [ 104 2896]]
+
+[Falsely detected images]:
+
+####[TEST 12/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.079s loading time
+  * 16.749s runtime (conversion to HOG)
+  * 0.016s runtime (shuffling)
+HOG descriptor size: (448,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+2.807s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.171s loading time
+  * 24.813s runtime (conversion to HOG)
+  * 0.024s runtime (shuffling)
+HOG descriptor size: (448,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.333s prediction time (0.000035 s/image)
+  * AUC (weighted): 0.990
+  * Accuracy: 0.956
+  * Precision (weighted): 0.956
+  * Recall (weighted): 0.956
+  * Confusion Matrix:
+[[5738  262]
+ [ 155 3302]]
+
+[Classifier statistics (on training data)]:
+  * 0.206s prediction time (0.000034 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.981
+  * Precision (weighted): 0.981
+  * Recall (weighted): 0.981
+  * Confusion Matrix:
+[[2943   57]
+ [  56 2944]]
+
+[Falsely detected images]:
+
+####[TEST 13/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.059s loading time
+  * 15.147s runtime (conversion to HOG)
+  * 0.016s runtime (shuffling)
+HOG descriptor size: (504,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+3.503s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.132s loading time
+  * 26.536s runtime (conversion to HOG)
+  * 0.026s runtime (shuffling)
+HOG descriptor size: (504,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.367s prediction time (0.000039 s/image)
+  * AUC (weighted): 0.990
+  * Accuracy: 0.953
+  * Precision (weighted): 0.954
+  * Recall (weighted): 0.953
+  * Confusion Matrix:
+[[5705  295]
+ [ 150 3307]]
+
+[Classifier statistics (on training data)]:
+  * 0.231s prediction time (0.000039 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.985
+  * Precision (weighted): 0.985
+  * Recall (weighted): 0.985
+  * Confusion Matrix:
+[[2952   48]
+ [  44 2956]]
+
+[Falsely detected images]:
+
+####[TEST 14/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.056s loading time
+  * 15.856s runtime (conversion to HOG)
+  * 0.016s runtime (shuffling)
+HOG descriptor size: (560,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+3.439s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.121s loading time
+  * 25.542s runtime (conversion to HOG)
+  * 0.027s runtime (shuffling)
+HOG descriptor size: (560,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.407s prediction time (0.000043 s/image)
+  * AUC (weighted): 0.991
+  * Accuracy: 0.955
+  * Precision (weighted): 0.956
+  * Recall (weighted): 0.955
+  * Confusion Matrix:
+[[5710  290]
+ [ 135 3322]]
+
+[Classifier statistics (on training data)]:
+  * 0.255s prediction time (0.000042 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.990
+  * Precision (weighted): 0.990
+  * Recall (weighted): 0.990
+  * Confusion Matrix:
+[[2964   36]
+ [  27 2973]]
+
+[Falsely detected images]:
+
+####[TEST 15/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.104s loading time
+  * 16.047s runtime (conversion to HOG)
+  * 0.017s runtime (shuffling)
+HOG descriptor size: (672,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+4.122s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.105s loading time
+  * 26.718s runtime (conversion to HOG)
+  * 0.030s runtime (shuffling)
+HOG descriptor size: (672,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.466s prediction time (0.000049 s/image)
+  * AUC (weighted): 0.993
+  * Accuracy: 0.959
+  * Precision (weighted): 0.960
+  * Recall (weighted): 0.959
+  * Confusion Matrix:
+[[5749  251]
+ [ 137 3320]]
+
+[Classifier statistics (on training data)]:
+  * 0.305s prediction time (0.000051 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.994
+  * Precision (weighted): 0.994
+  * Recall (weighted): 0.994
+  * Confusion Matrix:
+[[2974   26]
+ [  12 2988]]
+
+[Falsely detected images]:
+
+####[TEST 16/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.060s loading time
+  * 15.162s runtime (conversion to HOG)
+  * 0.011s runtime (shuffling)
+HOG descriptor size: (288,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.762s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.082s loading time
+  * 22.336s runtime (conversion to HOG)
+  * 0.019s runtime (shuffling)
+HOG descriptor size: (288,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.211s prediction time (0.000022 s/image)
+  * AUC (weighted): 0.989
+  * Accuracy: 0.952
+  * Precision (weighted): 0.953
+  * Recall (weighted): 0.952
+  * Confusion Matrix:
+[[5702  298]
+ [ 155 3302]]
+
+[Classifier statistics (on training data)]:
+  * 0.117s prediction time (0.000019 s/image)
+  * AUC (weighted): 0.993
+  * Accuracy: 0.963
+  * Precision (weighted): 0.963
+  * Recall (weighted): 0.963
+  * Confusion Matrix:
+[[2903   97]
+ [ 126 2874]]
+
+[Falsely detected images]:
+
+####[TEST 17/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.109s loading time
+  * 14.056s runtime (conversion to HOG)
+  * 0.015s runtime (shuffling)
+HOG descriptor size: (384,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+2.463s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.165s loading time
+  * 25.659s runtime (conversion to HOG)
+  * 0.024s runtime (shuffling)
+HOG descriptor size: (384,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.291s prediction time (0.000031 s/image)
+  * AUC (weighted): 0.993
+  * Accuracy: 0.961
+  * Precision (weighted): 0.961
+  * Recall (weighted): 0.961
+  * Confusion Matrix:
+[[5748  252]
+ [ 120 3337]]
+
+[Classifier statistics (on training data)]:
+  * 0.175s prediction time (0.000029 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.980
+  * Precision (weighted): 0.980
+  * Recall (weighted): 0.980
+  * Confusion Matrix:
+[[2943   57]
+ [  61 2939]]
+
+[Falsely detected images]:
+
+####[TEST 18/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.071s loading time
+  * 17.581s runtime (conversion to HOG)
+  * 0.015s runtime (shuffling)
+HOG descriptor size: (432,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+2.550s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.113s loading time
+  * 25.696s runtime (conversion to HOG)
+  * 0.023s runtime (shuffling)
+HOG descriptor size: (432,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.301s prediction time (0.000032 s/image)
+  * AUC (weighted): 0.993
+  * Accuracy: 0.962
+  * Precision (weighted): 0.962
+  * Recall (weighted): 0.962
+  * Confusion Matrix:
+[[5757  243]
+ [ 118 3339]]
+
+[Classifier statistics (on training data)]:
+  * 0.185s prediction time (0.000031 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.985
+  * Precision (weighted): 0.985
+  * Recall (weighted): 0.985
+  * Confusion Matrix:
+[[2955   45]
+ [  46 2954]]
+
+[Falsely detected images]:
+
+####[TEST 19/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.118s loading time
+  * 15.565s runtime (conversion to HOG)
+  * 0.016s runtime (shuffling)
+HOG descriptor size: (480,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+2.713s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.101s loading time
+  * 24.767s runtime (conversion to HOG)
+  * 0.026s runtime (shuffling)
+HOG descriptor size: (480,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.324s prediction time (0.000034 s/image)
+  * AUC (weighted): 0.994
+  * Accuracy: 0.964
+  * Precision (weighted): 0.964
+  * Recall (weighted): 0.964
+  * Confusion Matrix:
+[[5766  234]
+ [ 108 3349]]
+
+[Classifier statistics (on training data)]:
+  * 0.240s prediction time (0.000040 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.988
+  * Precision (weighted): 0.988
+  * Recall (weighted): 0.988
+  * Confusion Matrix:
+[[2963   37]
+ [  35 2965]]
+
+[Falsely detected images]:
+
+####[TEST 20/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.048s loading time
+  * 16.060s runtime (conversion to HOG)
+  * 0.017s runtime (shuffling)
+HOG descriptor size: (576,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+3.206s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.096s loading time
+  * 25.204s runtime (conversion to HOG)
+  * 0.027s runtime (shuffling)
+HOG descriptor size: (576,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.420s prediction time (0.000044 s/image)
+  * AUC (weighted): 0.995
+  * Accuracy: 0.965
+  * Precision (weighted): 0.965
+  * Recall (weighted): 0.965
+  * Confusion Matrix:
+[[5767  233]
+ [ 101 3356]]
+
+[Classifier statistics (on training data)]:
+  * 0.296s prediction time (0.000049 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.993
+  * Precision (weighted): 0.993
+  * Recall (weighted): 0.993
+  * Confusion Matrix:
+[[2975   25]
+ [  16 2984]]
+
+[Falsely detected images]:
+
+####[TEST 21/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.104s loading time
+  * 12.570s runtime (conversion to HOG)
+  * 0.010s runtime (shuffling)
+HOG descriptor size: (120,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+0.776s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.094s loading time
+  * 18.558s runtime (conversion to HOG)
+  * 0.015s runtime (shuffling)
+HOG descriptor size: (120,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.091s prediction time (0.000010 s/image)
+  * AUC (weighted): 0.963
+  * Accuracy: 0.911
+  * Precision (weighted): 0.913
+  * Recall (weighted): 0.911
+  * Confusion Matrix:
+[[5485  515]
+ [ 327 3130]]
+
+[Classifier statistics (on training data)]:
+  * 0.060s prediction time (0.000010 s/image)
+  * AUC (weighted): 0.969
+  * Accuracy: 0.922
+  * Precision (weighted): 0.922
+  * Recall (weighted): 0.922
+  * Confusion Matrix:
+[[2788  212]
+ [ 258 2742]]
+
+[Falsely detected images]:
+
+####[TEST 22/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.066s loading time
+  * 11.588s runtime (conversion to HOG)
+  * 0.008s runtime (shuffling)
+HOG descriptor size: (160,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+0.905s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.130s loading time
+  * 18.500s runtime (conversion to HOG)
+  * 0.017s runtime (shuffling)
+HOG descriptor size: (160,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.117s prediction time (0.000012 s/image)
+  * AUC (weighted): 0.982
+  * Accuracy: 0.940
+  * Precision (weighted): 0.942
+  * Recall (weighted): 0.940
+  * Confusion Matrix:
+[[5600  400]
+ [ 165 3292]]
+
+[Classifier statistics (on training data)]:
+  * 0.078s prediction time (0.000013 s/image)
+  * AUC (weighted): 0.986
+  * Accuracy: 0.951
+  * Precision (weighted): 0.951
+  * Recall (weighted): 0.951
+  * Confusion Matrix:
+[[2849  151]
+ [ 146 2854]]
+
+[Falsely detected images]:
+
+####[TEST 23/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.112s loading time
+  * 11.668s runtime (conversion to HOG)
+  * 0.011s runtime (shuffling)
+HOG descriptor size: (180,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.005s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.142s loading time
+  * 19.177s runtime (conversion to HOG)
+  * 0.017s runtime (shuffling)
+HOG descriptor size: (180,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.130s prediction time (0.000014 s/image)
+  * AUC (weighted): 0.983
+  * Accuracy: 0.943
+  * Precision (weighted): 0.945
+  * Recall (weighted): 0.943
+  * Confusion Matrix:
+[[5633  367]
+ [ 171 3286]]
+
+[Classifier statistics (on training data)]:
+  * 0.093s prediction time (0.000016 s/image)
+  * AUC (weighted): 0.989
+  * Accuracy: 0.955
+  * Precision (weighted): 0.955
+  * Recall (weighted): 0.955
+  * Confusion Matrix:
+[[2864  136]
+ [ 135 2865]]
+
+[Falsely detected images]:
+
+####[TEST 24/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.045s loading time
+  * 12.077s runtime (conversion to HOG)
+  * 0.022s runtime (shuffling)
+HOG descriptor size: (200,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.001s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.124s loading time
+  * 19.170s runtime (conversion to HOG)
+  * 0.022s runtime (shuffling)
+HOG descriptor size: (200,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.176s prediction time (0.000019 s/image)
+  * AUC (weighted): 0.987
+  * Accuracy: 0.949
+  * Precision (weighted): 0.949
+  * Recall (weighted): 0.949
+  * Confusion Matrix:
+[[5680  320]
+ [ 167 3290]]
+
+[Classifier statistics (on training data)]:
+  * 0.083s prediction time (0.000014 s/image)
+  * AUC (weighted): 0.991
+  * Accuracy: 0.960
+  * Precision (weighted): 0.960
+  * Recall (weighted): 0.960
+  * Confusion Matrix:
+[[2873  127]
+ [ 114 2886]]
+
+[Falsely detected images]:
+
+####[TEST 25/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.108s loading time
+  * 12.214s runtime (conversion to HOG)
+  * 0.011s runtime (shuffling)
+HOG descriptor size: (240,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.059s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.128s loading time
+  * 19.641s runtime (conversion to HOG)
+  * 0.019s runtime (shuffling)
+HOG descriptor size: (240,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.174s prediction time (0.000018 s/image)
+  * AUC (weighted): 0.989
+  * Accuracy: 0.954
+  * Precision (weighted): 0.955
+  * Recall (weighted): 0.954
+  * Confusion Matrix:
+[[5701  299]
+ [ 140 3317]]
+
+[Classifier statistics (on training data)]:
+  * 0.094s prediction time (0.000016 s/image)
+  * AUC (weighted): 0.994
+  * Accuracy: 0.968
+  * Precision (weighted): 0.968
+  * Recall (weighted): 0.968
+  * Confusion Matrix:
+[[2895  105]
+ [  85 2915]]
+
+[Falsely detected images]:
+
+####[TEST 26/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.040s loading time
+  * 49.384s runtime (conversion to HOG)
+  * 0.124s runtime (shuffling)
+HOG descriptor size: (6840,)
+13.243s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.100s loading time
+  * 78.472s runtime (conversion to HOG)
+  * 0.222s runtime (shuffling)
+HOG descriptor size: (6840,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 4.606s prediction time (0.000487 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.986
+  * Precision (weighted): 0.986
+  * Recall (weighted): 0.986
+  * Confusion Matrix:
+[[5926   74]
+ [  54 3403]]
+
+[Classifier statistics (on training data)]:
+  * 3.010s prediction time (0.000502 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 27/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.126s loading time
+  * 50.971s runtime (conversion to HOG)
+  * 0.165s runtime (shuffling)
+HOG descriptor size: (9120,)
+13.364s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.116s loading time
+  * 79.875s runtime (conversion to HOG)
+  * 0.313s runtime (shuffling)
+HOG descriptor size: (9120,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 6.419s prediction time (0.000679 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.987
+  * Precision (weighted): 0.987
+  * Recall (weighted): 0.987
+  * Confusion Matrix:
+[[5927   73]
+ [  46 3411]]
+
+[Classifier statistics (on training data)]:
+  * 3.942s prediction time (0.000657 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 28/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.069s loading time
+  * 50.330s runtime (conversion to HOG)
+  * 0.197s runtime (shuffling)
+HOG descriptor size: (10260,)
+13.778s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.093s loading time
+  * 80.339s runtime (conversion to HOG)
+  * 0.308s runtime (shuffling)
+HOG descriptor size: (10260,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 7.046s prediction time (0.000745 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.986
+  * Precision (weighted): 0.986
+  * Recall (weighted): 0.986
+  * Confusion Matrix:
+[[5926   74]
+ [  56 3401]]
+
+[Classifier statistics (on training data)]:
+  * 4.431s prediction time (0.000739 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 29/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.163s loading time
+  * 51.359s runtime (conversion to HOG)
+  * 0.207s runtime (shuffling)
+HOG descriptor size: (11400,)
+15.488s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.115s loading time
+  * 81.828s runtime (conversion to HOG)
+  * 0.325s runtime (shuffling)
+HOG descriptor size: (11400,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 7.913s prediction time (0.000837 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.988
+  * Precision (weighted): 0.988
+  * Recall (weighted): 0.988
+  * Confusion Matrix:
+[[5927   73]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 4.971s prediction time (0.000828 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 30/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.089s loading time
+  * 54.580s runtime (conversion to HOG)
+  * 0.257s runtime (shuffling)
+HOG descriptor size: (13680,)
+14.956s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.097s loading time
+  * 80.447s runtime (conversion to HOG)
+  * 0.400s runtime (shuffling)
+HOG descriptor size: (13680,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 9.422s prediction time (0.000996 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.989
+  * Precision (weighted): 0.989
+  * Recall (weighted): 0.989
+  * Confusion Matrix:
+[[5928   72]
+ [  35 3422]]
+
+[Classifier statistics (on training data)]:
+  * 6.045s prediction time (0.001008 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 31/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.139s loading time
+  * 17.556s runtime (conversion to HOG)
+  * 0.035s runtime (shuffling)
+HOG descriptor size: (1512,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+7.990s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.096s loading time
+  * 28.194s runtime (conversion to HOG)
+  * 0.055s runtime (shuffling)
+HOG descriptor size: (1512,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.192s prediction time (0.000126 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.982
+  * Precision (weighted): 0.982
+  * Recall (weighted): 0.982
+  * Confusion Matrix:
+[[5899  101]
+ [  72 3385]]
+
+[Classifier statistics (on training data)]:
+  * 0.778s prediction time (0.000130 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[2999    1]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 32/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.060s loading time
+  * 17.835s runtime (conversion to HOG)
+  * 0.043s runtime (shuffling)
+HOG descriptor size: (2016,)
+9.138s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.081s loading time
+  * 27.189s runtime (conversion to HOG)
+  * 0.075s runtime (shuffling)
+HOG descriptor size: (2016,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.395s prediction time (0.000147 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.983
+  * Precision (weighted): 0.983
+  * Recall (weighted): 0.983
+  * Confusion Matrix:
+[[5902   98]
+ [  62 3395]]
+
+[Classifier statistics (on training data)]:
+  * 0.888s prediction time (0.000148 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 33/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.132s loading time
+  * 17.439s runtime (conversion to HOG)
+  * 0.047s runtime (shuffling)
+HOG descriptor size: (2268,)
+10.505s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.097s loading time
+  * 29.112s runtime (conversion to HOG)
+  * 0.082s runtime (shuffling)
+HOG descriptor size: (2268,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.855s prediction time (0.000196 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.981
+  * Precision (weighted): 0.982
+  * Recall (weighted): 0.981
+  * Confusion Matrix:
+[[5887  113]
+ [  63 3394]]
+
+[Classifier statistics (on training data)]:
+  * 1.041s prediction time (0.000173 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 34/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.066s loading time
+  * 19.214s runtime (conversion to HOG)
+  * 0.053s runtime (shuffling)
+HOG descriptor size: (2520,)
+8.560s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.112s loading time
+  * 30.048s runtime (conversion to HOG)
+  * 0.087s runtime (shuffling)
+HOG descriptor size: (2520,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.795s prediction time (0.000190 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.984
+  * Precision (weighted): 0.984
+  * Recall (weighted): 0.984
+  * Confusion Matrix:
+[[5908   92]
+ [  63 3394]]
+
+[Classifier statistics (on training data)]:
+  * 1.145s prediction time (0.000191 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 35/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.059s loading time
+  * 18.839s runtime (conversion to HOG)
+  * 0.062s runtime (shuffling)
+HOG descriptor size: (3024,)
+8.102s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.163s loading time
+  * 28.325s runtime (conversion to HOG)
+  * 0.097s runtime (shuffling)
+HOG descriptor size: (3024,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.161s prediction time (0.000229 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.983
+  * Precision (weighted): 0.983
+  * Recall (weighted): 0.983
+  * Confusion Matrix:
+[[5896  104]
+ [  56 3401]]
+
+[Classifier statistics (on training data)]:
+  * 1.400s prediction time (0.000233 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 36/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.060s loading time
+  * 14.176s runtime (conversion to HOG)
+  * 0.024s runtime (shuffling)
+HOG descriptor size: (1008,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+5.152s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.110s loading time
+  * 26.227s runtime (conversion to HOG)
+  * 0.039s runtime (shuffling)
+HOG descriptor size: (1008,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.746s prediction time (0.000079 s/image)
+  * AUC (weighted): 0.996
+  * Accuracy: 0.970
+  * Precision (weighted): 0.970
+  * Recall (weighted): 0.970
+  * Confusion Matrix:
+[[5808  192]
+ [  93 3364]]
+
+[Classifier statistics (on training data)]:
+  * 0.495s prediction time (0.000083 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.992
+  * Precision (weighted): 0.992
+  * Recall (weighted): 0.992
+  * Confusion Matrix:
+[[2972   28]
+ [  22 2978]]
+
+[Falsely detected images]:
+
+####[TEST 37/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.077s loading time
+  * 14.503s runtime (conversion to HOG)
+  * 0.040s runtime (shuffling)
+HOG descriptor size: (1344,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+6.543s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.159s loading time
+  * 24.560s runtime (conversion to HOG)
+  * 0.050s runtime (shuffling)
+HOG descriptor size: (1344,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.001s prediction time (0.000106 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.974
+  * Precision (weighted): 0.975
+  * Recall (weighted): 0.974
+  * Confusion Matrix:
+[[5839  161]
+ [  82 3375]]
+
+[Classifier statistics (on training data)]:
+  * 0.685s prediction time (0.000114 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.996
+  * Precision (weighted): 0.996
+  * Recall (weighted): 0.996
+  * Confusion Matrix:
+[[2987   13]
+ [   9 2991]]
+
+[Falsely detected images]:
+
+####[TEST 38/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.048s loading time
+  * 14.594s runtime (conversion to HOG)
+  * 0.032s runtime (shuffling)
+HOG descriptor size: (1512,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+7.960s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.101s loading time
+  * 23.589s runtime (conversion to HOG)
+  * 0.052s runtime (shuffling)
+HOG descriptor size: (1512,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.044s prediction time (0.000110 s/image)
+  * AUC (weighted): 0.996
+  * Accuracy: 0.971
+  * Precision (weighted): 0.972
+  * Recall (weighted): 0.971
+  * Confusion Matrix:
+[[5814  186]
+ [  87 3370]]
+
+[Classifier statistics (on training data)]:
+  * 0.657s prediction time (0.000109 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.997
+  * Precision (weighted): 0.997
+  * Recall (weighted): 0.997
+  * Confusion Matrix:
+[[2985   15]
+ [   4 2996]]
+
+[Falsely detected images]:
+
+####[TEST 39/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.054s loading time
+  * 15.778s runtime (conversion to HOG)
+  * 0.043s runtime (shuffling)
+HOG descriptor size: (1680,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+11.415s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.202s loading time
+  * 24.672s runtime (conversion to HOG)
+  * 0.052s runtime (shuffling)
+HOG descriptor size: (1680,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.132s prediction time (0.000120 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.974
+  * Precision (weighted): 0.974
+  * Recall (weighted): 0.974
+  * Confusion Matrix:
+[[5838  162]
+ [  86 3371]]
+
+[Classifier statistics (on training data)]:
+  * 0.704s prediction time (0.000117 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.998
+  * Precision (weighted): 0.998
+  * Recall (weighted): 0.998
+  * Confusion Matrix:
+[[2993    7]
+ [   3 2997]]
+
+[Falsely detected images]:
+
+####[TEST 40/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.050s loading time
+  * 13.068s runtime (conversion to HOG)
+  * 0.039s runtime (shuffling)
+HOG descriptor size: (2016,)
+10.115s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.078s loading time
+  * 22.922s runtime (conversion to HOG)
+  * 0.068s runtime (shuffling)
+HOG descriptor size: (2016,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.393s prediction time (0.000147 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.975
+  * Precision (weighted): 0.976
+  * Recall (weighted): 0.975
+  * Confusion Matrix:
+[[5851  149]
+ [  84 3373]]
+
+[Classifier statistics (on training data)]:
+  * 0.888s prediction time (0.000148 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[2997    3]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 41/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.055s loading time
+  * 13.753s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (840,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+3.329s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.148s loading time
+  * 20.646s runtime (conversion to HOG)
+  * 0.032s runtime (shuffling)
+HOG descriptor size: (840,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.501s prediction time (0.000053 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.980
+  * Precision (weighted): 0.980
+  * Recall (weighted): 0.980
+  * Confusion Matrix:
+[[5867  133]
+ [  57 3400]]
+
+[Classifier statistics (on training data)]:
+  * 0.307s prediction time (0.000051 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.993
+  * Precision (weighted): 0.993
+  * Recall (weighted): 0.993
+  * Confusion Matrix:
+[[2977   23]
+ [  17 2983]]
+
+[Falsely detected images]:
+
+####[TEST 42/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.050s loading time
+  * 12.643s runtime (conversion to HOG)
+  * 0.025s runtime (shuffling)
+HOG descriptor size: (1120,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+3.781s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.094s loading time
+  * 19.362s runtime (conversion to HOG)
+  * 0.039s runtime (shuffling)
+HOG descriptor size: (1120,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.685s prediction time (0.000072 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.980
+  * Precision (weighted): 0.980
+  * Recall (weighted): 0.980
+  * Confusion Matrix:
+[[5870  130]
+ [  58 3399]]
+
+[Classifier statistics (on training data)]:
+  * 0.495s prediction time (0.000083 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.996
+  * Precision (weighted): 0.996
+  * Recall (weighted): 0.996
+  * Confusion Matrix:
+[[2987   13]
+ [  10 2990]]
+
+[Falsely detected images]:
+
+####[TEST 43/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.052s loading time
+  * 12.365s runtime (conversion to HOG)
+  * 0.027s runtime (shuffling)
+HOG descriptor size: (1260,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+4.578s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.118s loading time
+  * 19.560s runtime (conversion to HOG)
+  * 0.043s runtime (shuffling)
+HOG descriptor size: (1260,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.759s prediction time (0.000080 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.981
+  * Precision (weighted): 0.981
+  * Recall (weighted): 0.981
+  * Confusion Matrix:
+[[5875  125]
+ [  53 3404]]
+
+[Classifier statistics (on training data)]:
+  * 0.491s prediction time (0.000082 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.999
+  * Precision (weighted): 0.999
+  * Recall (weighted): 0.999
+  * Confusion Matrix:
+[[2994    6]
+ [   3 2997]]
+
+[Falsely detected images]:
+
+####[TEST 44/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.050s loading time
+  * 12.478s runtime (conversion to HOG)
+  * 0.029s runtime (shuffling)
+HOG descriptor size: (1400,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+5.505s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.078s loading time
+  * 20.824s runtime (conversion to HOG)
+  * 0.051s runtime (shuffling)
+HOG descriptor size: (1400,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.974s prediction time (0.000103 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.981
+  * Precision (weighted): 0.982
+  * Recall (weighted): 0.981
+  * Confusion Matrix:
+[[5874  126]
+ [  50 3407]]
+
+[Classifier statistics (on training data)]:
+  * 0.635s prediction time (0.000106 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.999
+  * Precision (weighted): 0.999
+  * Recall (weighted): 0.999
+  * Confusion Matrix:
+[[2996    4]
+ [   4 2996]]
+
+[Falsely detected images]:
+
+####[TEST 45/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.059s loading time
+  * 13.369s runtime (conversion to HOG)
+  * 0.035s runtime (shuffling)
+HOG descriptor size: (1680,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+7.319s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.115s loading time
+  * 22.616s runtime (conversion to HOG)
+  * 0.056s runtime (shuffling)
+HOG descriptor size: (1680,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.064s prediction time (0.000113 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.980
+  * Precision (weighted): 0.981
+  * Recall (weighted): 0.980
+  * Confusion Matrix:
+[[5863  137]
+ [  48 3409]]
+
+[Classifier statistics (on training data)]:
+  * 0.694s prediction time (0.000116 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[2998    2]
+ [   1 2999]]
+
+[Falsely detected images]:
+
+####[TEST 46/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.045s loading time
+  * 10.341s runtime (conversion to HOG)
+  * 0.011s runtime (shuffling)
+HOG descriptor size: (288,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.186s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.141s loading time
+  * 15.245s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (288,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.222s prediction time (0.000024 s/image)
+  * AUC (weighted): 0.989
+  * Accuracy: 0.952
+  * Precision (weighted): 0.953
+  * Recall (weighted): 0.952
+  * Confusion Matrix:
+[[5697  303]
+ [ 150 3307]]
+
+[Classifier statistics (on training data)]:
+  * 0.137s prediction time (0.000023 s/image)
+  * AUC (weighted): 0.993
+  * Accuracy: 0.964
+  * Precision (weighted): 0.964
+  * Recall (weighted): 0.964
+  * Confusion Matrix:
+[[2886  114]
+ [ 101 2899]]
+
+[Falsely detected images]:
+
+####[TEST 47/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.047s loading time
+  * 10.280s runtime (conversion to HOG)
+  * 0.013s runtime (shuffling)
+HOG descriptor size: (384,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+0.990s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.192s loading time
+  * 16.932s runtime (conversion to HOG)
+  * 0.022s runtime (shuffling)
+HOG descriptor size: (384,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.263s prediction time (0.000028 s/image)
+  * AUC (weighted): 0.994
+  * Accuracy: 0.961
+  * Precision (weighted): 0.962
+  * Recall (weighted): 0.961
+  * Confusion Matrix:
+[[5741  259]
+ [ 106 3351]]
+
+[Classifier statistics (on training data)]:
+  * 0.182s prediction time (0.000030 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.974
+  * Precision (weighted): 0.974
+  * Recall (weighted): 0.974
+  * Confusion Matrix:
+[[2912   88]
+ [  69 2931]]
+
+[Falsely detected images]:
+
+####[TEST 48/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.059s loading time
+  * 11.884s runtime (conversion to HOG)
+  * 0.016s runtime (shuffling)
+HOG descriptor size: (432,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.381s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.137s loading time
+  * 18.828s runtime (conversion to HOG)
+  * 0.026s runtime (shuffling)
+HOG descriptor size: (432,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.337s prediction time (0.000036 s/image)
+  * AUC (weighted): 0.995
+  * Accuracy: 0.964
+  * Precision (weighted): 0.964
+  * Recall (weighted): 0.964
+  * Confusion Matrix:
+[[5752  248]
+ [  97 3360]]
+
+[Classifier statistics (on training data)]:
+  * 0.218s prediction time (0.000036 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.975
+  * Precision (weighted): 0.975
+  * Recall (weighted): 0.975
+  * Confusion Matrix:
+[[2915   85]
+ [  65 2935]]
+
+[Falsely detected images]:
+
+####[TEST 49/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.070s loading time
+  * 12.171s runtime (conversion to HOG)
+  * 0.015s runtime (shuffling)
+HOG descriptor size: (480,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.388s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.142s loading time
+  * 18.100s runtime (conversion to HOG)
+  * 0.024s runtime (shuffling)
+HOG descriptor size: (480,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.341s prediction time (0.000036 s/image)
+  * AUC (weighted): 0.995
+  * Accuracy: 0.966
+  * Precision (weighted): 0.966
+  * Recall (weighted): 0.966
+  * Confusion Matrix:
+[[5766  234]
+ [  91 3366]]
+
+[Classifier statistics (on training data)]:
+  * 0.184s prediction time (0.000031 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.978
+  * Precision (weighted): 0.978
+  * Recall (weighted): 0.978
+  * Confusion Matrix:
+[[2921   79]
+ [  53 2947]]
+
+[Falsely detected images]:
+
+####[TEST 50/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.055s loading time
+  * 11.645s runtime (conversion to HOG)
+  * 0.016s runtime (shuffling)
+HOG descriptor size: (576,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.985s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.116s loading time
+  * 17.428s runtime (conversion to HOG)
+  * 0.032s runtime (shuffling)
+HOG descriptor size: (576,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.370s prediction time (0.000039 s/image)
+  * AUC (weighted): 0.995
+  * Accuracy: 0.966
+  * Precision (weighted): 0.966
+  * Recall (weighted): 0.966
+  * Confusion Matrix:
+[[5766  234]
+ [  90 3367]]
+
+[Classifier statistics (on training data)]:
+  * 0.238s prediction time (0.000040 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.981
+  * Precision (weighted): 0.981
+  * Recall (weighted): 0.981
+  * Confusion Matrix:
+[[2924   76]
+ [  41 2959]]
+
+[Falsely detected images]:
+
+####[TEST 51/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.049s loading time
+  * 43.277s runtime (conversion to HOG)
+  * 0.266s runtime (shuffling)
+HOG descriptor size: (13608,)
+20.998s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.176s loading time
+  * 66.306s runtime (conversion to HOG)
+  * 0.435s runtime (shuffling)
+HOG descriptor size: (13608,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 9.120s prediction time (0.000964 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.988
+  * Precision (weighted): 0.988
+  * Recall (weighted): 0.988
+  * Confusion Matrix:
+[[5932   68]
+ [  43 3414]]
+
+[Classifier statistics (on training data)]:
+  * 5.977s prediction time (0.000996 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 52/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.074s loading time
+  * 42.615s runtime (conversion to HOG)
+  * 0.328s runtime (shuffling)
+HOG descriptor size: (18144,)
+22.285s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.097s loading time
+  * 64.315s runtime (conversion to HOG)
+  * 0.483s runtime (shuffling)
+HOG descriptor size: (18144,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 11.829s prediction time (0.001251 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.989
+  * Precision (weighted): 0.989
+  * Recall (weighted): 0.989
+  * Confusion Matrix:
+[[5938   62]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 7.939s prediction time (0.001323 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 53/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.083s loading time
+  * 43.448s runtime (conversion to HOG)
+  * 0.377s runtime (shuffling)
+HOG descriptor size: (20412,)
+24.739s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.149s loading time
+  * 68.907s runtime (conversion to HOG)
+  * 0.557s runtime (shuffling)
+HOG descriptor size: (20412,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 14.233s prediction time (0.001505 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.990
+  * Precision (weighted): 0.990
+  * Recall (weighted): 0.990
+  * Confusion Matrix:
+[[5942   58]
+ [  41 3416]]
+
+[Classifier statistics (on training data)]:
+  * 9.001s prediction time (0.001500 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 54/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.068s loading time
+  * 42.001s runtime (conversion to HOG)
+  * 0.392s runtime (shuffling)
+HOG descriptor size: (22680,)
+22.154s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.110s loading time
+  * 72.269s runtime (conversion to HOG)
+  * 0.643s runtime (shuffling)
+HOG descriptor size: (22680,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 15.867s prediction time (0.001678 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.989
+  * Precision (weighted): 0.989
+  * Recall (weighted): 0.989
+  * Confusion Matrix:
+[[5932   68]
+ [  36 3421]]
+
+[Classifier statistics (on training data)]:
+  * 10.910s prediction time (0.001818 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 55/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.058s loading time
+  * 43.490s runtime (conversion to HOG)
+  * 0.480s runtime (shuffling)
+HOG descriptor size: (27216,)
+25.982s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.180s loading time
+  * 64.950s runtime (conversion to HOG)
+  * 0.741s runtime (shuffling)
+HOG descriptor size: (27216,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 17.356s prediction time (0.001835 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.990
+  * Precision (weighted): 0.990
+  * Recall (weighted): 0.990
+  * Confusion Matrix:
+[[5938   62]
+ [  33 3424]]
+
+[Classifier statistics (on training data)]:
+  * 11.473s prediction time (0.001912 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 56/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.063s loading time
+  * 14.111s runtime (conversion to HOG)
+  * 0.051s runtime (shuffling)
+HOG descriptor size: (2592,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+10.772s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.074s loading time
+  * 21.973s runtime (conversion to HOG)
+  * 0.095s runtime (shuffling)
+HOG descriptor size: (2592,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.738s prediction time (0.000184 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.981
+  * Precision (weighted): 0.981
+  * Recall (weighted): 0.981
+  * Confusion Matrix:
+[[5890  110]
+ [  67 3390]]
+
+[Classifier statistics (on training data)]:
+  * 1.014s prediction time (0.000169 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[2997    3]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 57/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.050s loading time
+  * 14.536s runtime (conversion to HOG)
+  * 0.066s runtime (shuffling)
+HOG descriptor size: (3456,)
+13.050s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.108s loading time
+  * 23.283s runtime (conversion to HOG)
+  * 0.104s runtime (shuffling)
+HOG descriptor size: (3456,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.202s prediction time (0.000233 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.983
+  * Precision (weighted): 0.983
+  * Recall (weighted): 0.983
+  * Confusion Matrix:
+[[5894  106]
+ [  53 3404]]
+
+[Classifier statistics (on training data)]:
+  * 1.494s prediction time (0.000249 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 58/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.097s loading time
+  * 14.793s runtime (conversion to HOG)
+  * 0.068s runtime (shuffling)
+HOG descriptor size: (3888,)
+12.571s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.095s loading time
+  * 24.051s runtime (conversion to HOG)
+  * 0.121s runtime (shuffling)
+HOG descriptor size: (3888,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.402s prediction time (0.000254 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.981
+  * Precision (weighted): 0.981
+  * Recall (weighted): 0.981
+  * Confusion Matrix:
+[[5884  116]
+ [  65 3392]]
+
+[Classifier statistics (on training data)]:
+  * 1.553s prediction time (0.000259 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 59/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.068s loading time
+  * 14.813s runtime (conversion to HOG)
+  * 0.083s runtime (shuffling)
+HOG descriptor size: (4320,)
+13.966s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.149s loading time
+  * 24.263s runtime (conversion to HOG)
+  * 0.125s runtime (shuffling)
+HOG descriptor size: (4320,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.551s prediction time (0.000270 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.983
+  * Precision (weighted): 0.983
+  * Recall (weighted): 0.983
+  * Confusion Matrix:
+[[5893  107]
+ [  54 3403]]
+
+[Classifier statistics (on training data)]:
+  * 1.613s prediction time (0.000269 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 60/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.067s loading time
+  * 16.075s runtime (conversion to HOG)
+  * 0.090s runtime (shuffling)
+HOG descriptor size: (5184,)
+14.076s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.073s loading time
+  * 24.370s runtime (conversion to HOG)
+  * 0.144s runtime (shuffling)
+HOG descriptor size: (5184,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 3.448s prediction time (0.000365 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.981
+  * Precision (weighted): 0.982
+  * Recall (weighted): 0.981
+  * Confusion Matrix:
+[[5884  116]
+ [  59 3398]]
+
+[Classifier statistics (on training data)]:
+  * 1.920s prediction time (0.000320 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 61/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.077s loading time
+  * 11.321s runtime (conversion to HOG)
+  * 0.036s runtime (shuffling)
+HOG descriptor size: (1620,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+7.228s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.121s loading time
+  * 19.287s runtime (conversion to HOG)
+  * 0.054s runtime (shuffling)
+HOG descriptor size: (1620,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.189s prediction time (0.000126 s/image)
+  * AUC (weighted): 0.995
+  * Accuracy: 0.969
+  * Precision (weighted): 0.969
+  * Recall (weighted): 0.969
+  * Confusion Matrix:
+[[5790  210]
+ [  87 3370]]
+
+[Classifier statistics (on training data)]:
+  * 0.712s prediction time (0.000119 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.989
+  * Precision (weighted): 0.989
+  * Recall (weighted): 0.989
+  * Confusion Matrix:
+[[2966   34]
+ [  30 2970]]
+
+[Falsely detected images]:
+
+####[TEST 62/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.055s loading time
+  * 11.452s runtime (conversion to HOG)
+  * 0.041s runtime (shuffling)
+HOG descriptor size: (2160,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+9.049s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.131s loading time
+  * 18.605s runtime (conversion to HOG)
+  * 0.071s runtime (shuffling)
+HOG descriptor size: (2160,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.387s prediction time (0.000147 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.974
+  * Precision (weighted): 0.975
+  * Recall (weighted): 0.974
+  * Confusion Matrix:
+[[5827  173]
+ [  70 3387]]
+
+[Classifier statistics (on training data)]:
+  * 0.826s prediction time (0.000138 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.994
+  * Precision (weighted): 0.994
+  * Recall (weighted): 0.994
+  * Confusion Matrix:
+[[2978   22]
+ [  14 2986]]
+
+[Falsely detected images]:
+
+####[TEST 63/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.066s loading time
+  * 12.092s runtime (conversion to HOG)
+  * 0.047s runtime (shuffling)
+HOG descriptor size: (2430,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+11.177s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.139s loading time
+  * 19.310s runtime (conversion to HOG)
+  * 0.082s runtime (shuffling)
+HOG descriptor size: (2430,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.543s prediction time (0.000163 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.973
+  * Precision (weighted): 0.974
+  * Recall (weighted): 0.973
+  * Confusion Matrix:
+[[5829  171]
+ [  81 3376]]
+
+[Classifier statistics (on training data)]:
+  * 1.123s prediction time (0.000187 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.995
+  * Precision (weighted): 0.995
+  * Recall (weighted): 0.995
+  * Confusion Matrix:
+[[2983   17]
+ [  13 2987]]
+
+[Falsely detected images]:
+
+####[TEST 64/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.051s loading time
+  * 12.143s runtime (conversion to HOG)
+  * 0.053s runtime (shuffling)
+HOG descriptor size: (2700,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+12.364s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.078s loading time
+  * 18.776s runtime (conversion to HOG)
+  * 0.083s runtime (shuffling)
+HOG descriptor size: (2700,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.692s prediction time (0.000179 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.973
+  * Precision (weighted): 0.974
+  * Recall (weighted): 0.973
+  * Confusion Matrix:
+[[5823  177]
+ [  76 3381]]
+
+[Classifier statistics (on training data)]:
+  * 1.052s prediction time (0.000175 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.997
+  * Precision (weighted): 0.997
+  * Recall (weighted): 0.997
+  * Confusion Matrix:
+[[2990   10]
+ [   9 2991]]
+
+[Falsely detected images]:
+
+####[TEST 65/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.069s loading time
+  * 12.336s runtime (conversion to HOG)
+  * 0.062s runtime (shuffling)
+HOG descriptor size: (3240,)
+13.537s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.140s loading time
+  * 19.363s runtime (conversion to HOG)
+  * 0.097s runtime (shuffling)
+HOG descriptor size: (3240,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.003s prediction time (0.000212 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.974
+  * Precision (weighted): 0.974
+  * Recall (weighted): 0.974
+  * Confusion Matrix:
+[[5834  166]
+ [  80 3377]]
+
+[Classifier statistics (on training data)]:
+  * 1.244s prediction time (0.000207 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.997
+  * Precision (weighted): 0.997
+  * Recall (weighted): 0.997
+  * Confusion Matrix:
+[[2991    9]
+ [   7 2993]]
+
+[Falsely detected images]:
+
+####[TEST 66/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.046s loading time
+  * 11.560s runtime (conversion to HOG)
+  * 0.028s runtime (shuffling)
+HOG descriptor size: (1296,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+4.624s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.139s loading time
+  * 18.524s runtime (conversion to HOG)
+  * 0.051s runtime (shuffling)
+HOG descriptor size: (1296,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.804s prediction time (0.000085 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.979
+  * Precision (weighted): 0.979
+  * Recall (weighted): 0.979
+  * Confusion Matrix:
+[[5861  139]
+ [  58 3399]]
+
+[Classifier statistics (on training data)]:
+  * 0.491s prediction time (0.000082 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.992
+  * Precision (weighted): 0.992
+  * Recall (weighted): 0.992
+  * Confusion Matrix:
+[[2972   28]
+ [  22 2978]]
+
+[Falsely detected images]:
+
+####[TEST 67/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.050s loading time
+  * 12.382s runtime (conversion to HOG)
+  * 0.031s runtime (shuffling)
+HOG descriptor size: (1728,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+6.113s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.066s loading time
+  * 19.466s runtime (conversion to HOG)
+  * 0.072s runtime (shuffling)
+HOG descriptor size: (1728,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.128s prediction time (0.000119 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.980
+  * Precision (weighted): 0.980
+  * Recall (weighted): 0.980
+  * Confusion Matrix:
+[[5871  129]
+ [  59 3398]]
+
+[Classifier statistics (on training data)]:
+  * 0.702s prediction time (0.000117 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.995
+  * Precision (weighted): 0.995
+  * Recall (weighted): 0.995
+  * Confusion Matrix:
+[[2981   19]
+ [  11 2989]]
+
+[Falsely detected images]:
+
+####[TEST 68/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.088s loading time
+  * 11.798s runtime (conversion to HOG)
+  * 0.039s runtime (shuffling)
+HOG descriptor size: (1944,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+7.136s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.067s loading time
+  * 19.131s runtime (conversion to HOG)
+  * 0.078s runtime (shuffling)
+HOG descriptor size: (1944,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.281s prediction time (0.000135 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.981
+  * Precision (weighted): 0.981
+  * Recall (weighted): 0.981
+  * Confusion Matrix:
+[[5881  119]
+ [  59 3398]]
+
+[Classifier statistics (on training data)]:
+  * 0.796s prediction time (0.000133 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.996
+  * Precision (weighted): 0.996
+  * Recall (weighted): 0.996
+  * Confusion Matrix:
+[[2986   14]
+ [  10 2990]]
+
+[Falsely detected images]:
+
+####[TEST 69/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.057s loading time
+  * 11.586s runtime (conversion to HOG)
+  * 0.043s runtime (shuffling)
+HOG descriptor size: (2160,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+8.646s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.067s loading time
+  * 17.909s runtime (conversion to HOG)
+  * 0.069s runtime (shuffling)
+HOG descriptor size: (2160,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.504s prediction time (0.000159 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.981
+  * Precision (weighted): 0.981
+  * Recall (weighted): 0.981
+  * Confusion Matrix:
+[[5877  123]
+ [  58 3399]]
+
+[Classifier statistics (on training data)]:
+  * 0.803s prediction time (0.000134 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.998
+  * Precision (weighted): 0.998
+  * Recall (weighted): 0.998
+  * Confusion Matrix:
+[[2990   10]
+ [   4 2996]]
+
+[Falsely detected images]:
+
+####[TEST 70/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.122s loading time
+  * 11.841s runtime (conversion to HOG)
+  * 0.048s runtime (shuffling)
+HOG descriptor size: (2592,)
+10.218s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.096s loading time
+  * 19.038s runtime (conversion to HOG)
+  * 0.080s runtime (shuffling)
+HOG descriptor size: (2592,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.590s prediction time (0.000168 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.980
+  * Precision (weighted): 0.980
+  * Recall (weighted): 0.980
+  * Confusion Matrix:
+[[5867  133]
+ [  55 3402]]
+
+[Classifier statistics (on training data)]:
+  * 0.964s prediction time (0.000161 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.999
+  * Precision (weighted): 0.999
+  * Recall (weighted): 0.999
+  * Confusion Matrix:
+[[2995    5]
+ [   3 2997]]
+
+[Falsely detected images]:
+
+####[TEST 71/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.068s loading time
+  * 8.523s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (324,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+0.762s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.098s loading time
+  * 13.878s runtime (conversion to HOG)
+  * 0.012s runtime (shuffling)
+HOG descriptor size: (324,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.214s prediction time (0.000023 s/image)
+  * AUC (weighted): 0.989
+  * Accuracy: 0.949
+  * Precision (weighted): 0.951
+  * Recall (weighted): 0.949
+  * Confusion Matrix:
+[[5669  331]
+ [ 147 3310]]
+
+[Classifier statistics (on training data)]:
+  * 0.112s prediction time (0.000019 s/image)
+  * AUC (weighted): 0.993
+  * Accuracy: 0.962
+  * Precision (weighted): 0.962
+  * Recall (weighted): 0.962
+  * Confusion Matrix:
+[[2874  126]
+ [ 104 2896]]
+
+[Falsely detected images]:
+
+####[TEST 72/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.082s loading time
+  * 8.967s runtime (conversion to HOG)
+  * 0.013s runtime (shuffling)
+HOG descriptor size: (432,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+0.918s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.103s loading time
+  * 14.707s runtime (conversion to HOG)
+  * 0.021s runtime (shuffling)
+HOG descriptor size: (432,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.279s prediction time (0.000030 s/image)
+  * AUC (weighted): 0.994
+  * Accuracy: 0.962
+  * Precision (weighted): 0.963
+  * Recall (weighted): 0.962
+  * Confusion Matrix:
+[[5749  251]
+ [ 104 3353]]
+
+[Classifier statistics (on training data)]:
+  * 0.175s prediction time (0.000029 s/image)
+  * AUC (weighted): 0.996
+  * Accuracy: 0.968
+  * Precision (weighted): 0.968
+  * Recall (weighted): 0.968
+  * Confusion Matrix:
+[[2896  104]
+ [  87 2913]]
+
+[Falsely detected images]:
+
+####[TEST 73/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.044s loading time
+  * 9.262s runtime (conversion to HOG)
+  * 0.013s runtime (shuffling)
+HOG descriptor size: (486,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.096s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.113s loading time
+  * 14.837s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (486,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.314s prediction time (0.000033 s/image)
+  * AUC (weighted): 0.994
+  * Accuracy: 0.961
+  * Precision (weighted): 0.962
+  * Recall (weighted): 0.961
+  * Confusion Matrix:
+[[5742  258]
+ [ 107 3350]]
+
+[Classifier statistics (on training data)]:
+  * 0.185s prediction time (0.000031 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.973
+  * Precision (weighted): 0.973
+  * Recall (weighted): 0.973
+  * Confusion Matrix:
+[[2904   96]
+ [  65 2935]]
+
+[Falsely detected images]:
+
+####[TEST 74/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.083s loading time
+  * 9.361s runtime (conversion to HOG)
+  * 0.014s runtime (shuffling)
+HOG descriptor size: (540,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.215s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.077s loading time
+  * 14.578s runtime (conversion to HOG)
+  * 0.031s runtime (shuffling)
+HOG descriptor size: (540,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.336s prediction time (0.000036 s/image)
+  * AUC (weighted): 0.994
+  * Accuracy: 0.965
+  * Precision (weighted): 0.965
+  * Recall (weighted): 0.965
+  * Confusion Matrix:
+[[5755  245]
+ [  90 3367]]
+
+[Classifier statistics (on training data)]:
+  * 0.250s prediction time (0.000042 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.973
+  * Precision (weighted): 0.973
+  * Recall (weighted): 0.973
+  * Confusion Matrix:
+[[2907   93]
+ [  69 2931]]
+
+[Falsely detected images]:
+
+####[TEST 75/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.097s loading time
+  * 9.664s runtime (conversion to HOG)
+  * 0.017s runtime (shuffling)
+HOG descriptor size: (648,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.542s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.079s loading time
+  * 17.244s runtime (conversion to HOG)
+  * 0.031s runtime (shuffling)
+HOG descriptor size: (648,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.446s prediction time (0.000047 s/image)
+  * AUC (weighted): 0.995
+  * Accuracy: 0.963
+  * Precision (weighted): 0.964
+  * Recall (weighted): 0.963
+  * Confusion Matrix:
+[[5745  255]
+ [  91 3366]]
+
+[Classifier statistics (on training data)]:
+  * 0.265s prediction time (0.000044 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.976
+  * Precision (weighted): 0.976
+  * Recall (weighted): 0.976
+  * Confusion Matrix:
+[[2913   87]
+ [  59 2941]]
+
+[Falsely detected images]:
+
+####[TEST 76/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.083s loading time
+  * 40.475s runtime (conversion to HOG)
+  * 0.376s runtime (shuffling)
+HOG descriptor size: (21216,)
+27.083s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.111s loading time
+  * 57.845s runtime (conversion to HOG)
+  * 0.575s runtime (shuffling)
+HOG descriptor size: (21216,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 14.665s prediction time (0.001551 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.987
+  * Precision (weighted): 0.987
+  * Recall (weighted): 0.987
+  * Confusion Matrix:
+[[5923   77]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 8.831s prediction time (0.001472 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 77/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.071s loading time
+  * 38.381s runtime (conversion to HOG)
+  * 0.518s runtime (shuffling)
+HOG descriptor size: (28288,)
+31.164s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.107s loading time
+  * 59.197s runtime (conversion to HOG)
+  * 0.776s runtime (shuffling)
+HOG descriptor size: (28288,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 18.207s prediction time (0.001925 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.988
+  * Precision (weighted): 0.988
+  * Recall (weighted): 0.988
+  * Confusion Matrix:
+[[5928   72]
+ [  40 3417]]
+
+[Classifier statistics (on training data)]:
+  * 11.674s prediction time (0.001946 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 78/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.114s loading time
+  * 37.854s runtime (conversion to HOG)
+  * 0.559s runtime (shuffling)
+HOG descriptor size: (31824,)
+32.806s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.099s loading time
+  * 62.879s runtime (conversion to HOG)
+  * 1.052s runtime (shuffling)
+HOG descriptor size: (31824,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 22.682s prediction time (0.002398 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.989
+  * Precision (weighted): 0.989
+  * Recall (weighted): 0.989
+  * Confusion Matrix:
+[[5934   66]
+ [  40 3417]]
+
+[Classifier statistics (on training data)]:
+  * 13.013s prediction time (0.002169 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 79/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.288s loading time
+  * 38.315s runtime (conversion to HOG)
+  * 0.629s runtime (shuffling)
+HOG descriptor size: (35360,)
+36.909s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.145s loading time
+  * 63.487s runtime (conversion to HOG)
+  * 1.375s runtime (shuffling)
+HOG descriptor size: (35360,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 24.105s prediction time (0.002549 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.989
+  * Precision (weighted): 0.989
+  * Recall (weighted): 0.989
+  * Confusion Matrix:
+[[5930   70]
+ [  38 3419]]
+
+[Classifier statistics (on training data)]:
+  * 14.757s prediction time (0.002459 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 80/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    1.272s loading time
+  * 40.675s runtime (conversion to HOG)
+  * 0.775s runtime (shuffling)
+HOG descriptor size: (42432,)
+39.647s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.427s loading time
+  * 63.609s runtime (conversion to HOG)
+  * 7.284s runtime (shuffling)
+HOG descriptor size: (42432,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 28.473s prediction time (0.003011 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.988
+  * Precision (weighted): 0.988
+  * Recall (weighted): 0.988
+  * Confusion Matrix:
+[[5918   82]
+ [  33 3424]]
+
+[Classifier statistics (on training data)]:
+  * 20.965s prediction time (0.003494 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 81/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.750s loading time
+  * 13.130s runtime (conversion to HOG)
+  * 0.069s runtime (shuffling)
+HOG descriptor size: (3360,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+14.720s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.312s loading time
+  * 24.245s runtime (conversion to HOG)
+  * 0.110s runtime (shuffling)
+HOG descriptor size: (3360,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.113s prediction time (0.000223 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.980
+  * Precision (weighted): 0.981
+  * Recall (weighted): 0.980
+  * Confusion Matrix:
+[[5874  126]
+ [  59 3398]]
+
+[Classifier statistics (on training data)]:
+  * 1.307s prediction time (0.000218 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.998
+  * Precision (weighted): 0.998
+  * Recall (weighted): 0.998
+  * Confusion Matrix:
+[[2992    8]
+ [   2 2998]]
+
+[Falsely detected images]:
+
+####[TEST 82/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.292s loading time
+  * 13.974s runtime (conversion to HOG)
+  * 0.083s runtime (shuffling)
+HOG descriptor size: (4480,)
+17.004s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.095s loading time
+  * 23.462s runtime (conversion to HOG)
+  * 0.129s runtime (shuffling)
+HOG descriptor size: (4480,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 3.331s prediction time (0.000352 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.981
+  * Precision (weighted): 0.981
+  * Recall (weighted): 0.981
+  * Confusion Matrix:
+[[5883  117]
+ [  60 3397]]
+
+[Classifier statistics (on training data)]:
+  * 2.558s prediction time (0.000426 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 83/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.074s loading time
+  * 20.194s runtime (conversion to HOG)
+  * 0.098s runtime (shuffling)
+HOG descriptor size: (5040,)
+20.674s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.097s loading time
+  * 27.975s runtime (conversion to HOG)
+  * 0.173s runtime (shuffling)
+HOG descriptor size: (5040,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 3.950s prediction time (0.000418 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.981
+  * Precision (weighted): 0.981
+  * Recall (weighted): 0.981
+  * Confusion Matrix:
+[[5882  118]
+ [  64 3393]]
+
+[Classifier statistics (on training data)]:
+  * 2.523s prediction time (0.000420 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[2998    2]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 84/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.157s loading time
+  * 18.257s runtime (conversion to HOG)
+  * 0.111s runtime (shuffling)
+HOG descriptor size: (5600,)
+22.792s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.107s loading time
+  * 25.937s runtime (conversion to HOG)
+  * 0.181s runtime (shuffling)
+HOG descriptor size: (5600,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 4.139s prediction time (0.000438 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.980
+  * Precision (weighted): 0.980
+  * Recall (weighted): 0.980
+  * Confusion Matrix:
+[[5879  121]
+ [  66 3391]]
+
+[Classifier statistics (on training data)]:
+  * 2.581s prediction time (0.000430 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 85/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.081s loading time
+  * 19.106s runtime (conversion to HOG)
+  * 0.138s runtime (shuffling)
+HOG descriptor size: (6720,)
+20.239s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.110s loading time
+  * 26.481s runtime (conversion to HOG)
+  * 0.233s runtime (shuffling)
+HOG descriptor size: (6720,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 4.852s prediction time (0.000513 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.979
+  * Precision (weighted): 0.979
+  * Recall (weighted): 0.979
+  * Confusion Matrix:
+[[5874  126]
+ [  72 3385]]
+
+[Classifier statistics (on training data)]:
+  * 3.003s prediction time (0.000500 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 1.000
+  * Precision (weighted): 1.000
+  * Recall (weighted): 1.000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 86/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.146s loading time
+  * 11.914s runtime (conversion to HOG)
+  * 0.042s runtime (shuffling)
+HOG descriptor size: (1920,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+8.725s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.101s loading time
+  * 20.537s runtime (conversion to HOG)
+  * 0.078s runtime (shuffling)
+HOG descriptor size: (1920,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.491s prediction time (0.000158 s/image)
+  * AUC (weighted): 0.995
+  * Accuracy: 0.965
+  * Precision (weighted): 0.965
+  * Recall (weighted): 0.965
+  * Confusion Matrix:
+[[5767  233]
+ [ 100 3357]]
+
+[Classifier statistics (on training data)]:
+  * 0.979s prediction time (0.000163 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.984
+  * Precision (weighted): 0.984
+  * Recall (weighted): 0.984
+  * Confusion Matrix:
+[[2950   50]
+ [  44 2956]]
+
+[Falsely detected images]:
+
+####[TEST 87/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.081s loading time
+  * 13.106s runtime (conversion to HOG)
+  * 0.054s runtime (shuffling)
+HOG descriptor size: (2560,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+13.386s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.131s loading time
+  * 19.896s runtime (conversion to HOG)
+  * 0.087s runtime (shuffling)
+HOG descriptor size: (2560,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.863s prediction time (0.000197 s/image)
+  * AUC (weighted): 0.996
+  * Accuracy: 0.972
+  * Precision (weighted): 0.972
+  * Recall (weighted): 0.972
+  * Confusion Matrix:
+[[5804  196]
+ [  72 3385]]
+
+[Classifier statistics (on training data)]:
+  * 1.183s prediction time (0.000197 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.990
+  * Precision (weighted): 0.990
+  * Recall (weighted): 0.990
+  * Confusion Matrix:
+[[2968   32]
+ [  27 2973]]
+
+[Falsely detected images]:
+
+####[TEST 88/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.071s loading time
+  * 12.599s runtime (conversion to HOG)
+  * 0.064s runtime (shuffling)
+HOG descriptor size: (2880,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+14.667s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.167s loading time
+  * 20.843s runtime (conversion to HOG)
+  * 0.099s runtime (shuffling)
+HOG descriptor size: (2880,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.163s prediction time (0.000229 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.970
+  * Precision (weighted): 0.971
+  * Recall (weighted): 0.970
+  * Confusion Matrix:
+[[5797  203]
+ [  79 3378]]
+
+[Classifier statistics (on training data)]:
+  * 1.328s prediction time (0.000221 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.992
+  * Precision (weighted): 0.992
+  * Recall (weighted): 0.992
+  * Confusion Matrix:
+[[2974   26]
+ [  24 2976]]
+
+[Falsely detected images]:
+
+####[TEST 89/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.070s loading time
+  * 13.847s runtime (conversion to HOG)
+  * 0.068s runtime (shuffling)
+HOG descriptor size: (3200,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+14.853s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.115s loading time
+  * 22.342s runtime (conversion to HOG)
+  * 0.104s runtime (shuffling)
+HOG descriptor size: (3200,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.309s prediction time (0.000244 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.970
+  * Precision (weighted): 0.971
+  * Recall (weighted): 0.970
+  * Confusion Matrix:
+[[5809  191]
+ [  88 3369]]
+
+[Classifier statistics (on training data)]:
+  * 1.484s prediction time (0.000247 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.993
+  * Precision (weighted): 0.993
+  * Recall (weighted): 0.993
+  * Confusion Matrix:
+[[2974   26]
+ [  19 2981]]
+
+[Falsely detected images]:
+
+####[TEST 90/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.071s loading time
+  * 13.352s runtime (conversion to HOG)
+  * 0.079s runtime (shuffling)
+HOG descriptor size: (3840,)
+15.768s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.191s loading time
+  * 22.217s runtime (conversion to HOG)
+  * 0.132s runtime (shuffling)
+HOG descriptor size: (3840,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.979s prediction time (0.000315 s/image)
+  * AUC (weighted): 0.997
+  * Accuracy: 0.971
+  * Precision (weighted): 0.971
+  * Recall (weighted): 0.971
+  * Confusion Matrix:
+[[5808  192]
+ [  85 3372]]
+
+[Classifier statistics (on training data)]:
+  * 1.845s prediction time (0.000308 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.995
+  * Precision (weighted): 0.995
+  * Recall (weighted): 0.995
+  * Confusion Matrix:
+[[2981   19]
+ [  13 2987]]
+
+[Falsely detected images]:
+
+####[TEST 91/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.067s loading time
+  * 12.095s runtime (conversion to HOG)
+  * 0.037s runtime (shuffling)
+HOG descriptor size: (1440,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+5.524s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.135s loading time
+  * 18.435s runtime (conversion to HOG)
+  * 0.068s runtime (shuffling)
+HOG descriptor size: (1440,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.089s prediction time (0.000115 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.978
+  * Precision (weighted): 0.979
+  * Recall (weighted): 0.978
+  * Confusion Matrix:
+[[5864  136]
+ [  68 3389]]
+
+[Classifier statistics (on training data)]:
+  * 0.656s prediction time (0.000109 s/image)
+  * AUC (weighted): 0.999
+  * Accuracy: 0.990
+  * Precision (weighted): 0.990
+  * Recall (weighted): 0.990
+  * Confusion Matrix:
+[[2967   33]
+ [  29 2971]]
+
+[Falsely detected images]:
+
+####[TEST 92/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.066s loading time
+  * 11.840s runtime (conversion to HOG)
+  * 0.046s runtime (shuffling)
+HOG descriptor size: (1920,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+7.814s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.147s loading time
+  * 19.823s runtime (conversion to HOG)
+  * 0.073s runtime (shuffling)
+HOG descriptor size: (1920,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.468s prediction time (0.000155 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.979
+  * Precision (weighted): 0.979
+  * Recall (weighted): 0.979
+  * Confusion Matrix:
+[[5868  132]
+ [  67 3390]]
+
+[Classifier statistics (on training data)]:
+  * 0.927s prediction time (0.000155 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.994
+  * Precision (weighted): 0.994
+  * Recall (weighted): 0.994
+  * Confusion Matrix:
+[[2977   23]
+ [  12 2988]]
+
+[Falsely detected images]:
+
+####[TEST 93/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.069s loading time
+  * 12.540s runtime (conversion to HOG)
+  * 0.048s runtime (shuffling)
+HOG descriptor size: (2160,)
+8.646s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.115s loading time
+  * 19.842s runtime (conversion to HOG)
+  * 0.077s runtime (shuffling)
+HOG descriptor size: (2160,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.615s prediction time (0.000171 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.980
+  * Precision (weighted): 0.980
+  * Recall (weighted): 0.980
+  * Confusion Matrix:
+[[5880  120]
+ [  66 3391]]
+
+[Classifier statistics (on training data)]:
+  * 1.222s prediction time (0.000204 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.994
+  * Precision (weighted): 0.994
+  * Recall (weighted): 0.994
+  * Confusion Matrix:
+[[2979   21]
+ [  15 2985]]
+
+[Falsely detected images]:
+
+####[TEST 94/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.119s loading time
+  * 12.889s runtime (conversion to HOG)
+  * 0.050s runtime (shuffling)
+HOG descriptor size: (2400,)
+8.132s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.183s loading time
+  * 19.093s runtime (conversion to HOG)
+  * 0.083s runtime (shuffling)
+HOG descriptor size: (2400,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.890s prediction time (0.000200 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.980
+  * Precision (weighted): 0.980
+  * Recall (weighted): 0.980
+  * Confusion Matrix:
+[[5875  125]
+ [  67 3390]]
+
+[Classifier statistics (on training data)]:
+  * 1.199s prediction time (0.000200 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.995
+  * Precision (weighted): 0.995
+  * Recall (weighted): 0.995
+  * Confusion Matrix:
+[[2980   20]
+ [   8 2992]]
+
+[Falsely detected images]:
+
+####[TEST 95/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.124s loading time
+  * 12.855s runtime (conversion to HOG)
+  * 0.058s runtime (shuffling)
+HOG descriptor size: (2880,)
+9.780s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.126s loading time
+  * 22.011s runtime (conversion to HOG)
+  * 0.097s runtime (shuffling)
+HOG descriptor size: (2880,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.105s prediction time (0.000223 s/image)
+  * AUC (weighted): 0.998
+  * Accuracy: 0.979
+  * Precision (weighted): 0.979
+  * Recall (weighted): 0.979
+  * Confusion Matrix:
+[[5868  132]
+ [  66 3391]]
+
+[Classifier statistics (on training data)]:
+  * 1.321s prediction time (0.000220 s/image)
+  * AUC (weighted): 1.000
+  * Accuracy: 0.996
+  * Precision (weighted): 0.996
+  * Recall (weighted): 0.996
+  * Confusion Matrix:
+[[2980   20]
+ [   6 2994]]
+
+[Falsely detected images]:
+
+####[TEST 96/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.061s loading time
+  * 9.776s runtime (conversion to HOG)
+  * 0.012s runtime (shuffling)
+HOG descriptor size: (192,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+0.527s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.184s loading time
+  * 15.968s runtime (conversion to HOG)
+  * 0.018s runtime (shuffling)
+HOG descriptor size: (192,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.158s prediction time (0.000017 s/image)
+  * AUC (weighted): 0.986
+  * Accuracy: 0.945
+  * Precision (weighted): 0.947
+  * Recall (weighted): 0.945
+  * Confusion Matrix:
+[[5641  359]
+ [ 158 3299]]
+
+[Classifier statistics (on training data)]:
+  * 0.091s prediction time (0.000015 s/image)
+  * AUC (weighted): 0.990
+  * Accuracy: 0.957
+  * Precision (weighted): 0.957
+  * Recall (weighted): 0.957
+  * Confusion Matrix:
+[[2847  153]
+ [ 108 2892]]
+
+[Falsely detected images]:
+
+####[TEST 97/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.046s loading time
+  * 9.698s runtime (conversion to HOG)
+  * 0.014s runtime (shuffling)
+HOG descriptor size: (256,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+0.682s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.113s loading time
+  * 15.603s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (256,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.186s prediction time (0.000020 s/image)
+  * AUC (weighted): 0.992
+  * Accuracy: 0.956
+  * Precision (weighted): 0.957
+  * Recall (weighted): 0.956
+  * Confusion Matrix:
+[[5690  310]
+ [ 110 3347]]
+
+[Classifier statistics (on training data)]:
+  * 0.128s prediction time (0.000021 s/image)
+  * AUC (weighted): 0.995
+  * Accuracy: 0.965
+  * Precision (weighted): 0.965
+  * Recall (weighted): 0.965
+  * Confusion Matrix:
+[[2880  120]
+ [  92 2908]]
+
+[Falsely detected images]:
+
+####[TEST 98/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.048s loading time
+  * 9.132s runtime (conversion to HOG)
+  * 0.013s runtime (shuffling)
+HOG descriptor size: (288,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+0.710s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.165s loading time
+  * 15.634s runtime (conversion to HOG)
+  * 0.023s runtime (shuffling)
+HOG descriptor size: (288,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.241s prediction time (0.000025 s/image)
+  * AUC (weighted): 0.992
+  * Accuracy: 0.958
+  * Precision (weighted): 0.959
+  * Recall (weighted): 0.958
+  * Confusion Matrix:
+[[5706  294]
+ [ 105 3352]]
+
+[Classifier statistics (on training data)]:
+  * 0.145s prediction time (0.000024 s/image)
+  * AUC (weighted): 0.995
+  * Accuracy: 0.969
+  * Precision (weighted): 0.969
+  * Recall (weighted): 0.969
+  * Confusion Matrix:
+[[2892  108]
+ [  80 2920]]
+
+[Falsely detected images]:
+
+####[TEST 99/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.066s loading time
+  * 9.494s runtime (conversion to HOG)
+  * 0.013s runtime (shuffling)
+HOG descriptor size: (320,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+0.685s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.117s loading time
+  * 18.695s runtime (conversion to HOG)
+  * 0.022s runtime (shuffling)
+HOG descriptor size: (320,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.271s prediction time (0.000029 s/image)
+  * AUC (weighted): 0.993
+  * Accuracy: 0.960
+  * Precision (weighted): 0.961
+  * Recall (weighted): 0.960
+  * Confusion Matrix:
+[[5716  284]
+ [  96 3361]]
+
+[Classifier statistics (on training data)]:
+  * 0.162s prediction time (0.000027 s/image)
+  * AUC (weighted): 0.996
+  * Accuracy: 0.969
+  * Precision (weighted): 0.969
+  * Recall (weighted): 0.969
+  * Confusion Matrix:
+[[2887  113]
+ [  75 2925]]
+
+[Falsely detected images]:
+
+####[TEST 100/100]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.094s prediction time (0.000010 s/image)
+  * AUC (weighted): 0.994
+  * Accuracy: 0.960
+  * Precision (weighted): 0.961
+  * Recall (weighted): 0.960
+  * Confusion Matrix:
+[[5714  286]
+ [  95 3362]]
+
+[Classifier statistics (on training data)]:
+  * 0.053s prediction time (0.000009 s/image)
+  * AUC (weighted): 0.996
+  * Accuracy: 0.971
+  * Precision (weighted): 0.971
+  * Recall (weighted): 0.971
+  * Confusion Matrix:
+[[2894  106]
+ [  71 2929]]
+
+[Falsely detected images]:
+
+
+11507.741s elapsed (entire test)
+DONE
+
+(NOTE: 1h of idle time should be subtracted where the computer was just left sleeping)
