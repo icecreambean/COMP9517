@@ -1,5 +1,6 @@
 Individual_Component/
 *.pickle
+pickles/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

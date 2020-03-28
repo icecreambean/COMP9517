@@ -78,15 +78,68 @@ svm_model_4-4_12_1-1.pickle: 56,378 KB
 
   * Class imbalance problem
   * Over-fitting
-  * Is there a way to plot the actual class distribution?
+  * Is there a way to plot the actual class distribution? (Can't understand it atm)
 
-  [!REPORT]
-  The whole point of this assignment is experimentation. Therefore:
-   2. Experiment for different cell sizes + orientations (TABULATE RESULTS)
-   3. Experiment for different algorithms
-   1. AUC suggests this is a good result. Double-check with theory this is not overfitted, etc.
-   0. Read the relevant paper - see what statistical measures are useful.
+[!REPORT]
+The whole point of this assignment is experimentation. Therefore:
+    2. Experiment for different cell sizes + orientations (TABULATE RESULTS)
+    2.5. Experiment with different total training images
+    3. Experiment for different algorithms
+    1. AUC suggests this is a good result. Double-check with theory this is not overfitted, etc.
+    0. Read the relevant paper - see what statistical measures are useful.
+    0.5. Log loss? Edge image?
 
+Answer
+    0. Miss rate, false positives
+    0.5. 
+    1. Supposedly perfect in its original paper on the weak dataset?
+    2. We need to validate that fine orientation coding (up to 9 bins) is essential, whereas spatial binning can be more coarse. Also have to do a
+    cell size vs block size plot. (Then just match results to the paper.)
+    * R-HOG vs C-HOG
+    * Square blocks vs rectangular/cross ones.
+    * With/without validation
+    * Types of block-normalization schemes
+    * Size of border on all sides (16px)
+    * (Seems to be all empirical; no good reasoning provided)
+    * (What parameters does scikitlearn actually allow us to test?)
+    2.5/3. (Do last; etc.)
+
+    * Class imbalance:
+       - There are 2x many NEG than there are POS in the test data
+       - Basically, keep your class distribution sizes balanced
+       - (I think all we can do is address how we used the dataset to avoid this issue. We could also test for it if required though)
+
+    * Overfitting: 
+       - If we reduce #features up until its too simple, then we get less variance in predictions, more bias towards wrong outcomes
+       - If our model does much better on the training set than on the test set, then we’re likely overfitting. (But we don't have that case)
+       - Ensure your data is clean and relevant
+       - A system that has been overly trained on a model dataset (or trained on too small of a dataset) will suffer from overfitting
+
+    * (Could try a different dataset (testing) to see if it's overfitted)
+
+CELL_PIXEL_LIST = [4, 6, 7, 8, 9, 10, 12, 14, 16]
+ORIENTATION_LIST = [6, 8, 9, 10, 12, 16, 32]
+BLOCK_SIZE_LIST = [2, 3, 4, 5, 6]
+BLOCK_NORM_LIST = ['L1', 'L1-sqrt', 'L2', 'L2-Hys']
+
+hog(img, orientations=NORIENTATIONS, 
+    pixels_per_cell=CELL_PIXELSHAPE, cells_per_block=CELLS_PER_BLOCK, 
+    block_norm=BLOCK_NORM, visualize=visualize, transform_sqrt=True,
+    multichannel=True)
+
+https://scikit-learn.org/stable/modules/svm.html - tips on practical use
+https://towardsdatascience.com/train-validation-and-test-sets-72cb40cba9e7 - validation
+
+https://elitedatascience.com/overfitting-in-machine-learning
+https://stats.stackexchange.com/questions/266174/techniques-to-detect-overfitting - regularisation to restrict complexity
+https://www.quora.com/How-do-people-in-computer-vision-deal-with-the-overfitting
+
+http://www.chioka.in/class-imbalance-problem/ - class imbalance
+https://machinelearningmastery.com/what-is-imbalanced-classification/
+
+AIM: investigate HOG+SVM for the NICTA training set; effect of changes some of the parameters on the result.
+
+Better to automate 2 and 2.5 if possible...
 
 ###################################################################
 [TEST 2]
