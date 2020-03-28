@@ -117,6 +117,9 @@ Answer
 
     * (Could try a different dataset (testing) to see if it's overfitted)
 
+    * Loss function:
+
+
 CELL_PIXEL_LIST = [4, 6, 7, 8, 9, 10, 12, 14, 16]
 ORIENTATION_LIST = [6, 8, 9, 10, 12, 16, 32]
 BLOCK_SIZE_LIST = [2, 3, 4, 5, 6]
@@ -136,6 +139,9 @@ https://www.quora.com/How-do-people-in-computer-vision-deal-with-the-overfitting
 
 http://www.chioka.in/class-imbalance-problem/ - class imbalance
 https://machinelearningmastery.com/what-is-imbalanced-classification/
+
+https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/ - loss functions
+https://dev-aux.com/python/how-to-predict_proba-with-linearsvc - workaround with cross-validation
 
 AIM: investigate HOG+SVM for the NICTA training set; effect of changes some of the parameters on the result.
 

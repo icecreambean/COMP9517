@@ -1,5 +1,6 @@
 Individual_Component/
 *.pickle
+*).txt
 pickles/
 
 # Byte-compiled / optimized / DLL files
