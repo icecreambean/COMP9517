@@ -1,0 +1,5760 @@
+
+####[TEST 1/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.382794s prediction time (0.000040 s/image)
+  * AUC (weighted): 0.996011812
+  * Accuracy: 0.974410490
+  * Precision (weighted): 0.974472134
+  * Recall (weighted): 0.974410490
+  * Confusion Matrix:
+[[5865  135]
+ [ 107 3350]]
+
+[Classifier statistics (on training data)]:
+  * 0.240356s prediction time (0.000040 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 2/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.438810s prediction time (0.000046 s/image)
+  * AUC (weighted): 0.997328898
+  * Accuracy: 0.978640161
+  * Precision (weighted): 0.978680029
+  * Recall (weighted): 0.978640161
+  * Confusion Matrix:
+[[5888  112]
+ [  90 3367]]
+
+[Classifier statistics (on training data)]:
+  * 0.292367s prediction time (0.000049 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 3/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.522411s prediction time (0.000055 s/image)
+  * AUC (weighted): 0.996936698
+  * Accuracy: 0.978322935
+  * Precision (weighted): 0.978360913
+  * Recall (weighted): 0.978322935
+  * Confusion Matrix:
+[[5887  113]
+ [  92 3365]]
+
+[Classifier statistics (on training data)]:
+  * 0.316331s prediction time (0.000053 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 4/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.573908s prediction time (0.000061 s/image)
+  * AUC (weighted): 0.997585816
+  * Accuracy: 0.980332029
+  * Precision (weighted): 0.980374181
+  * Recall (weighted): 0.980332029
+  * Confusion Matrix:
+[[5895  105]
+ [  81 3376]]
+
+[Classifier statistics (on training data)]:
+  * 0.348688s prediction time (0.000058 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 5/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.671648s prediction time (0.000071 s/image)
+  * AUC (weighted): 0.997872626
+  * Accuracy: 0.980754996
+  * Precision (weighted): 0.980816245
+  * Recall (weighted): 0.980754996
+  * Confusion Matrix:
+[[5893  107]
+ [  75 3382]]
+
+[Classifier statistics (on training data)]:
+  * 0.448797s prediction time (0.000075 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 6/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.233720s prediction time (0.000025 s/image)
+  * AUC (weighted): 0.993732379
+  * Accuracy: 0.964047795
+  * Precision (weighted): 0.964486739
+  * Recall (weighted): 0.964047795
+  * Confusion Matrix:
+[[5780  220]
+ [ 120 3337]]
+
+[Classifier statistics (on training data)]:
+  * 0.156215s prediction time (0.000026 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 7/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.307179s prediction time (0.000032 s/image)
+  * AUC (weighted): 0.994945666
+  * Accuracy: 0.971132494
+  * Precision (weighted): 0.971360858
+  * Recall (weighted): 0.971132494
+  * Confusion Matrix:
+[[5829  171]
+ [ 102 3355]]
+
+[Classifier statistics (on training data)]:
+  * 0.195506s prediction time (0.000033 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 8/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.316554s prediction time (0.000033 s/image)
+  * AUC (weighted): 0.995421367
+  * Accuracy: 0.971872687
+  * Precision (weighted): 0.972153554
+  * Recall (weighted): 0.971872687
+  * Confusion Matrix:
+[[5827  173]
+ [  93 3364]]
+
+[Classifier statistics (on training data)]:
+  * 0.217625s prediction time (0.000036 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 9/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.393303s prediction time (0.000042 s/image)
+  * AUC (weighted): 0.996028059
+  * Accuracy: 0.973141588
+  * Precision (weighted): 0.973329955
+  * Recall (weighted): 0.973141588
+  * Confusion Matrix:
+[[5842  158]
+ [  96 3361]]
+
+[Classifier statistics (on training data)]:
+  * 0.217419s prediction time (0.000036 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 10/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.444807s prediction time (0.000047 s/image)
+  * AUC (weighted): 0.996424838
+  * Accuracy: 0.975362166
+  * Precision (weighted): 0.975538287
+  * Recall (weighted): 0.975362166
+  * Confusion Matrix:
+[[5853  147]
+ [  86 3371]]
+
+[Classifier statistics (on training data)]:
+  * 0.361033s prediction time (0.000060 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 11/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.140545s prediction time (0.000015 s/image)
+  * AUC (weighted): 0.994437181
+  * Accuracy: 0.967008565
+  * Precision (weighted): 0.967191201
+  * Recall (weighted): 0.967008565
+  * Confusion Matrix:
+[[5816  184]
+ [ 128 3329]]
+
+[Classifier statistics (on training data)]:
+  * 0.110413s prediction time (0.000018 s/image)
+  * AUC (weighted): 0.999891889
+  * Accuracy: 0.999500000
+  * Precision (weighted): 0.999500500
+  * Recall (weighted): 0.999500000
+  * Confusion Matrix:
+[[2997    3]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 12/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.204226s prediction time (0.000022 s/image)
+  * AUC (weighted): 0.996196943
+  * Accuracy: 0.972718621
+  * Precision (weighted): 0.972858376
+  * Recall (weighted): 0.972718621
+  * Confusion Matrix:
+[[5846  154]
+ [ 104 3353]]
+
+[Classifier statistics (on training data)]:
+  * 0.156197s prediction time (0.000026 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 13/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.222487s prediction time (0.000024 s/image)
+  * AUC (weighted): 0.996135908
+  * Accuracy: 0.970921011
+  * Precision (weighted): 0.971140603
+  * Recall (weighted): 0.970921011
+  * Confusion Matrix:
+[[5829  171]
+ [ 104 3353]]
+
+[Classifier statistics (on training data)]:
+  * 0.140594s prediction time (0.000023 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 14/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.275004s prediction time (0.000029 s/image)
+  * AUC (weighted): 0.996789895
+  * Accuracy: 0.973987522
+  * Precision (weighted): 0.974115971
+  * Recall (weighted): 0.973987522
+  * Confusion Matrix:
+[[5853  147]
+ [  99 3358]]
+
+[Classifier statistics (on training data)]:
+  * 0.159572s prediction time (0.000027 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 15/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.378433s prediction time (0.000040 s/image)
+  * AUC (weighted): 0.997321811
+  * Accuracy: 0.976842550
+  * Precision (weighted): 0.976966576
+  * Recall (weighted): 0.976842550
+  * Confusion Matrix:
+[[5866  134]
+ [  85 3372]]
+
+[Classifier statistics (on training data)]:
+  * 0.255790s prediction time (0.000043 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 16/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.141768s prediction time (0.000015 s/image)
+  * AUC (weighted): 0.992029409
+  * Accuracy: 0.962884636
+  * Precision (weighted): 0.963284847
+  * Recall (weighted): 0.962884636
+  * Confusion Matrix:
+[[5778  222]
+ [ 129 3328]]
+
+[Classifier statistics (on training data)]:
+  * 0.078485s prediction time (0.000013 s/image)
+  * AUC (weighted): 0.998956778
+  * Accuracy: 0.994333333
+  * Precision (weighted): 0.994338826
+  * Recall (weighted): 0.994333333
+  * Confusion Matrix:
+[[2978   22]
+ [  12 2988]]
+
+[Falsely detected images]:
+
+####[TEST 17/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.172992s prediction time (0.000018 s/image)
+  * AUC (weighted): 0.993546861
+  * Accuracy: 0.963307603
+  * Precision (weighted): 0.963644850
+  * Recall (weighted): 0.963307603
+  * Confusion Matrix:
+[[5785  215]
+ [ 132 3325]]
+
+[Classifier statistics (on training data)]:
+  * 0.124963s prediction time (0.000021 s/image)
+  * AUC (weighted): 0.999956444
+  * Accuracy: 0.999500000
+  * Precision (weighted): 0.999500500
+  * Recall (weighted): 0.999500000
+  * Confusion Matrix:
+[[2997    3]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 18/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.197828s prediction time (0.000021 s/image)
+  * AUC (weighted): 0.993064989
+  * Accuracy: 0.961404251
+  * Precision (weighted): 0.961812199
+  * Recall (weighted): 0.961404251
+  * Confusion Matrix:
+[[5771  229]
+ [ 136 3321]]
+
+[Classifier statistics (on training data)]:
+  * 0.147677s prediction time (0.000025 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 0.999833333
+  * Precision (weighted): 0.999833389
+  * Recall (weighted): 0.999833333
+  * Confusion Matrix:
+[[2999    1]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 19/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.239519s prediction time (0.000025 s/image)
+  * AUC (weighted): 0.994245155
+  * Accuracy: 0.966056889
+  * Precision (weighted): 0.966256458
+  * Recall (weighted): 0.966056889
+  * Confusion Matrix:
+[[5810  190]
+ [ 131 3326]]
+
+[Classifier statistics (on training data)]:
+  * 0.175943s prediction time (0.000029 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 20/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.234291s prediction time (0.000025 s/image)
+  * AUC (weighted): 0.995898226
+  * Accuracy: 0.970603786
+  * Precision (weighted): 0.970859127
+  * Recall (weighted): 0.970603786
+  * Confusion Matrix:
+[[5824  176]
+ [ 102 3355]]
+
+[Classifier statistics (on training data)]:
+  * 0.126128s prediction time (0.000021 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 21/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.094115s prediction time (0.000010 s/image)
+  * AUC (weighted): 0.992595410
+  * Accuracy: 0.962673152
+  * Precision (weighted): 0.962924580
+  * Recall (weighted): 0.962673152
+  * Confusion Matrix:
+[[5790  210]
+ [ 143 3314]]
+
+[Classifier statistics (on training data)]:
+  * 0.074800s prediction time (0.000012 s/image)
+  * AUC (weighted): 0.997365000
+  * Accuracy: 0.985333333
+  * Precision (weighted): 0.985354905
+  * Recall (weighted): 0.985333333
+  * Confusion Matrix:
+[[2966   34]
+ [  54 2946]]
+
+[Falsely detected images]:
+
+####[TEST 22/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.118683s prediction time (0.000013 s/image)
+  * AUC (weighted): 0.994607222
+  * Accuracy: 0.968277466
+  * Precision (weighted): 0.968492748
+  * Recall (weighted): 0.968277466
+  * Confusion Matrix:
+[[5818  182]
+ [ 118 3339]]
+
+[Classifier statistics (on training data)]:
+  * 0.084772s prediction time (0.000014 s/image)
+  * AUC (weighted): 0.999673444
+  * Accuracy: 0.995166667
+  * Precision (weighted): 0.995175965
+  * Recall (weighted): 0.995166667
+  * Confusion Matrix:
+[[2992    8]
+ [  21 2979]]
+
+[Falsely detected images]:
+
+####[TEST 23/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.114733s prediction time (0.000012 s/image)
+  * AUC (weighted): 0.993975557
+  * Accuracy: 0.966585598
+  * Precision (weighted): 0.966985025
+  * Recall (weighted): 0.966585598
+  * Confusion Matrix:
+[[5794  206]
+ [ 110 3347]]
+
+[Classifier statistics (on training data)]:
+  * 0.092751s prediction time (0.000015 s/image)
+  * AUC (weighted): 0.999772333
+  * Accuracy: 0.997333333
+  * Precision (weighted): 0.997334217
+  * Recall (weighted): 0.997333333
+  * Confusion Matrix:
+[[2994    6]
+ [  10 2990]]
+
+[Falsely detected images]:
+
+####[TEST 24/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.156582s prediction time (0.000017 s/image)
+  * AUC (weighted): 0.995097821
+  * Accuracy: 0.969123401
+  * Precision (weighted): 0.969335554
+  * Recall (weighted): 0.969123401
+  * Confusion Matrix:
+[[5822  178]
+ [ 114 3343]]
+
+[Classifier statistics (on training data)]:
+  * 0.104622s prediction time (0.000017 s/image)
+  * AUC (weighted): 0.999951889
+  * Accuracy: 0.999000000
+  * Precision (weighted): 0.999000887
+  * Recall (weighted): 0.999000000
+  * Confusion Matrix:
+[[2995    5]
+ [   1 2999]]
+
+[Falsely detected images]:
+
+####[TEST 25/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.340700s prediction time (0.000036 s/image)
+  * AUC (weighted): 0.996046428
+  * Accuracy: 0.971766945
+  * Precision (weighted): 0.972064353
+  * Recall (weighted): 0.971766945
+  * Confusion Matrix:
+[[5825  175]
+ [  92 3365]]
+
+[Classifier statistics (on training data)]:
+  * 0.164560s prediction time (0.000027 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 26/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.076794s prediction time (0.000008 s/image)
+  * AUC (weighted): 0.986138270
+  * Accuracy: 0.946600402
+  * Precision (weighted): 0.947439645
+  * Recall (weighted): 0.946600402
+  * Confusion Matrix:
+[[5679  321]
+ [ 184 3273]]
+
+[Classifier statistics (on training data)]:
+  * 0.053142s prediction time (0.000009 s/image)
+  * AUC (weighted): 0.991429778
+  * Accuracy: 0.966166667
+  * Precision (weighted): 0.966167962
+  * Recall (weighted): 0.966166667
+  * Confusion Matrix:
+[[2901   99]
+ [ 104 2896]]
+
+[Falsely detected images]:
+
+####[TEST 27/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.119290s prediction time (0.000013 s/image)
+  * AUC (weighted): 0.990151962
+  * Accuracy: 0.955905678
+  * Precision (weighted): 0.956439836
+  * Recall (weighted): 0.955905678
+  * Confusion Matrix:
+[[5738  262]
+ [ 155 3302]]
+
+[Classifier statistics (on training data)]:
+  * 0.079784s prediction time (0.000013 s/image)
+  * AUC (weighted): 0.996961111
+  * Accuracy: 0.981166667
+  * Precision (weighted): 0.981166720
+  * Recall (weighted): 0.981166667
+  * Confusion Matrix:
+[[2943   57]
+ [  56 2944]]
+
+[Falsely detected images]:
+
+####[TEST 28/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.108708s prediction time (0.000011 s/image)
+  * AUC (weighted): 0.990122794
+  * Accuracy: 0.952944909
+  * Precision (weighted): 0.953807822
+  * Recall (weighted): 0.952944909
+  * Confusion Matrix:
+[[5705  295]
+ [ 150 3307]]
+
+[Classifier statistics (on training data)]:
+  * 0.087768s prediction time (0.000015 s/image)
+  * AUC (weighted): 0.997610778
+  * Accuracy: 0.984666667
+  * Precision (weighted): 0.984667528
+  * Recall (weighted): 0.984666667
+  * Confusion Matrix:
+[[2952   48]
+ [  44 2956]]
+
+[Falsely detected images]:
+
+####[TEST 29/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.124665s prediction time (0.000013 s/image)
+  * AUC (weighted): 0.991383570
+  * Accuracy: 0.955059744
+  * Precision (weighted): 0.955997108
+  * Recall (weighted): 0.955059744
+  * Confusion Matrix:
+[[5710  290]
+ [ 135 3322]]
+
+[Classifier statistics (on training data)]:
+  * 0.071810s prediction time (0.000012 s/image)
+  * AUC (weighted): 0.998480444
+  * Accuracy: 0.989500000
+  * Precision (weighted): 0.989504406
+  * Recall (weighted): 0.989500000
+  * Confusion Matrix:
+[[2964   36]
+ [  27 2973]]
+
+[Falsely detected images]:
+
+####[TEST 30/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.149598s prediction time (0.000016 s/image)
+  * AUC (weighted): 0.992546090
+  * Accuracy: 0.958972190
+  * Precision (weighted): 0.959538909
+  * Recall (weighted): 0.958972190
+  * Confusion Matrix:
+[[5749  251]
+ [ 137 3320]]
+
+[Classifier statistics (on training data)]:
+  * 0.062486s prediction time (0.000010 s/image)
+  * AUC (weighted): 0.999264222
+  * Accuracy: 0.993666667
+  * Precision (weighted): 0.993677418
+  * Recall (weighted): 0.993666667
+  * Confusion Matrix:
+[[2974   26]
+ [  12 2988]]
+
+[Falsely detected images]:
+
+####[TEST 31/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.062486s prediction time (0.000007 s/image)
+  * AUC (weighted): 0.988749687
+  * Accuracy: 0.952098974
+  * Precision (weighted): 0.952950498
+  * Recall (weighted): 0.952098974
+  * Confusion Matrix:
+[[5702  298]
+ [ 155 3302]]
+
+[Classifier statistics (on training data)]:
+  * 0.031244s prediction time (0.000005 s/image)
+  * AUC (weighted): 0.992617889
+  * Accuracy: 0.962833333
+  * Precision (weighted): 0.962876587
+  * Recall (weighted): 0.962833333
+  * Confusion Matrix:
+[[2903   97]
+ [ 126 2874]]
+
+[Falsely detected images]:
+
+####[TEST 32/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.100299s prediction time (0.000011 s/image)
+  * AUC (weighted): 0.992838637
+  * Accuracy: 0.960664058
+  * Precision (weighted): 0.961358669
+  * Recall (weighted): 0.960664058
+  * Confusion Matrix:
+[[5748  252]
+ [ 120 3337]]
+
+[Classifier statistics (on training data)]:
+  * 0.041889s prediction time (0.000007 s/image)
+  * AUC (weighted): 0.997144444
+  * Accuracy: 0.980333333
+  * Precision (weighted): 0.980334187
+  * Recall (weighted): 0.980333333
+  * Confusion Matrix:
+[[2943   57]
+ [  61 2939]]
+
+[Falsely detected images]:
+
+####[TEST 33/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.082086s prediction time (0.000009 s/image)
+  * AUC (weighted): 0.992900347
+  * Accuracy: 0.961827218
+  * Precision (weighted): 0.962458418
+  * Recall (weighted): 0.961827218
+  * Confusion Matrix:
+[[5757  243]
+ [ 118 3339]]
+
+[Classifier statistics (on training data)]:
+  * 0.042885s prediction time (0.000007 s/image)
+  * AUC (weighted): 0.998255778
+  * Accuracy: 0.984833333
+  * Precision (weighted): 0.984833387
+  * Recall (weighted): 0.984833333
+  * Confusion Matrix:
+[[2955   45]
+ [  46 2954]]
+
+[Falsely detected images]:
+
+####[TEST 34/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.078107s prediction time (0.000008 s/image)
+  * AUC (weighted): 0.993974544
+  * Accuracy: 0.963836312
+  * Precision (weighted): 0.964461479
+  * Recall (weighted): 0.963836312
+  * Confusion Matrix:
+[[5766  234]
+ [ 108 3349]]
+
+[Classifier statistics (on training data)]:
+  * 0.066847s prediction time (0.000011 s/image)
+  * AUC (weighted): 0.998693778
+  * Accuracy: 0.988000000
+  * Precision (weighted): 0.988000217
+  * Recall (weighted): 0.988000000
+  * Confusion Matrix:
+[[2963   37]
+ [  35 2965]]
+
+[Falsely detected images]:
+
+####[TEST 35/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.118684s prediction time (0.000013 s/image)
+  * AUC (weighted): 0.994596230
+  * Accuracy: 0.964682246
+  * Precision (weighted): 0.965348158
+  * Recall (weighted): 0.964682246
+  * Confusion Matrix:
+[[5767  233]
+ [ 101 3356]]
+
+[Classifier statistics (on training data)]:
+  * 0.072467s prediction time (0.000012 s/image)
+  * AUC (weighted): 0.999510889
+  * Accuracy: 0.993166667
+  * Precision (weighted): 0.993171105
+  * Recall (weighted): 0.993166667
+  * Confusion Matrix:
+[[2975   25]
+ [  16 2984]]
+
+[Falsely detected images]:
+
+####[TEST 36/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.031916s prediction time (0.000003 s/image)
+  * AUC (weighted): 0.962871276
+  * Accuracy: 0.910965422
+  * Precision (weighted): 0.912655704
+  * Recall (weighted): 0.910965422
+  * Confusion Matrix:
+[[5485  515]
+ [ 327 3130]]
+
+[Classifier statistics (on training data)]:
+  * 0.016956s prediction time (0.000003 s/image)
+  * AUC (weighted): 0.969298444
+  * Accuracy: 0.921666667
+  * Precision (weighted): 0.921765828
+  * Recall (weighted): 0.921666667
+  * Confusion Matrix:
+[[2788  212]
+ [ 258 2742]]
+
+[Falsely detected images]:
+
+####[TEST 37/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.035905s prediction time (0.000004 s/image)
+  * AUC (weighted): 0.982140584
+  * Accuracy: 0.940255895
+  * Precision (weighted): 0.942236917
+  * Recall (weighted): 0.940255895
+  * Confusion Matrix:
+[[5600  400]
+ [ 165 3292]]
+
+[Classifier statistics (on training data)]:
+  * 0.018951s prediction time (0.000003 s/image)
+  * AUC (weighted): 0.986356333
+  * Accuracy: 0.950500000
+  * Precision (weighted): 0.950501251
+  * Recall (weighted): 0.950500000
+  * Confusion Matrix:
+[[2849  151]
+ [ 146 2854]]
+
+[Falsely detected images]:
+
+####[TEST 38/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.035903s prediction time (0.000004 s/image)
+  * AUC (weighted): 0.982948992
+  * Accuracy: 0.943110923
+  * Precision (weighted): 0.944582486
+  * Recall (weighted): 0.943110923
+  * Confusion Matrix:
+[[5633  367]
+ [ 171 3286]]
+
+[Classifier statistics (on training data)]:
+  * 0.043885s prediction time (0.000007 s/image)
+  * AUC (weighted): 0.988533222
+  * Accuracy: 0.954833333
+  * Precision (weighted): 0.954833384
+  * Recall (weighted): 0.954833333
+  * Confusion Matrix:
+[[2864  136]
+ [ 135 2865]]
+
+[Falsely detected images]:
+
+####[TEST 39/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.047873s prediction time (0.000005 s/image)
+  * AUC (weighted): 0.986522225
+  * Accuracy: 0.948503754
+  * Precision (weighted): 0.949475774
+  * Recall (weighted): 0.948503754
+  * Confusion Matrix:
+[[5680  320]
+ [ 167 3290]]
+
+[Classifier statistics (on training data)]:
+  * 0.048868s prediction time (0.000008 s/image)
+  * AUC (weighted): 0.991261111
+  * Accuracy: 0.959833333
+  * Precision (weighted): 0.959841968
+  * Recall (weighted): 0.959833333
+  * Confusion Matrix:
+[[2873  127]
+ [ 114 2886]]
+
+[Falsely detected images]:
+
+####[TEST 40/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.066826s prediction time (0.000007 s/image)
+  * AUC (weighted): 0.989051731
+  * Accuracy: 0.953579359
+  * Precision (weighted): 0.954566608
+  * Recall (weighted): 0.953579359
+  * Confusion Matrix:
+[[5701  299]
+ [ 140 3317]]
+
+[Classifier statistics (on training data)]:
+  * 0.048371s prediction time (0.000008 s/image)
+  * AUC (weighted): 0.993716889
+  * Accuracy: 0.968333333
+  * Precision (weighted): 0.968354149
+  * Recall (weighted): 0.968333333
+  * Confusion Matrix:
+[[2895  105]
+ [  85 2915]]
+
+[Falsely detected images]:
+
+####[TEST 41/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.456750s prediction time (0.000154 s/image)
+  * AUC (weighted): 0.998865297
+  * Accuracy: 0.986465052
+  * Precision (weighted): 0.986490965
+  * Recall (weighted): 0.986465052
+  * Confusion Matrix:
+[[5926   74]
+ [  54 3403]]
+
+[Classifier statistics (on training data)]:
+  * 0.846668s prediction time (0.000141 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 42/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.831266s prediction time (0.000194 s/image)
+  * AUC (weighted): 0.999163099
+  * Accuracy: 0.987416728
+  * Precision (weighted): 0.987454562
+  * Recall (weighted): 0.987416728
+  * Confusion Matrix:
+[[5927   73]
+ [  46 3411]]
+
+[Classifier statistics (on training data)]:
+  * 0.983522s prediction time (0.000164 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 43/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.825548s prediction time (0.000193 s/image)
+  * AUC (weighted): 0.999076319
+  * Accuracy: 0.986253569
+  * Precision (weighted): 0.986276283
+  * Recall (weighted): 0.986253569
+  * Confusion Matrix:
+[[5926   74]
+ [  56 3401]]
+
+[Classifier statistics (on training data)]:
+  * 1.171739s prediction time (0.000195 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 44/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.070930s prediction time (0.000219 s/image)
+  * AUC (weighted): 0.999119709
+  * Accuracy: 0.987839695
+  * Precision (weighted): 0.987885235
+  * Recall (weighted): 0.987839695
+  * Confusion Matrix:
+[[5927   73]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 1.301257s prediction time (0.000217 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 45/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.403022s prediction time (0.000254 s/image)
+  * AUC (weighted): 0.999240623
+  * Accuracy: 0.988685630
+  * Precision (weighted): 0.988743288
+  * Recall (weighted): 0.988685630
+  * Confusion Matrix:
+[[5928   72]
+ [  35 3422]]
+
+[Classifier statistics (on training data)]:
+  * 1.516267s prediction time (0.000253 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 46/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.658873s prediction time (0.000070 s/image)
+  * AUC (weighted): 0.998376675
+  * Accuracy: 0.983081315
+  * Precision (weighted): 0.983165532
+  * Recall (weighted): 0.983081315
+  * Confusion Matrix:
+[[5899  101]
+ [  59 3398]]
+
+[Classifier statistics (on training data)]:
+  * 0.421968s prediction time (0.000070 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 47/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.904113s prediction time (0.000096 s/image)
+  * AUC (weighted): 0.998573378
+  * Accuracy: 0.983821508
+  * Precision (weighted): 0.983865147
+  * Recall (weighted): 0.983821508
+  * Confusion Matrix:
+[[5910   90]
+ [  63 3394]]
+
+[Classifier statistics (on training data)]:
+  * 0.593729s prediction time (0.000099 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 48/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.128360s prediction time (0.000119 s/image)
+  * AUC (weighted): 0.998621830
+  * Accuracy: 0.984455959
+  * Precision (weighted): 0.984545648
+  * Recall (weighted): 0.984455959
+  * Confusion Matrix:
+[[5904   96]
+ [  51 3406]]
+
+[Classifier statistics (on training data)]:
+  * 0.739442s prediction time (0.000123 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 49/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.153529s prediction time (0.000122 s/image)
+  * AUC (weighted): 0.998754652
+  * Accuracy: 0.984878926
+  * Precision (weighted): 0.984944930
+  * Recall (weighted): 0.984878926
+  * Confusion Matrix:
+[[5910   90]
+ [  53 3404]]
+
+[Classifier statistics (on training data)]:
+  * 0.724302s prediction time (0.000121 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 50/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.356780s prediction time (0.000143 s/image)
+  * AUC (weighted): 0.998896249
+  * Accuracy: 0.985407635
+  * Precision (weighted): 0.985510249
+  * Recall (weighted): 0.985407635
+  * Confusion Matrix:
+[[5906   94]
+ [  44 3413]]
+
+[Classifier statistics (on training data)]:
+  * 0.862665s prediction time (0.000144 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 51/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.448915s prediction time (0.000047 s/image)
+  * AUC (weighted): 0.998582731
+  * Accuracy: 0.985407635
+  * Precision (weighted): 0.985475109
+  * Recall (weighted): 0.985407635
+  * Confusion Matrix:
+[[5912   88]
+ [  50 3407]]
+
+[Classifier statistics (on training data)]:
+  * 0.281124s prediction time (0.000047 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 52/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.604617s prediction time (0.000064 s/image)
+  * AUC (weighted): 0.999150998
+  * Accuracy: 0.986888019
+  * Precision (weighted): 0.986916986
+  * Recall (weighted): 0.986888019
+  * Confusion Matrix:
+[[5927   73]
+ [  51 3406]]
+
+[Classifier statistics (on training data)]:
+  * 0.435363s prediction time (0.000073 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 53/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.705902s prediction time (0.000075 s/image)
+  * AUC (weighted): 0.999041269
+  * Accuracy: 0.986570794
+  * Precision (weighted): 0.986618678
+  * Recall (weighted): 0.986570794
+  * Confusion Matrix:
+[[5921   79]
+ [  48 3409]]
+
+[Classifier statistics (on training data)]:
+  * 0.427069s prediction time (0.000071 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 54/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.749528s prediction time (0.000079 s/image)
+  * AUC (weighted): 0.999106499
+  * Accuracy: 0.986676536
+  * Precision (weighted): 0.986741156
+  * Recall (weighted): 0.986676536
+  * Confusion Matrix:
+[[5918   82]
+ [  44 3413]]
+
+[Classifier statistics (on training data)]:
+  * 0.490035s prediction time (0.000082 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 55/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.906744s prediction time (0.000096 s/image)
+  * AUC (weighted): 0.999260631
+  * Accuracy: 0.987099503
+  * Precision (weighted): 0.987148666
+  * Recall (weighted): 0.987099503
+  * Confusion Matrix:
+[[5923   77]
+ [  45 3412]]
+
+[Classifier statistics (on training data)]:
+  * 0.550038s prediction time (0.000092 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 56/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.373055s prediction time (0.000039 s/image)
+  * AUC (weighted): 0.997907531
+  * Accuracy: 0.980014804
+  * Precision (weighted): 0.980136730
+  * Recall (weighted): 0.980014804
+  * Confusion Matrix:
+[[5880  120]
+ [  69 3388]]
+
+[Classifier statistics (on training data)]:
+  * 0.231499s prediction time (0.000039 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 0.999833333
+  * Precision (weighted): 0.999833389
+  * Recall (weighted): 0.999833333
+  * Confusion Matrix:
+[[2999    1]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 57/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.428543s prediction time (0.000045 s/image)
+  * AUC (weighted): 0.998346158
+  * Accuracy: 0.982446865
+  * Precision (weighted): 0.982521000
+  * Recall (weighted): 0.982446865
+  * Confusion Matrix:
+[[5898  102]
+ [  64 3393]]
+
+[Classifier statistics (on training data)]:
+  * 0.282353s prediction time (0.000047 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 58/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.500682s prediction time (0.000053 s/image)
+  * AUC (weighted): 0.998238212
+  * Accuracy: 0.982975574
+  * Precision (weighted): 0.983109795
+  * Recall (weighted): 0.982975574
+  * Confusion Matrix:
+[[5891  109]
+ [  52 3405]]
+
+[Classifier statistics (on training data)]:
+  * 0.314636s prediction time (0.000052 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 59/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.564505s prediction time (0.000060 s/image)
+  * AUC (weighted): 0.998434288
+  * Accuracy: 0.983187057
+  * Precision (weighted): 0.983327960
+  * Recall (weighted): 0.983187057
+  * Confusion Matrix:
+[[5891  109]
+ [  50 3407]]
+
+[Classifier statistics (on training data)]:
+  * 0.373415s prediction time (0.000062 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 60/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.712187s prediction time (0.000075 s/image)
+  * AUC (weighted): 0.998830055
+  * Accuracy: 0.985090409
+  * Precision (weighted): 0.985224794
+  * Recall (weighted): 0.985090409
+  * Confusion Matrix:
+[[5900  100]
+ [  41 3416]]
+
+[Classifier statistics (on training data)]:
+  * 0.403541s prediction time (0.000067 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 61/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.271937s prediction time (0.000029 s/image)
+  * AUC (weighted): 0.997841529
+  * Accuracy: 0.981706672
+  * Precision (weighted): 0.981758542
+  * Recall (weighted): 0.981706672
+  * Confusion Matrix:
+[[5899  101]
+ [  72 3385]]
+
+[Classifier statistics (on training data)]:
+  * 0.156214s prediction time (0.000026 s/image)
+  * AUC (weighted): 0.999993556
+  * Accuracy: 0.999833333
+  * Precision (weighted): 0.999833389
+  * Recall (weighted): 0.999833333
+  * Confusion Matrix:
+[[2999    1]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 62/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.348287s prediction time (0.000037 s/image)
+  * AUC (weighted): 0.998469386
+  * Accuracy: 0.983081315
+  * Precision (weighted): 0.983148543
+  * Recall (weighted): 0.983081315
+  * Confusion Matrix:
+[[5902   98]
+ [  62 3395]]
+
+[Classifier statistics (on training data)]:
+  * 0.229372s prediction time (0.000038 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 63/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.384720s prediction time (0.000041 s/image)
+  * AUC (weighted): 0.998299730
+  * Accuracy: 0.981389447
+  * Precision (weighted): 0.981503823
+  * Recall (weighted): 0.981389447
+  * Confusion Matrix:
+[[5887  113]
+ [  63 3394]]
+
+[Classifier statistics (on training data)]:
+  * 0.257601s prediction time (0.000043 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 64/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.462978s prediction time (0.000049 s/image)
+  * AUC (weighted): 0.998704464
+  * Accuracy: 0.983610024
+  * Precision (weighted): 0.983658599
+  * Recall (weighted): 0.983610024
+  * Confusion Matrix:
+[[5908   92]
+ [  63 3394]]
+
+[Classifier statistics (on training data)]:
+  * 0.267326s prediction time (0.000045 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 65/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.646687s prediction time (0.000068 s/image)
+  * AUC (weighted): 0.998751712
+  * Accuracy: 0.983081315
+  * Precision (weighted): 0.983184164
+  * Recall (weighted): 0.983081315
+  * Confusion Matrix:
+[[5896  104]
+ [  56 3401]]
+
+[Classifier statistics (on training data)]:
+  * 0.371058s prediction time (0.000062 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 66/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.171836s prediction time (0.000018 s/image)
+  * AUC (weighted): 0.995548501
+  * Accuracy: 0.969863593
+  * Precision (weighted): 0.970263835
+  * Recall (weighted): 0.969863593
+  * Confusion Matrix:
+[[5808  192]
+ [  93 3364]]
+
+[Classifier statistics (on training data)]:
+  * 0.139961s prediction time (0.000023 s/image)
+  * AUC (weighted): 0.999110333
+  * Accuracy: 0.991666667
+  * Precision (weighted): 0.991668633
+  * Recall (weighted): 0.991666667
+  * Confusion Matrix:
+[[2972   28]
+ [  22 2978]]
+
+[Falsely detected images]:
+
+####[TEST 67/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.311049s prediction time (0.000033 s/image)
+  * AUC (weighted): 0.996699788
+  * Accuracy: 0.974304748
+  * Precision (weighted): 0.974569412
+  * Recall (weighted): 0.974304748
+  * Confusion Matrix:
+[[5839  161]
+ [  82 3375]]
+
+[Classifier statistics (on training data)]:
+  * 0.140593s prediction time (0.000023 s/image)
+  * AUC (weighted): 0.999878111
+  * Accuracy: 0.996333333
+  * Precision (weighted): 0.996334216
+  * Recall (weighted): 0.996333333
+  * Confusion Matrix:
+[[2987   13]
+ [   9 2991]]
+
+[Falsely detected images]:
+
+####[TEST 68/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.269822s prediction time (0.000029 s/image)
+  * AUC (weighted): 0.996495902
+  * Accuracy: 0.971132494
+  * Precision (weighted): 0.971525717
+  * Recall (weighted): 0.971132494
+  * Confusion Matrix:
+[[5814  186]
+ [  87 3370]]
+
+[Classifier statistics (on training data)]:
+  * 0.192825s prediction time (0.000032 s/image)
+  * AUC (weighted): 0.999912778
+  * Accuracy: 0.996833333
+  * Precision (weighted): 0.996840013
+  * Recall (weighted): 0.996833333
+  * Confusion Matrix:
+[[2985   15]
+ [   4 2996]]
+
+[Falsely detected images]:
+
+####[TEST 69/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.331100s prediction time (0.000035 s/image)
+  * AUC (weighted): 0.996753688
+  * Accuracy: 0.973776039
+  * Precision (weighted): 0.974027868
+  * Recall (weighted): 0.973776039
+  * Confusion Matrix:
+[[5838  162]
+ [  86 3371]]
+
+[Classifier statistics (on training data)]:
+  * 0.220281s prediction time (0.000037 s/image)
+  * AUC (weighted): 0.999943111
+  * Accuracy: 0.998333333
+  * Precision (weighted): 0.998334219
+  * Recall (weighted): 0.998333333
+  * Confusion Matrix:
+[[2993    7]
+ [   3 2997]]
+
+[Falsely detected images]:
+
+####[TEST 70/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.398738s prediction time (0.000042 s/image)
+  * AUC (weighted): 0.997111079
+  * Accuracy: 0.975362166
+  * Precision (weighted): 0.975555662
+  * Recall (weighted): 0.975362166
+  * Confusion Matrix:
+[[5851  149]
+ [  84 3373]]
+
+[Classifier statistics (on training data)]:
+  * 0.199586s prediction time (0.000033 s/image)
+  * AUC (weighted): 0.999999889
+  * Accuracy: 0.999500000
+  * Precision (weighted): 0.999500500
+  * Recall (weighted): 0.999500000
+  * Confusion Matrix:
+[[2997    3]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 71/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.157377s prediction time (0.000017 s/image)
+  * AUC (weighted): 0.997929515
+  * Accuracy: 0.979909062
+  * Precision (weighted): 0.980134267
+  * Recall (weighted): 0.979909062
+  * Confusion Matrix:
+[[5867  133]
+ [  57 3400]]
+
+[Classifier statistics (on training data)]:
+  * 0.079116s prediction time (0.000013 s/image)
+  * AUC (weighted): 0.999592333
+  * Accuracy: 0.993333333
+  * Precision (weighted): 0.993335307
+  * Recall (weighted): 0.993333333
+  * Confusion Matrix:
+[[2977   23]
+ [  17 2983]]
+
+[Falsely detected images]:
+
+####[TEST 72/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.194167s prediction time (0.000021 s/image)
+  * AUC (weighted): 0.998282133
+  * Accuracy: 0.980120546
+  * Precision (weighted): 0.980326515
+  * Recall (weighted): 0.980120546
+  * Confusion Matrix:
+[[5870  130]
+ [  58 3399]]
+
+[Classifier statistics (on training data)]:
+  * 0.133643s prediction time (0.000022 s/image)
+  * AUC (weighted): 0.999928111
+  * Accuracy: 0.996166667
+  * Precision (weighted): 0.996167163
+  * Recall (weighted): 0.996166667
+  * Confusion Matrix:
+[[2987   13]
+ [  10 2990]]
+
+[Falsely detected images]:
+
+####[TEST 73/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.236638s prediction time (0.000025 s/image)
+  * AUC (weighted): 0.998257738
+  * Accuracy: 0.981177963
+  * Precision (weighted): 0.981379568
+  * Recall (weighted): 0.981177963
+  * Confusion Matrix:
+[[5875  125]
+ [  53 3404]]
+
+[Classifier statistics (on training data)]:
+  * 0.127563s prediction time (0.000021 s/image)
+  * AUC (weighted): 0.999977778
+  * Accuracy: 0.998500000
+  * Precision (weighted): 0.998500499
+  * Recall (weighted): 0.998500000
+  * Confusion Matrix:
+[[2994    6]
+ [   3 2997]]
+
+[Falsely detected images]:
+
+####[TEST 74/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.266719s prediction time (0.000028 s/image)
+  * AUC (weighted): 0.998389596
+  * Accuracy: 0.981389447
+  * Precision (weighted): 0.981608225
+  * Recall (weighted): 0.981389447
+  * Confusion Matrix:
+[[5874  126]
+ [  50 3407]]
+
+[Classifier statistics (on training data)]:
+  * 0.140591s prediction time (0.000023 s/image)
+  * AUC (weighted): 0.999985889
+  * Accuracy: 0.998666667
+  * Precision (weighted): 0.998666667
+  * Recall (weighted): 0.998666667
+  * Confusion Matrix:
+[[2996    4]
+ [   4 2996]]
+
+[Falsely detected images]:
+
+####[TEST 75/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.281636s prediction time (0.000030 s/image)
+  * AUC (weighted): 0.998502748
+  * Accuracy: 0.980437771
+  * Precision (weighted): 0.980724945
+  * Recall (weighted): 0.980437771
+  * Confusion Matrix:
+[[5863  137]
+ [  48 3409]]
+
+[Classifier statistics (on training data)]:
+  * 0.171842s prediction time (0.000029 s/image)
+  * AUC (weighted): 0.999999778
+  * Accuracy: 0.999500000
+  * Precision (weighted): 0.999500056
+  * Recall (weighted): 0.999500000
+  * Confusion Matrix:
+[[2998    2]
+ [   1 2999]]
+
+[Falsely detected images]:
+
+####[TEST 76/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.046870s prediction time (0.000005 s/image)
+  * AUC (weighted): 0.989309662
+  * Accuracy: 0.952098974
+  * Precision (weighted): 0.953041846
+  * Recall (weighted): 0.952098974
+  * Confusion Matrix:
+[[5697  303]
+ [ 150 3307]]
+
+[Classifier statistics (on training data)]:
+  * 0.031249s prediction time (0.000005 s/image)
+  * AUC (weighted): 0.993219333
+  * Accuracy: 0.964166667
+  * Precision (weighted): 0.964175383
+  * Recall (weighted): 0.964166667
+  * Confusion Matrix:
+[[2886  114]
+ [ 101 2899]]
+
+[Falsely detected images]:
+
+####[TEST 77/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.062484s prediction time (0.000007 s/image)
+  * AUC (weighted): 0.993924308
+  * Accuracy: 0.961404251
+  * Precision (weighted): 0.962271680
+  * Recall (weighted): 0.961404251
+  * Confusion Matrix:
+[[5741  259]
+ [ 106 3351]]
+
+[Classifier statistics (on training data)]:
+  * 0.054469s prediction time (0.000009 s/image)
+  * AUC (weighted): 0.996892556
+  * Accuracy: 0.973833333
+  * Precision (weighted): 0.973852340
+  * Recall (weighted): 0.973833333
+  * Confusion Matrix:
+[[2912   88]
+ [  69 2931]]
+
+[Falsely detected images]:
+
+####[TEST 78/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.066825s prediction time (0.000007 s/image)
+  * AUC (weighted): 0.994527818
+  * Accuracy: 0.963519086
+  * Precision (weighted): 0.964351800
+  * Recall (weighted): 0.963519086
+  * Confusion Matrix:
+[[5752  248]
+ [  97 3360]]
+
+[Classifier statistics (on training data)]:
+  * 0.034678s prediction time (0.000006 s/image)
+  * AUC (weighted): 0.997015778
+  * Accuracy: 0.975000000
+  * Precision (weighted): 0.975021112
+  * Recall (weighted): 0.975000000
+  * Confusion Matrix:
+[[2915   85]
+ [  65 2935]]
+
+[Falsely detected images]:
+
+####[TEST 79/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.093731s prediction time (0.000010 s/image)
+  * AUC (weighted): 0.994982355
+  * Accuracy: 0.965633922
+  * Precision (weighted): 0.966381856
+  * Recall (weighted): 0.965633922
+  * Confusion Matrix:
+[[5766  234]
+ [  91 3366]]
+
+[Classifier statistics (on training data)]:
+  * 0.062488s prediction time (0.000010 s/image)
+  * AUC (weighted): 0.997554889
+  * Accuracy: 0.978000000
+  * Precision (weighted): 0.978035906
+  * Recall (weighted): 0.978000000
+  * Confusion Matrix:
+[[2921   79]
+ [  53 2947]]
+
+[Falsely detected images]:
+
+####[TEST 80/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.109349s prediction time (0.000012 s/image)
+  * AUC (weighted): 0.995100569
+  * Accuracy: 0.965739664
+  * Precision (weighted): 0.966495113
+  * Recall (weighted): 0.965739664
+  * Confusion Matrix:
+[[5766  234]
+ [  90 3367]]
+
+[Classifier statistics (on training data)]:
+  * 0.063637s prediction time (0.000011 s/image)
+  * AUC (weighted): 0.997998111
+  * Accuracy: 0.980500000
+  * Precision (weighted): 0.980565410
+  * Recall (weighted): 0.980500000
+  * Confusion Matrix:
+[[2924   76]
+ [  41 2959]]
+
+[Falsely detected images]:
+
+####[TEST 81/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.377752s prediction time (0.000251 s/image)
+  * AUC (weighted): 0.999122457
+  * Accuracy: 0.988262663
+  * Precision (weighted): 0.988295264
+  * Recall (weighted): 0.988262663
+  * Confusion Matrix:
+[[5932   68]
+ [  43 3414]]
+
+[Classifier statistics (on training data)]:
+  * 1.467598s prediction time (0.000245 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 82/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 3.299216s prediction time (0.000349 s/image)
+  * AUC (weighted): 0.999346833
+  * Accuracy: 0.989002855
+  * Precision (weighted): 0.989025712
+  * Recall (weighted): 0.989002855
+  * Confusion Matrix:
+[[5938   62]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 1.923408s prediction time (0.000321 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 83/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 3.699581s prediction time (0.000391 s/image)
+  * AUC (weighted): 0.999276251
+  * Accuracy: 0.989531564
+  * Precision (weighted): 0.989549257
+  * Recall (weighted): 0.989531564
+  * Confusion Matrix:
+[[5942   58]
+ [  41 3416]]
+
+[Classifier statistics (on training data)]:
+  * 2.397877s prediction time (0.000400 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 84/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 4.108740s prediction time (0.000434 s/image)
+  * AUC (weighted): 0.999276974
+  * Accuracy: 0.989002855
+  * Precision (weighted): 0.989048392
+  * Recall (weighted): 0.989002855
+  * Confusion Matrix:
+[[5932   68]
+ [  36 3421]]
+
+[Classifier statistics (on training data)]:
+  * 2.494956s prediction time (0.000416 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 85/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 5.089444s prediction time (0.000538 s/image)
+  * AUC (weighted): 0.999454633
+  * Accuracy: 0.989954531
+  * Precision (weighted): 0.989992123
+  * Recall (weighted): 0.989954531
+  * Confusion Matrix:
+[[5938   62]
+ [  33 3424]]
+
+[Classifier statistics (on training data)]:
+  * 3.024516s prediction time (0.000504 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 86/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.314016s prediction time (0.000139 s/image)
+  * AUC (weighted): 0.998422235
+  * Accuracy: 0.982446865
+  * Precision (weighted): 0.982538753
+  * Recall (weighted): 0.982446865
+  * Confusion Matrix:
+[[5895  105]
+ [  61 3396]]
+
+[Classifier statistics (on training data)]:
+  * 0.843660s prediction time (0.000141 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 87/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.862496s prediction time (0.000197 s/image)
+  * AUC (weighted): 0.998749735
+  * Accuracy: 0.984138733
+  * Precision (weighted): 0.984258524
+  * Recall (weighted): 0.984138733
+  * Confusion Matrix:
+[[5898  102]
+ [  48 3409]]
+
+[Classifier statistics (on training data)]:
+  * 1.103991s prediction time (0.000184 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 88/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.999124s prediction time (0.000211 s/image)
+  * AUC (weighted): 0.998802382
+  * Accuracy: 0.983821508
+  * Precision (weighted): 0.983932080
+  * Recall (weighted): 0.983821508
+  * Confusion Matrix:
+[[5898  102]
+ [  51 3406]]
+
+[Classifier statistics (on training data)]:
+  * 1.252660s prediction time (0.000209 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 89/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.218226s prediction time (0.000235 s/image)
+  * AUC (weighted): 0.998935397
+  * Accuracy: 0.985301893
+  * Precision (weighted): 0.985401631
+  * Recall (weighted): 0.985301893
+  * Confusion Matrix:
+[[5906   94]
+ [  45 3412]]
+
+[Classifier statistics (on training data)]:
+  * 1.389619s prediction time (0.000232 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 90/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.947945s prediction time (0.000312 s/image)
+  * AUC (weighted): 0.999103076
+  * Accuracy: 0.985724860
+  * Precision (weighted): 0.985849968
+  * Recall (weighted): 0.985724860
+  * Confusion Matrix:
+[[5904   96]
+ [  39 3418]]
+
+[Classifier statistics (on training data)]:
+  * 2.067867s prediction time (0.000345 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 91/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.133413s prediction time (0.000120 s/image)
+  * AUC (weighted): 0.998629785
+  * Accuracy: 0.984455959
+  * Precision (weighted): 0.984564638
+  * Recall (weighted): 0.984455959
+  * Confusion Matrix:
+[[5901   99]
+ [  48 3409]]
+
+[Classifier statistics (on training data)]:
+  * 0.620062s prediction time (0.000103 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 92/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.114416s prediction time (0.000118 s/image)
+  * AUC (weighted): 0.999004821
+  * Accuracy: 0.985830602
+  * Precision (weighted): 0.985897125
+  * Recall (weighted): 0.985830602
+  * Confusion Matrix:
+[[5914   86]
+ [  48 3409]]
+
+[Classifier statistics (on training data)]:
+  * 0.687456s prediction time (0.000115 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 93/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.382229s prediction time (0.000146 s/image)
+  * AUC (weighted): 0.999014271
+  * Accuracy: 0.986359311
+  * Precision (weighted): 0.986438213
+  * Recall (weighted): 0.986359311
+  * Confusion Matrix:
+[[5914   86]
+ [  43 3414]]
+
+[Classifier statistics (on training data)]:
+  * 1.053234s prediction time (0.000176 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 94/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.403002s prediction time (0.000148 s/image)
+  * AUC (weighted): 0.999067785
+  * Accuracy: 0.986147827
+  * Precision (weighted): 0.986238996
+  * Recall (weighted): 0.986147827
+  * Confusion Matrix:
+[[5911   89]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 0.859649s prediction time (0.000143 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 95/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.778360s prediction time (0.000188 s/image)
+  * AUC (weighted): 0.999266175
+  * Accuracy: 0.986676536
+  * Precision (weighted): 0.986751847
+  * Recall (weighted): 0.986676536
+  * Confusion Matrix:
+[[5916   84]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 1.084827s prediction time (0.000181 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 96/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.699322s prediction time (0.000074 s/image)
+  * AUC (weighted): 0.997682287
+  * Accuracy: 0.978322935
+  * Precision (weighted): 0.978472580
+  * Recall (weighted): 0.978322935
+  * Confusion Matrix:
+[[5869  131]
+ [  74 3383]]
+
+[Classifier statistics (on training data)]:
+  * 0.391700s prediction time (0.000065 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 97/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.893471s prediction time (0.000094 s/image)
+  * AUC (weighted): 0.998320847
+  * Accuracy: 0.981072222
+  * Precision (weighted): 0.981177394
+  * Recall (weighted): 0.981072222
+  * Confusion Matrix:
+[[5887  113]
+ [  66 3391]]
+
+[Classifier statistics (on training data)]:
+  * 0.584384s prediction time (0.000097 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 98/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.021819s prediction time (0.000108 s/image)
+  * AUC (weighted): 0.998134076
+  * Accuracy: 0.980754996
+  * Precision (weighted): 0.980932423
+  * Recall (weighted): 0.980754996
+  * Confusion Matrix:
+[[5876  124]
+ [  58 3399]]
+
+[Classifier statistics (on training data)]:
+  * 0.655472s prediction time (0.000109 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 99/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.998195s prediction time (0.000106 s/image)
+  * AUC (weighted): 0.998391862
+  * Accuracy: 0.982446865
+  * Precision (weighted): 0.982579175
+  * Recall (weighted): 0.982446865
+  * Confusion Matrix:
+[[5889  111]
+ [  55 3402]]
+
+[Classifier statistics (on training data)]:
+  * 0.628953s prediction time (0.000105 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 100/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.290721s prediction time (0.000136 s/image)
+  * AUC (weighted): 0.998611513
+  * Accuracy: 0.982446865
+  * Precision (weighted): 0.982609755
+  * Recall (weighted): 0.982446865
+  * Confusion Matrix:
+[[5885  115]
+ [  51 3406]]
+
+[Classifier statistics (on training data)]:
+  * 0.784338s prediction time (0.000131 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 101/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.469786s prediction time (0.000050 s/image)
+  * AUC (weighted): 0.997811060
+  * Accuracy: 0.981283705
+  * Precision (weighted): 0.981375467
+  * Recall (weighted): 0.981283705
+  * Confusion Matrix:
+[[5890  110]
+ [  67 3390]]
+
+[Classifier statistics (on training data)]:
+  * 0.344125s prediction time (0.000057 s/image)
+  * AUC (weighted): 0.999990333
+  * Accuracy: 0.999500000
+  * Precision (weighted): 0.999500500
+  * Recall (weighted): 0.999500000
+  * Confusion Matrix:
+[[2997    3]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 102/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.692309s prediction time (0.000073 s/image)
+  * AUC (weighted): 0.998322100
+  * Accuracy: 0.983187057
+  * Precision (weighted): 0.983306358
+  * Recall (weighted): 0.983187057
+  * Confusion Matrix:
+[[5894  106]
+ [  53 3404]]
+
+[Classifier statistics (on training data)]:
+  * 0.401200s prediction time (0.000067 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 103/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.728019s prediction time (0.000077 s/image)
+  * AUC (weighted): 0.998231704
+  * Accuracy: 0.980860738
+  * Precision (weighted): 0.980980141
+  * Recall (weighted): 0.980860738
+  * Confusion Matrix:
+[[5884  116]
+ [  65 3392]]
+
+[Classifier statistics (on training data)]:
+  * 0.457116s prediction time (0.000076 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 104/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.828723s prediction time (0.000088 s/image)
+  * AUC (weighted): 0.998500000
+  * Accuracy: 0.982975574
+  * Precision (weighted): 0.983095529
+  * Recall (weighted): 0.982975574
+  * Confusion Matrix:
+[[5893  107]
+ [  54 3403]]
+
+[Classifier statistics (on training data)]:
+  * 0.547797s prediction time (0.000091 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 105/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.085304s prediction time (0.000115 s/image)
+  * AUC (weighted): 0.998403095
+  * Accuracy: 0.981495189
+  * Precision (weighted): 0.981634317
+  * Recall (weighted): 0.981495189
+  * Confusion Matrix:
+[[5884  116]
+ [  59 3398]]
+
+[Classifier statistics (on training data)]:
+  * 0.679248s prediction time (0.000113 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 106/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.341681s prediction time (0.000036 s/image)
+  * AUC (weighted): 0.995434047
+  * Accuracy: 0.968594692
+  * Precision (weighted): 0.969165090
+  * Recall (weighted): 0.968594692
+  * Confusion Matrix:
+[[5790  210]
+ [  87 3370]]
+
+[Classifier statistics (on training data)]:
+  * 0.208123s prediction time (0.000035 s/image)
+  * AUC (weighted): 0.998788333
+  * Accuracy: 0.989333333
+  * Precision (weighted): 0.989334203
+  * Recall (weighted): 0.989333333
+  * Confusion Matrix:
+[[2966   34]
+ [  30 2970]]
+
+[Falsely detected images]:
+
+####[TEST 107/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.414722s prediction time (0.000044 s/image)
+  * AUC (weighted): 0.996761981
+  * Accuracy: 0.974304748
+  * Precision (weighted): 0.974704735
+  * Recall (weighted): 0.974304748
+  * Confusion Matrix:
+[[5827  173]
+ [  70 3387]]
+
+[Classifier statistics (on training data)]:
+  * 0.307501s prediction time (0.000051 s/image)
+  * AUC (weighted): 0.999648444
+  * Accuracy: 0.994000000
+  * Precision (weighted): 0.994003513
+  * Recall (weighted): 0.994000000
+  * Confusion Matrix:
+[[2978   22]
+ [  14 2986]]
+
+[Falsely detected images]:
+
+####[TEST 108/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.488922s prediction time (0.000052 s/image)
+  * AUC (weighted): 0.996802141
+  * Accuracy: 0.973353072
+  * Precision (weighted): 0.973681440
+  * Recall (weighted): 0.973353072
+  * Confusion Matrix:
+[[5829  171]
+ [  81 3376]]
+
+[Classifier statistics (on training data)]:
+  * 0.273758s prediction time (0.000046 s/image)
+  * AUC (weighted): 0.999718556
+  * Accuracy: 0.995000000
+  * Precision (weighted): 0.995000880
+  * Recall (weighted): 0.995000000
+  * Confusion Matrix:
+[[2983   17]
+ [  13 2987]]
+
+[Falsely detected images]:
+
+####[TEST 109/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.509660s prediction time (0.000054 s/image)
+  * AUC (weighted): 0.996783386
+  * Accuracy: 0.973247330
+  * Precision (weighted): 0.973641029
+  * Recall (weighted): 0.973247330
+  * Confusion Matrix:
+[[5823  177]
+ [  76 3381]]
+
+[Classifier statistics (on training data)]:
+  * 0.348725s prediction time (0.000058 s/image)
+  * AUC (weighted): 0.999813778
+  * Accuracy: 0.996833333
+  * Precision (weighted): 0.996833389
+  * Recall (weighted): 0.996833333
+  * Confusion Matrix:
+[[2990   10]
+ [   9 2991]]
+
+[Falsely detected images]:
+
+####[TEST 110/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.624340s prediction time (0.000066 s/image)
+  * AUC (weighted): 0.996823354
+  * Accuracy: 0.973987522
+  * Precision (weighted): 0.974290580
+  * Recall (weighted): 0.973987522
+  * Confusion Matrix:
+[[5834  166]
+ [  80 3377]]
+
+[Classifier statistics (on training data)]:
+  * 0.428387s prediction time (0.000071 s/image)
+  * AUC (weighted): 0.999938556
+  * Accuracy: 0.997333333
+  * Precision (weighted): 0.997333554
+  * Recall (weighted): 0.997333333
+  * Confusion Matrix:
+[[2991    9]
+ [   7 2993]]
+
+[Falsely detected images]:
+
+####[TEST 111/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.249995s prediction time (0.000026 s/image)
+  * AUC (weighted): 0.998260968
+  * Accuracy: 0.979168870
+  * Precision (weighted): 0.979421444
+  * Recall (weighted): 0.979168870
+  * Confusion Matrix:
+[[5861  139]
+ [  58 3399]]
+
+[Classifier statistics (on training data)]:
+  * 0.143309s prediction time (0.000024 s/image)
+  * AUC (weighted): 0.999405333
+  * Accuracy: 0.991666667
+  * Precision (weighted): 0.991668633
+  * Recall (weighted): 0.991666667
+  * Confusion Matrix:
+[[2972   28]
+ [  22 2978]]
+
+[Falsely detected images]:
+
+####[TEST 112/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.306083s prediction time (0.000032 s/image)
+  * AUC (weighted): 0.998443786
+  * Accuracy: 0.980120546
+  * Precision (weighted): 0.980317626
+  * Recall (weighted): 0.980120546
+  * Confusion Matrix:
+[[5871  129]
+ [  59 3398]]
+
+[Classifier statistics (on training data)]:
+  * 0.221674s prediction time (0.000037 s/image)
+  * AUC (weighted): 0.999763111
+  * Accuracy: 0.995000000
+  * Precision (weighted): 0.995003520
+  * Recall (weighted): 0.995000000
+  * Confusion Matrix:
+[[2981   19]
+ [  11 2989]]
+
+[Falsely detected images]:
+
+####[TEST 113/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.374312s prediction time (0.000040 s/image)
+  * AUC (weighted): 0.998638367
+  * Accuracy: 0.981177963
+  * Precision (weighted): 0.981329616
+  * Recall (weighted): 0.981177963
+  * Confusion Matrix:
+[[5881  119]
+ [  59 3398]]
+
+[Classifier statistics (on training data)]:
+  * 0.253093s prediction time (0.000042 s/image)
+  * AUC (weighted): 0.999870111
+  * Accuracy: 0.996000000
+  * Precision (weighted): 0.996000882
+  * Recall (weighted): 0.996000000
+  * Confusion Matrix:
+[[2986   14]
+ [  10 2990]]
+
+[Falsely detected images]:
+
+####[TEST 114/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.411483s prediction time (0.000044 s/image)
+  * AUC (weighted): 0.998532061
+  * Accuracy: 0.980860738
+  * Precision (weighted): 0.981033605
+  * Recall (weighted): 0.980860738
+  * Confusion Matrix:
+[[5877  123]
+ [  58 3399]]
+
+[Classifier statistics (on training data)]:
+  * 0.239642s prediction time (0.000040 s/image)
+  * AUC (weighted): 0.999892000
+  * Accuracy: 0.997666667
+  * Precision (weighted): 0.997668657
+  * Recall (weighted): 0.997666667
+  * Confusion Matrix:
+[[2990   10]
+ [   4 2996]]
+
+[Falsely detected images]:
+
+####[TEST 115/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.550803s prediction time (0.000058 s/image)
+  * AUC (weighted): 0.998388439
+  * Accuracy: 0.980120546
+  * Precision (weighted): 0.980354260
+  * Recall (weighted): 0.980120546
+  * Confusion Matrix:
+[[5867  133]
+ [  55 3402]]
+
+[Classifier statistics (on training data)]:
+  * 0.372814s prediction time (0.000062 s/image)
+  * AUC (weighted): 0.999984556
+  * Accuracy: 0.998666667
+  * Precision (weighted): 0.998666888
+  * Recall (weighted): 0.998666667
+  * Confusion Matrix:
+[[2995    5]
+ [   3 2997]]
+
+[Falsely detected images]:
+
+####[TEST 116/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.068819s prediction time (0.000007 s/image)
+  * AUC (weighted): 0.989415775
+  * Accuracy: 0.949455430
+  * Precision (weighted): 0.950732437
+  * Recall (weighted): 0.949455430
+  * Confusion Matrix:
+[[5669  331]
+ [ 147 3310]]
+
+[Classifier statistics (on training data)]:
+  * 0.041887s prediction time (0.000007 s/image)
+  * AUC (weighted): 0.992742889
+  * Accuracy: 0.961666667
+  * Precision (weighted): 0.961691495
+  * Recall (weighted): 0.961666667
+  * Confusion Matrix:
+[[2874  126]
+ [ 104 2896]]
+
+[Falsely detected images]:
+
+####[TEST 117/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.087380s prediction time (0.000009 s/image)
+  * AUC (weighted): 0.993598399
+  * Accuracy: 0.962461669
+  * Precision (weighted): 0.963268034
+  * Recall (weighted): 0.962461669
+  * Confusion Matrix:
+[[5749  251]
+ [ 104 3353]]
+
+[Classifier statistics (on training data)]:
+  * 0.066342s prediction time (0.000011 s/image)
+  * AUC (weighted): 0.996248556
+  * Accuracy: 0.968166667
+  * Precision (weighted): 0.968181701
+  * Recall (weighted): 0.968166667
+  * Confusion Matrix:
+[[2896  104]
+ [  87 2913]]
+
+[Falsely detected images]:
+
+####[TEST 118/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.078162s prediction time (0.000008 s/image)
+  * AUC (weighted): 0.993892923
+  * Accuracy: 0.961404251
+  * Precision (weighted): 0.962253920
+  * Recall (weighted): 0.961404251
+  * Confusion Matrix:
+[[5742  258]
+ [ 107 3350]]
+
+[Classifier statistics (on training data)]:
+  * 0.072804s prediction time (0.000012 s/image)
+  * AUC (weighted): 0.996634444
+  * Accuracy: 0.973166667
+  * Precision (weighted): 0.973217196
+  * Recall (weighted): 0.973166667
+  * Confusion Matrix:
+[[2904   96]
+ [  65 2935]]
+
+[Falsely detected images]:
+
+####[TEST 119/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.128946s prediction time (0.000014 s/image)
+  * AUC (weighted): 0.994483897
+  * Accuracy: 0.964576504
+  * Precision (weighted): 0.965435858
+  * Recall (weighted): 0.964576504
+  * Confusion Matrix:
+[[5755  245]
+ [  90 3367]]
+
+[Classifier statistics (on training data)]:
+  * 0.062487s prediction time (0.000010 s/image)
+  * AUC (weighted): 0.996921778
+  * Accuracy: 0.973000000
+  * Precision (weighted): 0.973030274
+  * Recall (weighted): 0.973000000
+  * Confusion Matrix:
+[[2907   93]
+ [  69 2931]]
+
+[Falsely detected images]:
+
+####[TEST 120/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.112498s prediction time (0.000012 s/image)
+  * AUC (weighted): 0.994698920
+  * Accuracy: 0.963413345
+  * Precision (weighted): 0.964364182
+  * Recall (weighted): 0.963413345
+  * Confusion Matrix:
+[[5745  255]
+ [  91 3366]]
+
+[Classifier statistics (on training data)]:
+  * 0.105084s prediction time (0.000018 s/image)
+  * AUC (weighted): 0.997441889
+  * Accuracy: 0.975666667
+  * Precision (weighted): 0.975708106
+  * Recall (weighted): 0.975666667
+  * Confusion Matrix:
+[[2913   87]
+ [  59 2941]]
+
+[Falsely detected images]:
+
+####[TEST 121/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 3.880553s prediction time (0.000410 s/image)
+  * AUC (weighted): 0.999034953
+  * Accuracy: 0.987416728
+  * Precision (weighted): 0.987472277
+  * Recall (weighted): 0.987416728
+  * Confusion Matrix:
+[[5923   77]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 2.521868s prediction time (0.000420 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 122/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 5.356195s prediction time (0.000566 s/image)
+  * AUC (weighted): 0.999295777
+  * Accuracy: 0.988156921
+  * Precision (weighted): 0.988204069
+  * Recall (weighted): 0.988156921
+  * Confusion Matrix:
+[[5928   72]
+ [  40 3417]]
+
+[Classifier statistics (on training data)]:
+  * 3.336251s prediction time (0.000556 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 123/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 5.946498s prediction time (0.000629 s/image)
+  * AUC (weighted): 0.999231463
+  * Accuracy: 0.988791371
+  * Precision (weighted): 0.988825060
+  * Recall (weighted): 0.988791371
+  * Confusion Matrix:
+[[5934   66]
+ [  40 3417]]
+
+[Classifier statistics (on training data)]:
+  * 3.690876s prediction time (0.000615 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 124/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 6.720702s prediction time (0.000711 s/image)
+  * AUC (weighted): 0.999268393
+  * Accuracy: 0.988579888
+  * Precision (weighted): 0.988626231
+  * Recall (weighted): 0.988579888
+  * Confusion Matrix:
+[[5930   70]
+ [  38 3419]]
+
+[Classifier statistics (on training data)]:
+  * 4.433196s prediction time (0.000739 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 125/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 8.699999s prediction time (0.000920 s/image)
+  * AUC (weighted): 0.999416643
+  * Accuracy: 0.987839695
+  * Precision (weighted): 0.987932147
+  * Recall (weighted): 0.987839695
+  * Confusion Matrix:
+[[5918   82]
+ [  33 3424]]
+
+[Classifier statistics (on training data)]:
+  * 5.201895s prediction time (0.000867 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 126/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.029916s prediction time (0.000215 s/image)
+  * AUC (weighted): 0.998090734
+  * Accuracy: 0.980437771
+  * Precision (weighted): 0.980551474
+  * Recall (weighted): 0.980437771
+  * Confusion Matrix:
+[[5883  117]
+ [  68 3389]]
+
+[Classifier statistics (on training data)]:
+  * 1.334592s prediction time (0.000222 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 127/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.610238s prediction time (0.000276 s/image)
+  * AUC (weighted): 0.998583936
+  * Accuracy: 0.982764090
+  * Precision (weighted): 0.982871114
+  * Recall (weighted): 0.982764090
+  * Confusion Matrix:
+[[5894  106]
+ [  57 3400]]
+
+[Classifier statistics (on training data)]:
+  * 1.659524s prediction time (0.000277 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 128/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 3.067307s prediction time (0.000324 s/image)
+  * AUC (weighted): 0.998624434
+  * Accuracy: 0.982552607
+  * Precision (weighted): 0.982703316
+  * Recall (weighted): 0.982552607
+  * Confusion Matrix:
+[[5887  113]
+ [  52 3405]]
+
+[Classifier statistics (on training data)]:
+  * 1.861203s prediction time (0.000310 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 129/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 3.569892s prediction time (0.000377 s/image)
+  * AUC (weighted): 0.998784929
+  * Accuracy: 0.984244475
+  * Precision (weighted): 0.984340895
+  * Recall (weighted): 0.984244475
+  * Confusion Matrix:
+[[5902   98]
+ [  51 3406]]
+
+[Classifier statistics (on training data)]:
+  * 2.163908s prediction time (0.000361 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 130/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 4.251405s prediction time (0.000450 s/image)
+  * AUC (weighted): 0.998979173
+  * Accuracy: 0.985196151
+  * Precision (weighted): 0.985319499
+  * Recall (weighted): 0.985196151
+  * Confusion Matrix:
+[[5902   98]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 2.511099s prediction time (0.000419 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 131/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.238826s prediction time (0.000131 s/image)
+  * AUC (weighted): 0.998534037
+  * Accuracy: 0.983081315
+  * Precision (weighted): 0.983184164
+  * Recall (weighted): 0.983081315
+  * Confusion Matrix:
+[[5896  104]
+ [  56 3401]]
+
+[Classifier statistics (on training data)]:
+  * 0.802860s prediction time (0.000134 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 132/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.665691s prediction time (0.000176 s/image)
+  * AUC (weighted): 0.998780012
+  * Accuracy: 0.984667442
+  * Precision (weighted): 0.984762695
+  * Recall (weighted): 0.984667442
+  * Confusion Matrix:
+[[5904   96]
+ [  49 3408]]
+
+[Classifier statistics (on training data)]:
+  * 1.176851s prediction time (0.000196 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 133/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.814467s prediction time (0.000192 s/image)
+  * AUC (weighted): 0.998827548
+  * Accuracy: 0.983504283
+  * Precision (weighted): 0.983593432
+  * Recall (weighted): 0.983504283
+  * Confusion Matrix:
+[[5900  100]
+ [  56 3401]]
+
+[Classifier statistics (on training data)]:
+  * 1.455231s prediction time (0.000243 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 134/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.115258s prediction time (0.000224 s/image)
+  * AUC (weighted): 0.998864815
+  * Accuracy: 0.985301893
+  * Precision (weighted): 0.985414651
+  * Recall (weighted): 0.985301893
+  * Confusion Matrix:
+[[5904   96]
+ [  43 3414]]
+
+[Classifier statistics (on training data)]:
+  * 1.437527s prediction time (0.000240 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 135/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.410733s prediction time (0.000255 s/image)
+  * AUC (weighted): 0.999017115
+  * Accuracy: 0.984878926
+  * Precision (weighted): 0.984999824
+  * Recall (weighted): 0.984878926
+  * Confusion Matrix:
+[[5901   99]
+ [  44 3413]]
+
+[Classifier statistics (on training data)]:
+  * 1.499429s prediction time (0.000250 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 136/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.814151s prediction time (0.000086 s/image)
+  * AUC (weighted): 0.997488622
+  * Accuracy: 0.976736809
+  * Precision (weighted): 0.976850412
+  * Recall (weighted): 0.976736809
+  * Confusion Matrix:
+[[5867  133]
+ [  87 3370]]
+
+[Classifier statistics (on training data)]:
+  * 0.517171s prediction time (0.000086 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 137/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.112149s prediction time (0.000118 s/image)
+  * AUC (weighted): 0.997957622
+  * Accuracy: 0.978111452
+  * Precision (weighted): 0.978269737
+  * Recall (weighted): 0.978111452
+  * Confusion Matrix:
+[[5867  133]
+ [  74 3383]]
+
+[Classifier statistics (on training data)]:
+  * 0.684676s prediction time (0.000114 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 138/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.232250s prediction time (0.000130 s/image)
+  * AUC (weighted): 0.997892296
+  * Accuracy: 0.978851644
+  * Precision (weighted): 0.979003443
+  * Recall (weighted): 0.978851644
+  * Confusion Matrix:
+[[5871  129]
+ [  71 3386]]
+
+[Classifier statistics (on training data)]:
+  * 0.790660s prediction time (0.000132 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 139/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.365018s prediction time (0.000144 s/image)
+  * AUC (weighted): 0.998151577
+  * Accuracy: 0.980014804
+  * Precision (weighted): 0.980182573
+  * Recall (weighted): 0.980014804
+  * Confusion Matrix:
+[[5874  126]
+ [  63 3394]]
+
+[Classifier statistics (on training data)]:
+  * 0.882320s prediction time (0.000147 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 140/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.672820s prediction time (0.000177 s/image)
+  * AUC (weighted): 0.998209719
+  * Accuracy: 0.980754996
+  * Precision (weighted): 0.980900381
+  * Recall (weighted): 0.980754996
+  * Confusion Matrix:
+[[5880  120]
+ [  62 3395]]
+
+[Classifier statistics (on training data)]:
+  * 1.051146s prediction time (0.000175 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 141/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.591120s prediction time (0.000063 s/image)
+  * AUC (weighted): 0.997732909
+  * Accuracy: 0.980437771
+  * Precision (weighted): 0.980620630
+  * Recall (weighted): 0.980437771
+  * Confusion Matrix:
+[[5874  126]
+ [  59 3398]]
+
+[Classifier statistics (on training data)]:
+  * 0.407706s prediction time (0.000068 s/image)
+  * AUC (weighted): 0.999939333
+  * Accuracy: 0.998333333
+  * Precision (weighted): 0.998335327
+  * Recall (weighted): 0.998333333
+  * Confusion Matrix:
+[[2992    8]
+ [   2 2998]]
+
+[Falsely detected images]:
+
+####[TEST 142/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.829121s prediction time (0.000088 s/image)
+  * AUC (weighted): 0.998013499
+  * Accuracy: 0.981283705
+  * Precision (weighted): 0.981423535
+  * Recall (weighted): 0.981283705
+  * Confusion Matrix:
+[[5883  117]
+ [  60 3397]]
+
+[Classifier statistics (on training data)]:
+  * 0.531369s prediction time (0.000089 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 143/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.999905s prediction time (0.000106 s/image)
+  * AUC (weighted): 0.998047151
+  * Accuracy: 0.980754996
+  * Precision (weighted): 0.980885443
+  * Recall (weighted): 0.980754996
+  * Confusion Matrix:
+[[5882  118]
+ [  64 3393]]
+
+[Classifier statistics (on training data)]:
+  * 0.608366s prediction time (0.000101 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 0.999666667
+  * Precision (weighted): 0.999666889
+  * Recall (weighted): 0.999666667
+  * Confusion Matrix:
+[[2998    2]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 144/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.051848s prediction time (0.000111 s/image)
+  * AUC (weighted): 0.998327548
+  * Accuracy: 0.980226287
+  * Precision (weighted): 0.980362095
+  * Recall (weighted): 0.980226287
+  * Confusion Matrix:
+[[5879  121]
+ [  66 3391]]
+
+[Classifier statistics (on training data)]:
+  * 0.652545s prediction time (0.000109 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 145/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.224324s prediction time (0.000129 s/image)
+  * AUC (weighted): 0.998053225
+  * Accuracy: 0.979063128
+  * Precision (weighted): 0.979198903
+  * Recall (weighted): 0.979063128
+  * Confusion Matrix:
+[[5874  126]
+ [  72 3385]]
+
+[Classifier statistics (on training data)]:
+  * 0.734187s prediction time (0.000122 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 146/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.340715s prediction time (0.000036 s/image)
+  * AUC (weighted): 0.995135185
+  * Accuracy: 0.964787988
+  * Precision (weighted): 0.965461047
+  * Recall (weighted): 0.964787988
+  * Confusion Matrix:
+[[5767  233]
+ [ 100 3357]]
+
+[Classifier statistics (on training data)]:
+  * 0.227016s prediction time (0.000038 s/image)
+  * AUC (weighted): 0.998369778
+  * Accuracy: 0.984333333
+  * Precision (weighted): 0.984335271
+  * Recall (weighted): 0.984333333
+  * Confusion Matrix:
+[[2950   50]
+ [  44 2956]]
+
+[Falsely detected images]:
+
+####[TEST 147/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.454400s prediction time (0.000048 s/image)
+  * AUC (weighted): 0.996467939
+  * Accuracy: 0.971661203
+  * Precision (weighted): 0.972218201
+  * Recall (weighted): 0.971661203
+  * Confusion Matrix:
+[[5804  196]
+ [  72 3385]]
+
+[Classifier statistics (on training data)]:
+  * 0.298865s prediction time (0.000050 s/image)
+  * AUC (weighted): 0.999286333
+  * Accuracy: 0.990166667
+  * Precision (weighted): 0.990168028
+  * Recall (weighted): 0.990166667
+  * Confusion Matrix:
+[[2968   32]
+ [  27 2973]]
+
+[Falsely detected images]:
+
+####[TEST 148/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.530010s prediction time (0.000056 s/image)
+  * AUC (weighted): 0.996667872
+  * Accuracy: 0.970180818
+  * Precision (weighted): 0.970747827
+  * Recall (weighted): 0.970180818
+  * Confusion Matrix:
+[[5797  203]
+ [  79 3378]]
+
+[Classifier statistics (on training data)]:
+  * 0.371203s prediction time (0.000062 s/image)
+  * AUC (weighted): 0.999366333
+  * Accuracy: 0.991666667
+  * Precision (weighted): 0.991666885
+  * Recall (weighted): 0.991666667
+  * Confusion Matrix:
+[[2974   26]
+ [  24 2976]]
+
+[Falsely detected images]:
+
+####[TEST 149/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.593863s prediction time (0.000063 s/image)
+  * AUC (weighted): 0.996628821
+  * Accuracy: 0.970498044
+  * Precision (weighted): 0.970919855
+  * Recall (weighted): 0.970498044
+  * Confusion Matrix:
+[[5809  191]
+ [  88 3369]]
+
+[Classifier statistics (on training data)]:
+  * 0.377417s prediction time (0.000063 s/image)
+  * AUC (weighted): 0.999580778
+  * Accuracy: 0.992500000
+  * Precision (weighted): 0.992502681
+  * Recall (weighted): 0.992500000
+  * Confusion Matrix:
+[[2974   26]
+ [  19 2981]]
+
+[Falsely detected images]:
+
+####[TEST 150/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.686308s prediction time (0.000073 s/image)
+  * AUC (weighted): 0.996523238
+  * Accuracy: 0.970709527
+  * Precision (weighted): 0.971155858
+  * Recall (weighted): 0.970709527
+  * Confusion Matrix:
+[[5808  192]
+ [  85 3372]]
+
+[Classifier statistics (on training data)]:
+  * 0.441823s prediction time (0.000074 s/image)
+  * AUC (weighted): 0.999682667
+  * Accuracy: 0.994666667
+  * Precision (weighted): 0.994668645
+  * Recall (weighted): 0.994666667
+  * Confusion Matrix:
+[[2981   19]
+ [  13 2987]]
+
+[Falsely detected images]:
+
+####[TEST 151/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.264903s prediction time (0.000028 s/image)
+  * AUC (weighted): 0.997994215
+  * Accuracy: 0.978428677
+  * Precision (weighted): 0.978623670
+  * Recall (weighted): 0.978428677
+  * Confusion Matrix:
+[[5864  136]
+ [  68 3389]]
+
+[Classifier statistics (on training data)]:
+  * 0.147298s prediction time (0.000025 s/image)
+  * AUC (weighted): 0.999247222
+  * Accuracy: 0.989666667
+  * Precision (weighted): 0.989667537
+  * Recall (weighted): 0.989666667
+  * Confusion Matrix:
+[[2967   33]
+ [  29 2971]]
+
+[Falsely detected images]:
+
+####[TEST 152/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.321764s prediction time (0.000034 s/image)
+  * AUC (weighted): 0.998303732
+  * Accuracy: 0.978957386
+  * Precision (weighted): 0.979137394
+  * Recall (weighted): 0.978957386
+  * Confusion Matrix:
+[[5868  132]
+ [  67 3390]]
+
+[Classifier statistics (on training data)]:
+  * 0.248251s prediction time (0.000041 s/image)
+  * AUC (weighted): 0.999613778
+  * Accuracy: 0.994166667
+  * Precision (weighted): 0.994173311
+  * Recall (weighted): 0.994166667
+  * Confusion Matrix:
+[[2977   23]
+ [  12 2988]]
+
+[Falsely detected images]:
+
+####[TEST 153/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.393523s prediction time (0.000042 s/image)
+  * AUC (weighted): 0.998468952
+  * Accuracy: 0.980332029
+  * Precision (weighted): 0.980463808
+  * Recall (weighted): 0.980332029
+  * Confusion Matrix:
+[[5880  120]
+ [  66 3391]]
+
+[Classifier statistics (on training data)]:
+  * 0.256048s prediction time (0.000043 s/image)
+  * AUC (weighted): 0.999762000
+  * Accuracy: 0.994000000
+  * Precision (weighted): 0.994001976
+  * Recall (weighted): 0.994000000
+  * Confusion Matrix:
+[[2979   21]
+ [  15 2985]]
+
+[Falsely detected images]:
+
+####[TEST 154/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.459345s prediction time (0.000049 s/image)
+  * AUC (weighted): 0.998453910
+  * Accuracy: 0.979697579
+  * Precision (weighted): 0.979846526
+  * Recall (weighted): 0.979697579
+  * Confusion Matrix:
+[[5875  125]
+ [  67 3390]]
+
+[Classifier statistics (on training data)]:
+  * 0.299552s prediction time (0.000050 s/image)
+  * AUC (weighted): 0.999763889
+  * Accuracy: 0.995333333
+  * Precision (weighted): 0.995341259
+  * Recall (weighted): 0.995333333
+  * Confusion Matrix:
+[[2980   20]
+ [   8 2992]]
+
+[Falsely detected images]:
+
+####[TEST 155/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.539965s prediction time (0.000057 s/image)
+  * AUC (weighted): 0.998266271
+  * Accuracy: 0.979063128
+  * Precision (weighted): 0.979246994
+  * Recall (weighted): 0.979063128
+  * Confusion Matrix:
+[[5868  132]
+ [  66 3391]]
+
+[Classifier statistics (on training data)]:
+  * 0.334150s prediction time (0.000056 s/image)
+  * AUC (weighted): 0.999908222
+  * Accuracy: 0.995666667
+  * Precision (weighted): 0.995677461
+  * Recall (weighted): 0.995666667
+  * Confusion Matrix:
+[[2980   20]
+ [   6 2994]]
+
+[Falsely detected images]:
+
+####[TEST 156/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 6
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.031246s prediction time (0.000003 s/image)
+  * AUC (weighted): 0.986251712
+  * Accuracy: 0.945331500
+  * Precision (weighted): 0.946838309
+  * Recall (weighted): 0.945331500
+  * Confusion Matrix:
+[[5641  359]
+ [ 158 3299]]
+
+[Classifier statistics (on training data)]:
+  * 0.023936s prediction time (0.000004 s/image)
+  * AUC (weighted): 0.989857667
+  * Accuracy: 0.956500000
+  * Precision (weighted): 0.956602736
+  * Recall (weighted): 0.956500000
+  * Confusion Matrix:
+[[2847  153]
+ [ 108 2892]]
+
+[Falsely detected images]:
+
+####[TEST 157/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 8
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.054459s prediction time (0.000006 s/image)
+  * AUC (weighted): 0.991833719
+  * Accuracy: 0.955588453
+  * Precision (weighted): 0.956980087
+  * Recall (weighted): 0.955588453
+  * Confusion Matrix:
+[[5690  310]
+ [ 110 3347]]
+
+[Classifier statistics (on training data)]:
+  * 0.031238s prediction time (0.000005 s/image)
+  * AUC (weighted): 0.994771778
+  * Accuracy: 0.964666667
+  * Precision (weighted): 0.964707148
+  * Recall (weighted): 0.964666667
+  * Confusion Matrix:
+[[2880  120]
+ [  92 2908]]
+
+[Falsely detected images]:
+
+####[TEST 158/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 9
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.046865s prediction time (0.000005 s/image)
+  * AUC (weighted): 0.992338685
+  * Accuracy: 0.957809030
+  * Precision (weighted): 0.959059447
+  * Recall (weighted): 0.957809030
+  * Confusion Matrix:
+[[5706  294]
+ [ 105 3352]]
+
+[Classifier statistics (on training data)]:
+  * 0.044053s prediction time (0.000007 s/image)
+  * AUC (weighted): 0.995462222
+  * Accuracy: 0.968666667
+  * Precision (weighted): 0.968707496
+  * Recall (weighted): 0.968666667
+  * Confusion Matrix:
+[[2892  108]
+ [  80 2920]]
+
+[Falsely detected images]:
+
+####[TEST 159/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 10
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.046867s prediction time (0.000005 s/image)
+  * AUC (weighted): 0.993276781
+  * Accuracy: 0.959818124
+  * Precision (weighted): 0.961038671
+  * Recall (weighted): 0.959818124
+  * Confusion Matrix:
+[[5716  284]
+ [  96 3361]]
+
+[Classifier statistics (on training data)]:
+  * 0.045913s prediction time (0.000008 s/image)
+  * AUC (weighted): 0.995831889
+  * Accuracy: 0.968666667
+  * Precision (weighted): 0.968741874
+  * Recall (weighted): 0.968666667
+  * Confusion Matrix:
+[[2887  113]
+ [  75 2925]]
+
+[Falsely detected images]:
+
+####[TEST 160/160]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 12
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Loading cached SVM model & training images]:
+Number of training images loaded: 6000
+
+[Loading cached test images]:
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.083280s prediction time (0.000009 s/image)
+  * AUC (weighted): 0.993614888
+  * Accuracy: 0.959712382
+  * Precision (weighted): 0.960965489
+  * Recall (weighted): 0.959712382
+  * Confusion Matrix:
+[[5714  286]
+ [  95 3362]]
+
+[Classifier statistics (on training data)]:
+  * 0.048182s prediction time (0.000008 s/image)
+  * AUC (weighted): 0.996411444
+  * Accuracy: 0.970500000
+  * Precision (weighted): 0.970564049
+  * Recall (weighted): 0.970500000
+  * Confusion Matrix:
+[[2894  106]
+ [  71 2929]]
+
+[Falsely detected images]:
