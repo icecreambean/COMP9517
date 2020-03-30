@@ -26,10 +26,12 @@ re_blockSize = re.compile(r'Number of cells per block: \(([0-9]+), [0-9]+\)') # 
 rfloat = r'(\d+(\.\d*)?)'
 re_hogTime = re.compile(rfloat + r's runtime \(conversion to HOG\)') # g1
 re_trainingTime = re.compile(rfloat + r's runtime \(SGD training\)') # g1; not actually SGD
+#re_testingTime = re.compile(rfloat + r's prediction time \(')
 
 re_newState = re.compile(r'^\[([\w\s]+)\]:') # g1
 parameter_state = 'Current parameter sweep'
 training_state = 'Training SVM model'
+#testing_state = 'Classifier statistics (on test data)'
 false_img_state = 'Falsely detected images'
 
 re_falseImg = re.compile(r'(F[PN]):\s+(.*\.pnm)') # g1,2
@@ -54,19 +56,30 @@ skey = 'Training Pickle Size (bytes)'
 def main():
     # load print file output (since only these files contain the runtime lines)
     if True:
-        fp1 = 'z507_hogsvm_jupyter_results_28March2020.txt'
-        fp2 = 'z507_hogsvm_jupyter_results_30March2020_cellpixel_additional.txt'
-        entries, __ = read_printfile(fp1, include_filesize=True)
-        entries_2, __ = read_printfile(fp2, include_filesize=True)
-        entries += entries_2
+        fp_list = [
+            'z507_hogsvm_jupyter_results_28March2020.txt',
+            'z507_hogsvm_jupyter_results_30March2020_cellpixel_additional.txt',
+            'z507_hogsvm_jupyter_results_30March2020_orientation_additional.txt',
+            'z507_hogsvm_jupyter_results_30March2020_all224test.txt'
+        ]
+        entries = []
+        for fpi in fp_list:
+            subentries, __ = read_printfile(fpi, include_filesize=True)
+            entries += subentries
         with open(CSV_TIMING_FN, 'w', newline='') as csv_fh:
             csv_writer = csv.writer(csv_fh)
             csv_headers = [bkey, ckey, okey, hkey, tkey, skey]
             csv_writer.writerow(csv_headers)
+            count = 0
             for d in entries:
+                # super hacky: ignore row if expected headers not in row
+                # (handles the issue of duplicate output, assuming no pickle file deletions)
+                if hkey not in d or tkey not in d:
+                    continue
                 row = [d[k] for k in csv_headers]
                 csv_writer.writerow(row)
-        print('Length of entries:', len(entries))
+                count += 1
+        print('Length of entries: {},   Actual entries written to csv: {}'.format(len(entries), count))
 
     # scrape generated log files for false images
     # (must have cached results from running Jupyter to work)
@@ -173,6 +186,12 @@ def read_printfile(fp, cur_test_index=None, include_filesize=False):
             if m:
                 entry[tkey] = float(m.group(1))
                 continue
+        # elif cur_state == testing_state:
+        #     # testing time
+        #     m = re_testingTime.search(line)
+        #     if m:
+        #         entry[testkey] = float(m.group)
+        #         continue
         elif cur_state == false_img_state: # false images (listed)
             m = re_falseImg.search(line)
             if m: # hack
