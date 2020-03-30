@@ -35,7 +35,11 @@ false_img_state = 'Falsely detected images'
 re_falseImg = re.compile(r'(F[PN]):\s+(.*\.pnm)') # g1,2
 rfile_basename = r'_ori\(([0-9]+)\)_cellpix\(([0-9]+)\)_blksze\(([0-9]+)\)_blknrm\(L2-Hys\)'
 re_genresultFile = re.compile('hogsvm_result' + rfile_basename + '.txt')
-re_modelFile = re.compile('hogsvm_model' + rfile_basename + '.pickle')
+#re_modelFile = re.compile('hogsvm_model' + rfile_basename + '.pickle')
+def get_model_fn(orientations, cellpixels, blocksize):
+    base = '_ori({})_cellpix({})_blksze({})_blknrm(L2-Hys)'.format(orientations, cellpixels, blocksize)
+    return 'hogsvm_model' + base + '.pickle'
+
 
 # key: 'Orientations', 'Cells per Block', 'Pixels per Cell', 
 #      'HOG Processing Time (s)', 'Training Time (s)'
@@ -44,19 +48,20 @@ bkey = 'Cells per Block'
 ckey = 'Pixels per Cell'
 hkey = 'HOG Processing Time (s)'
 tkey = 'Training Time (s)'
+skey = 'Training Pickle Size (bytes)'
 
 ####################################################################
 def main():
     # load print file output (since only these files contain the runtime lines)
-    if False:
+    if True:
         fp1 = 'z507_hogsvm_jupyter_results_28March2020.txt'
         fp2 = 'z507_hogsvm_jupyter_results_30March2020_cellpixel_additional.txt'
-        entries, __ = read_printfile(fp1)
-        entries_2, __ = read_printfile(fp2)
+        entries, __ = read_printfile(fp1, include_filesize=True)
+        entries_2, __ = read_printfile(fp2, include_filesize=True)
         entries += entries_2
         with open(CSV_TIMING_FN, 'w', newline='') as csv_fh:
             csv_writer = csv.writer(csv_fh)
-            csv_headers = [bkey, ckey, okey, hkey, tkey]
+            csv_headers = [bkey, ckey, okey, hkey, tkey, skey]
             csv_writer.writerow(csv_headers)
             for d in entries:
                 row = [d[k] for k in csv_headers]
@@ -72,7 +77,7 @@ def main():
         # ** get false images
         false_imgs_total = Counter()
         for f in genresult_files:
-            __, false_imgs = read_printfile(f, 1)
+            __, false_imgs = read_printfile(f, cur_test_index=1)
             false_imgs_total += false_imgs
         with open(CSV_FALSE_IMAGE_FN, 'w', newline='') as csv_fh:
             csv_writer = csv.writer(csv_fh)
@@ -90,7 +95,7 @@ def main():
 ####################################################################
 # Reads file storing Jupyter print output for specific information (that was not 
 # automatically saved...) regarding training time
-def read_printfile(fp, cur_test_index=None):
+def read_printfile(fp, cur_test_index=None, include_filesize=False):
     with open(fp) as fh:
         file_lines = fh.readlines()
 
@@ -103,15 +108,31 @@ def read_printfile(fp, cur_test_index=None):
     # to track false image statistical occurrences (in test data)
     # key: 
     false_imgs = Counter()
+    termination_case = lambda x: x >= len(file_lines)
 
-    for line in file_lines:
-        line = line.strip()
+    #for line in file_lines:
+    i = -1
+    while True:
+        i += 1 # update loop
+        if not termination_case(i):
+            line = file_lines[i]
+            line = line.strip()
+        else:
+            line = '' # (hack to save code duplication)
         # synchronise to test case (if not already)
         m = re_newTest.search(line)
-        if m:
+        if m or termination_case(i):
             # save old record
             if len(entry) > 0:
+                # hack: include filesize of pickle model
+                if include_filesize:
+                    train_pickle_fn = get_model_fn(entry[okey], entry[ckey], entry[bkey])
+                    entry[skey] = os.path.getsize(train_pickle_fn)
+                # (save old record)
                 entries.append(entry)
+                # termination case
+                if termination_case(i):
+                    break
             # set up new record
             cur_test_index = int(m.group(1))
             # if cur_test_index == 2: # DEBUG only

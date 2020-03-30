@@ -5195,56 +5195,34 @@ Number of testing images loaded: 9457
   * Block normalisation method: L2-Hys
   * Power law compression (preprocessing) on: True
 
-[Training SVM model]:
-  * 1.181s runtime (images loaded): Individual_Component\train\train_positive_A\00000000
-  * 0.938s runtime (images loaded): Individual_Component\train\train_positive_A\00000001
-  * 0.921s runtime (images loaded): Individual_Component\train\train_positive_A\00000002
-  * 0.939s runtime (images loaded): Individual_Component\train\train_negative_A\00000000
-  * 1.113s runtime (images loaded): Individual_Component\train\train_negative_A\00000001
-  * 0.982s runtime (images loaded): Individual_Component\train\train_negative_A\00000002
-  * 9.772s runtime (conversion to HOG)
-  * 0.015s runtime (shuffling)
-HOG descriptor size: (384,)
-0.864s runtime (SGD training)
+[Loading cached SVM model & training images]:
 Number of training images loaded: 6000
 
-[Generating test images]:
-  * 1.192s runtime (images loaded): Individual_Component\test\test_positive\00000000
-  * 0.910s runtime (images loaded): Individual_Component\test\test_positive\00000001
-  * 1.068s runtime (images loaded): Individual_Component\test\test_positive\00000002
-  * 0.485s runtime (images loaded): Individual_Component\test\test_positive\00000003
-  * 1.044s runtime (images loaded): Individual_Component\test\test_negative\00000000
-  * 1.127s runtime (images loaded): Individual_Component\test\test_negative\00000001
-  * 0.925s runtime (images loaded): Individual_Component\test\test_negative\00000002
-  * 0.997s runtime (images loaded): Individual_Component\test\test_negative\00000003
-  * 1.029s runtime (images loaded): Individual_Component\test\test_negative\00000004
-  * 0.985s runtime (images loaded): Individual_Component\test\test_negative\00000005
-  * 14.216s runtime (conversion to HOG)
-  * 0.021s runtime (shuffling)
-HOG descriptor size: (384,)
+[Loading cached test images]:
 Number of testing images loaded: 9457
 
 [Classifier statistics (on test data)]:
-  * 0.343963s prediction time (0.000036 s/image)
-  * AUC (weighted): 0.993614888
-  * Accuracy: 0.959712382
-  * Precision (weighted): 0.960965489
-  * Recall (weighted): 0.959712382
+  * 0.094s prediction time (0.000010 s/image)
+  * AUC (weighted): 0.994
+  * Accuracy: 0.960
+  * Precision (weighted): 0.961
+  * Recall (weighted): 0.960
   * Confusion Matrix:
 [[5714  286]
  [  95 3362]]
 
 [Classifier statistics (on training data)]:
-  * 0.137633s prediction time (0.000023 s/image)
-  * AUC (weighted): 0.996411444
-  * Accuracy: 0.970500000
-  * Precision (weighted): 0.970564049
-  * Recall (weighted): 0.970500000
+  * 0.053s prediction time (0.000009 s/image)
+  * AUC (weighted): 0.996
+  * Accuracy: 0.971
+  * Precision (weighted): 0.971
+  * Recall (weighted): 0.971
   * Confusion Matrix:
 [[2894  106]
  [  71 2929]]
 
 [Falsely detected images]:
+
 
 11507.741s elapsed (entire test)
 DONE
