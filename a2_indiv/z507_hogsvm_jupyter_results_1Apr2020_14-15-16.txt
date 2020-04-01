@@ -1,0 +1,4663 @@
+BLOCK_SIZE_LIST = [1, 2, 3, 4]
+BLOCK_NORM_LIST = ['L2-Hys'] # available: ['L1', 'L1-sqrt', 'L2', 'L2-Hys']
+CELL_PIXEL_LIST = [4, 5, 6, 7, 8, 9, 10, 14]
+ORIENTATION_LIST = [14,15,16]#[6, 7, 8, 9, 10, 11, 12,13]
+NPOS_TRAINING_IMGS = 3000
+NNEG_TRAINING_IMGS = 3000
+
+
+####[TEST 1/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * 0.963s runtime (images loaded): Individual_Component\train\train_positive_A\00000000
+  * 1.002s runtime (images loaded): Individual_Component\train\train_positive_A\00000001
+  * 1.148s runtime (images loaded): Individual_Component\train\train_positive_A\00000002
+  * 1.020s runtime (images loaded): Individual_Component\train\train_negative_A\00000000
+  * 0.946s runtime (images loaded): Individual_Component\train\train_negative_A\00000001
+  * 0.993s runtime (images loaded): Individual_Component\train\train_negative_A\00000002
+  * 47.093s runtime (conversion to HOG)
+  * 0.077s runtime (shuffling)
+HOG descriptor size: (4480,)
+3.985s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * 1.048s runtime (images loaded): Individual_Component\test\test_positive\00000000
+  * 0.955s runtime (images loaded): Individual_Component\test\test_positive\00000001
+  * 0.953s runtime (images loaded): Individual_Component\test\test_positive\00000002
+  * 0.466s runtime (images loaded): Individual_Component\test\test_positive\00000003
+  * 0.982s runtime (images loaded): Individual_Component\test\test_negative\00000000
+  * 0.990s runtime (images loaded): Individual_Component\test\test_negative\00000001
+  * 0.927s runtime (images loaded): Individual_Component\test\test_negative\00000002
+  * 0.951s runtime (images loaded): Individual_Component\test\test_negative\00000003
+  * 0.889s runtime (images loaded): Individual_Component\test\test_negative\00000004
+  * 0.992s runtime (images loaded): Individual_Component\test\test_negative\00000005
+  * 75.715s runtime (conversion to HOG)
+  * 0.130s runtime (shuffling)
+HOG descriptor size: (4480,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.679120s prediction time (0.000283 s/image)
+  * AUC (weighted): 0.997676502
+  * Accuracy: 0.981177963
+  * Precision (weighted): 0.981228287
+  * Recall (weighted): 0.981177963
+  * Confusion Matrix:
+[[5897  103]
+ [  75 3382]]
+
+[Classifier statistics (on training data)]:
+  * 1.655633s prediction time (0.000276 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 2/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.050s loading time
+  * 45.751s runtime (conversion to HOG)
+  * 0.085s runtime (shuffling)
+HOG descriptor size: (4800,)
+4.449s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.159s loading time
+  * 72.533s runtime (conversion to HOG)
+  * 0.144s runtime (shuffling)
+HOG descriptor size: (4800,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.940073s prediction time (0.000311 s/image)
+  * AUC (weighted): 0.997752097
+  * Accuracy: 0.980120546
+  * Precision (weighted): 0.980218459
+  * Recall (weighted): 0.980120546
+  * Confusion Matrix:
+[[5884  116]
+ [  72 3385]]
+
+[Classifier statistics (on training data)]:
+  * 1.989009s prediction time (0.000332 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 3/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.058s loading time
+  * 46.007s runtime (conversion to HOG)
+  * 0.094s runtime (shuffling)
+HOG descriptor size: (5120,)
+4.257s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.089s loading time
+  * 72.628s runtime (conversion to HOG)
+  * 0.147s runtime (shuffling)
+HOG descriptor size: (5120,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 3.302906s prediction time (0.000349 s/image)
+  * AUC (weighted): 0.998029120
+  * Accuracy: 0.981706672
+  * Precision (weighted): 0.981837736
+  * Recall (weighted): 0.981706672
+  * Confusion Matrix:
+[[5886  114]
+ [  59 3398]]
+
+[Classifier statistics (on training data)]:
+  * 2.189221s prediction time (0.000365 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 4/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.070s loading time
+  * 29.879s runtime (conversion to HOG)
+  * 0.061s runtime (shuffling)
+HOG descriptor size: (2688,)
+3.645s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.171s loading time
+  * 46.788s runtime (conversion to HOG)
+  * 0.078s runtime (shuffling)
+HOG descriptor size: (2688,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.729235s prediction time (0.000183 s/image)
+  * AUC (weighted): 0.996382509
+  * Accuracy: 0.975467907
+  * Precision (weighted): 0.975592188
+  * Recall (weighted): 0.975467907
+  * Confusion Matrix:
+[[5860  140]
+ [  92 3365]]
+
+[Classifier statistics (on training data)]:
+  * 1.023915s prediction time (0.000171 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 5/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.078s loading time
+  * 30.728s runtime (conversion to HOG)
+  * 0.060s runtime (shuffling)
+HOG descriptor size: (2880,)
+3.488s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.095s loading time
+  * 47.319s runtime (conversion to HOG)
+  * 0.082s runtime (shuffling)
+HOG descriptor size: (2880,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.895820s prediction time (0.000200 s/image)
+  * AUC (weighted): 0.996190483
+  * Accuracy: 0.975150682
+  * Precision (weighted): 0.975353949
+  * Recall (weighted): 0.975150682
+  * Confusion Matrix:
+[[5849  151]
+ [  84 3373]]
+
+[Classifier statistics (on training data)]:
+  * 1.125117s prediction time (0.000188 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 6/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.070s loading time
+  * 30.654s runtime (conversion to HOG)
+  * 0.059s runtime (shuffling)
+HOG descriptor size: (3072,)
+3.055s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.127s loading time
+  * 47.851s runtime (conversion to HOG)
+  * 0.098s runtime (shuffling)
+HOG descriptor size: (3072,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.037192s prediction time (0.000215 s/image)
+  * AUC (weighted): 0.996730450
+  * Accuracy: 0.976631067
+  * Precision (weighted): 0.976763086
+  * Recall (weighted): 0.976631067
+  * Confusion Matrix:
+[[5864  136]
+ [  85 3372]]
+
+[Classifier statistics (on training data)]:
+  * 1.264608s prediction time (0.000211 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 7/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.078s loading time
+  * 24.671s runtime (conversion to HOG)
+  * 0.053s runtime (shuffling)
+HOG descriptor size: (1820,)
+3.525s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.149s loading time
+  * 38.257s runtime (conversion to HOG)
+  * 0.065s runtime (shuffling)
+HOG descriptor size: (1820,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.185845s prediction time (0.000125 s/image)
+  * AUC (weighted): 0.997579597
+  * Accuracy: 0.977688485
+  * Precision (weighted): 0.977796084
+  * Recall (weighted): 0.977688485
+  * Confusion Matrix:
+[[5872  128]
+ [  83 3374]]
+
+[Classifier statistics (on training data)]:
+  * 0.802014s prediction time (0.000134 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 8/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.050s loading time
+  * 24.332s runtime (conversion to HOG)
+  * 0.039s runtime (shuffling)
+HOG descriptor size: (1950,)
+3.678s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.149s loading time
+  * 39.984s runtime (conversion to HOG)
+  * 0.061s runtime (shuffling)
+HOG descriptor size: (1950,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.289128s prediction time (0.000136 s/image)
+  * AUC (weighted): 0.997335165
+  * Accuracy: 0.976736809
+  * Precision (weighted): 0.976857518
+  * Recall (weighted): 0.976736809
+  * Confusion Matrix:
+[[5866  134]
+ [  86 3371]]
+
+[Classifier statistics (on training data)]:
+  * 0.823797s prediction time (0.000137 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 9/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.049s loading time
+  * 25.822s runtime (conversion to HOG)
+  * 0.039s runtime (shuffling)
+HOG descriptor size: (2080,)
+3.488s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.079s loading time
+  * 39.821s runtime (conversion to HOG)
+  * 0.068s runtime (shuffling)
+HOG descriptor size: (2080,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.363835s prediction time (0.000144 s/image)
+  * AUC (weighted): 0.997735464
+  * Accuracy: 0.979380353
+  * Precision (weighted): 0.979470581
+  * Recall (weighted): 0.979380353
+  * Confusion Matrix:
+[[5882  118]
+ [  77 3380]]
+
+[Classifier statistics (on training data)]:
+  * 0.838186s prediction time (0.000140 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 10/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.048s loading time
+  * 20.576s runtime (conversion to HOG)
+  * 0.033s runtime (shuffling)
+HOG descriptor size: (1386,)
+3.554s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.161s loading time
+  * 31.851s runtime (conversion to HOG)
+  * 0.048s runtime (shuffling)
+HOG descriptor size: (1386,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.928254s prediction time (0.000098 s/image)
+  * AUC (weighted): 0.995858548
+  * Accuracy: 0.972084170
+  * Precision (weighted): 0.972285376
+  * Recall (weighted): 0.972084170
+  * Confusion Matrix:
+[[5836  164]
+ [ 100 3357]]
+
+[Classifier statistics (on training data)]:
+  * 0.552959s prediction time (0.000092 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 11/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.050s loading time
+  * 20.102s runtime (conversion to HOG)
+  * 0.031s runtime (shuffling)
+HOG descriptor size: (1485,)
+3.675s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.075s loading time
+  * 32.045s runtime (conversion to HOG)
+  * 0.051s runtime (shuffling)
+HOG descriptor size: (1485,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.967081s prediction time (0.000102 s/image)
+  * AUC (weighted): 0.995967361
+  * Accuracy: 0.971766945
+  * Precision (weighted): 0.971955772
+  * Recall (weighted): 0.971766945
+  * Confusion Matrix:
+[[5836  164]
+ [ 103 3354]]
+
+[Classifier statistics (on training data)]:
+  * 0.625434s prediction time (0.000104 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 12/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.046s loading time
+  * 20.424s runtime (conversion to HOG)
+  * 0.033s runtime (shuffling)
+HOG descriptor size: (1584,)
+3.526s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.133s loading time
+  * 31.830s runtime (conversion to HOG)
+  * 0.052s runtime (shuffling)
+HOG descriptor size: (1584,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.212614s prediction time (0.000128 s/image)
+  * AUC (weighted): 0.996292450
+  * Accuracy: 0.973670297
+  * Precision (weighted): 0.973843792
+  * Recall (weighted): 0.973670297
+  * Confusion Matrix:
+[[5846  154]
+ [  95 3362]]
+
+[Classifier statistics (on training data)]:
+  * 0.620342s prediction time (0.000103 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 13/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.063s loading time
+  * 18.132s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (1120,)
+5.485s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.107s loading time
+  * 29.663s runtime (conversion to HOG)
+  * 0.040s runtime (shuffling)
+HOG descriptor size: (1120,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.755420s prediction time (0.000080 s/image)
+  * AUC (weighted): 0.996220326
+  * Accuracy: 0.973881781
+  * Precision (weighted): 0.974071894
+  * Recall (weighted): 0.973881781
+  * Confusion Matrix:
+[[5845  155]
+ [  92 3365]]
+
+[Classifier statistics (on training data)]:
+  * 0.459124s prediction time (0.000077 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 14/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.040s loading time
+  * 19.021s runtime (conversion to HOG)
+  * 0.021s runtime (shuffling)
+HOG descriptor size: (1200,)
+5.711s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.141s loading time
+  * 31.416s runtime (conversion to HOG)
+  * 0.041s runtime (shuffling)
+HOG descriptor size: (1200,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.759427s prediction time (0.000080 s/image)
+  * AUC (weighted): 0.995845242
+  * Accuracy: 0.970709527
+  * Precision (weighted): 0.971022951
+  * Recall (weighted): 0.970709527
+  * Confusion Matrix:
+[[5819  181]
+ [  96 3361]]
+
+[Classifier statistics (on training data)]:
+  * 0.543546s prediction time (0.000091 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 15/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.057s loading time
+  * 19.395s runtime (conversion to HOG)
+  * 0.032s runtime (shuffling)
+HOG descriptor size: (1280,)
+5.065s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.129s loading time
+  * 34.579s runtime (conversion to HOG)
+  * 0.041s runtime (shuffling)
+HOG descriptor size: (1280,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.854400s prediction time (0.000090 s/image)
+  * AUC (weighted): 0.996672645
+  * Accuracy: 0.974727715
+  * Precision (weighted): 0.974980390
+  * Recall (weighted): 0.974727715
+  * Confusion Matrix:
+[[5842  158]
+ [  81 3376]]
+
+[Classifier statistics (on training data)]:
+  * 0.552589s prediction time (0.000092 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 16/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.050s loading time
+  * 16.368s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (784,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+4.976s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.133s loading time
+  * 25.679s runtime (conversion to HOG)
+  * 0.032s runtime (shuffling)
+HOG descriptor size: (784,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.537285s prediction time (0.000057 s/image)
+  * AUC (weighted): 0.991816459
+  * Accuracy: 0.956540129
+  * Precision (weighted): 0.957239575
+  * Recall (weighted): 0.956540129
+  * Confusion Matrix:
+[[5730  270]
+ [ 141 3316]]
+
+[Classifier statistics (on training data)]:
+  * 0.361037s prediction time (0.000060 s/image)
+  * AUC (weighted): 0.999632778
+  * Accuracy: 0.997833333
+  * Precision (weighted): 0.997836044
+  * Recall (weighted): 0.997833333
+  * Confusion Matrix:
+[[2990   10]
+ [   3 2997]]
+
+[Falsely detected images]:
+
+####[TEST 17/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.072s loading time
+  * 16.303s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (840,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+5.159s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.083s loading time
+  * 24.762s runtime (conversion to HOG)
+  * 0.031s runtime (shuffling)
+HOG descriptor size: (840,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.558989s prediction time (0.000059 s/image)
+  * AUC (weighted): 0.991553611
+  * Accuracy: 0.953579359
+  * Precision (weighted): 0.954419553
+  * Recall (weighted): 0.953579359
+  * Confusion Matrix:
+[[5709  291]
+ [ 148 3309]]
+
+[Classifier statistics (on training data)]:
+  * 0.345855s prediction time (0.000058 s/image)
+  * AUC (weighted): 0.999749556
+  * Accuracy: 0.998166667
+  * Precision (weighted): 0.998168050
+  * Recall (weighted): 0.998166667
+  * Confusion Matrix:
+[[2992    8]
+ [   3 2997]]
+
+[Falsely detected images]:
+
+####[TEST 18/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.053s loading time
+  * 15.866s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (896,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+5.528s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.152s loading time
+  * 24.665s runtime (conversion to HOG)
+  * 0.031s runtime (shuffling)
+HOG descriptor size: (896,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.570605s prediction time (0.000060 s/image)
+  * AUC (weighted): 0.992493829
+  * Accuracy: 0.958972190
+  * Precision (weighted): 0.959538909
+  * Recall (weighted): 0.958972190
+  * Confusion Matrix:
+[[5749  251]
+ [ 137 3320]]
+
+[Classifier statistics (on training data)]:
+  * 0.356937s prediction time (0.000059 s/image)
+  * AUC (weighted): 0.999877111
+  * Accuracy: 0.999166667
+  * Precision (weighted): 0.999167166
+  * Recall (weighted): 0.999166667
+  * Confusion Matrix:
+[[2996    4]
+ [   1 2999]]
+
+[Falsely detected images]:
+
+####[TEST 19/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.070s loading time
+  * 15.025s runtime (conversion to HOG)
+  * 0.012s runtime (shuffling)
+HOG descriptor size: (672,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+3.593s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.102s loading time
+  * 24.637s runtime (conversion to HOG)
+  * 0.030s runtime (shuffling)
+HOG descriptor size: (672,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.459052s prediction time (0.000049 s/image)
+  * AUC (weighted): 0.994924742
+  * Accuracy: 0.967008565
+  * Precision (weighted): 0.967470170
+  * Recall (weighted): 0.967008565
+  * Confusion Matrix:
+[[5791  209]
+ [ 103 3354]]
+
+[Classifier statistics (on training data)]:
+  * 0.287166s prediction time (0.000048 s/image)
+  * AUC (weighted): 0.999882333
+  * Accuracy: 0.995166667
+  * Precision (weighted): 0.995166722
+  * Recall (weighted): 0.995166667
+  * Confusion Matrix:
+[[2986   14]
+ [  15 2985]]
+
+[Falsely detected images]:
+
+####[TEST 20/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.066s loading time
+  * 15.928s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (720,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+3.881s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.141s loading time
+  * 24.488s runtime (conversion to HOG)
+  * 0.023s runtime (shuffling)
+HOG descriptor size: (720,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.470434s prediction time (0.000050 s/image)
+  * AUC (weighted): 0.994765645
+  * Accuracy: 0.967220049
+  * Precision (weighted): 0.967883453
+  * Recall (weighted): 0.967220049
+  * Confusion Matrix:
+[[5778  222]
+ [  88 3369]]
+
+[Classifier statistics (on training data)]:
+  * 0.287816s prediction time (0.000048 s/image)
+  * AUC (weighted): 0.999913556
+  * Accuracy: 0.997833333
+  * Precision (weighted): 0.997833831
+  * Recall (weighted): 0.997833333
+  * Confusion Matrix:
+[[2992    8]
+ [   5 2995]]
+
+[Falsely detected images]:
+
+####[TEST 21/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.052s loading time
+  * 15.256s runtime (conversion to HOG)
+  * 0.018s runtime (shuffling)
+HOG descriptor size: (768,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+4.051s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.081s loading time
+  * 24.880s runtime (conversion to HOG)
+  * 0.030s runtime (shuffling)
+HOG descriptor size: (768,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.498709s prediction time (0.000053 s/image)
+  * AUC (weighted): 0.994939350
+  * Accuracy: 0.967008565
+  * Precision (weighted): 0.967611978
+  * Recall (weighted): 0.967008565
+  * Confusion Matrix:
+[[5781  219]
+ [  93 3364]]
+
+[Classifier statistics (on training data)]:
+  * 0.356345s prediction time (0.000059 s/image)
+  * AUC (weighted): 0.999915778
+  * Accuracy: 0.997666667
+  * Precision (weighted): 0.997666888
+  * Recall (weighted): 0.997666667
+  * Confusion Matrix:
+[[2992    8]
+ [   6 2994]]
+
+[Falsely detected images]:
+
+####[TEST 22/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.068s loading time
+  * 12.001s runtime (conversion to HOG)
+  * 0.010s runtime (shuffling)
+HOG descriptor size: (280,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.214s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.155s loading time
+  * 18.991s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (280,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.182950s prediction time (0.000019 s/image)
+  * AUC (weighted): 0.990506026
+  * Accuracy: 0.957809030
+  * Precision (weighted): 0.958955786
+  * Recall (weighted): 0.957809030
+  * Confusion Matrix:
+[[5711  289]
+ [ 110 3347]]
+
+[Classifier statistics (on training data)]:
+  * 0.124775s prediction time (0.000021 s/image)
+  * AUC (weighted): 0.994912667
+  * Accuracy: 0.971500000
+  * Precision (weighted): 0.971557058
+  * Recall (weighted): 0.971500000
+  * Confusion Matrix:
+[[2898  102]
+ [  69 2931]]
+
+[Falsely detected images]:
+
+####[TEST 23/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.060s loading time
+  * 12.021s runtime (conversion to HOG)
+  * 0.010s runtime (shuffling)
+HOG descriptor size: (300,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.366s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.151s loading time
+  * 19.219s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (300,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.173674s prediction time (0.000018 s/image)
+  * AUC (weighted): 0.989356234
+  * Accuracy: 0.952521941
+  * Precision (weighted): 0.953911031
+  * Recall (weighted): 0.952521941
+  * Confusion Matrix:
+[[5677  323]
+ [ 126 3331]]
+
+[Classifier statistics (on training data)]:
+  * 0.100610s prediction time (0.000017 s/image)
+  * AUC (weighted): 0.995168111
+  * Accuracy: 0.972666667
+  * Precision (weighted): 0.972768364
+  * Recall (weighted): 0.972666667
+  * Confusion Matrix:
+[[2896  104]
+ [  60 2940]]
+
+[Falsely detected images]:
+
+####[TEST 24/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (1, 1)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.050s loading time
+  * 11.837s runtime (conversion to HOG)
+  * 0.010s runtime (shuffling)
+HOG descriptor size: (320,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.317s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.161s loading time
+  * 18.515s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (320,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.201434s prediction time (0.000021 s/image)
+  * AUC (weighted): 0.991061469
+  * Accuracy: 0.955588453
+  * Precision (weighted): 0.956745493
+  * Recall (weighted): 0.955588453
+  * Confusion Matrix:
+[[5701  299]
+ [ 121 3336]]
+
+[Classifier statistics (on training data)]:
+  * 0.122923s prediction time (0.000020 s/image)
+  * AUC (weighted): 0.996389333
+  * Accuracy: 0.975500000
+  * Precision (weighted): 0.975580373
+  * Recall (weighted): 0.975500000
+  * Confusion Matrix:
+[[2907   93]
+ [  54 2946]]
+
+[Falsely detected images]:
+
+####[TEST 25/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.050s loading time
+  * 48.224s runtime (conversion to HOG)
+  * 0.271s runtime (shuffling)
+HOG descriptor size: (15960,)
+15.051s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.105s loading time
+  * 77.977s runtime (conversion to HOG)
+  * 0.702s runtime (shuffling)
+HOG descriptor size: (15960,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 10.087985s prediction time (0.001067 s/image)
+  * AUC (weighted): 0.999256147
+  * Accuracy: 0.988791371
+  * Precision (weighted): 0.988866826
+  * Recall (weighted): 0.988791371
+  * Confusion Matrix:
+[[5925   75]
+ [  31 3426]]
+
+[Classifier statistics (on training data)]:
+  * 6.329266s prediction time (0.001055 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 26/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.064s loading time
+  * 55.658s runtime (conversion to HOG)
+  * 0.346s runtime (shuffling)
+HOG descriptor size: (17100,)
+20.456s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.190s loading time
+  * 99.097s runtime (conversion to HOG)
+  * 0.534s runtime (shuffling)
+HOG descriptor size: (17100,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 13.018751s prediction time (0.001377 s/image)
+  * AUC (weighted): 0.999179105
+  * Accuracy: 0.987945437
+  * Precision (weighted): 0.987988621
+  * Recall (weighted): 0.987945437
+  * Confusion Matrix:
+[[5928   72]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 8.165791s prediction time (0.001361 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 27/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.087s loading time
+  * 67.285s runtime (conversion to HOG)
+  * 0.399s runtime (shuffling)
+HOG descriptor size: (18240,)
+17.799s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.124s loading time
+  * 90.641s runtime (conversion to HOG)
+  * 0.680s runtime (shuffling)
+HOG descriptor size: (18240,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 13.452853s prediction time (0.001423 s/image)
+  * AUC (weighted): 0.999230065
+  * Accuracy: 0.988156921
+  * Precision (weighted): 0.988234019
+  * Recall (weighted): 0.988156921
+  * Confusion Matrix:
+[[5922   78]
+ [  34 3423]]
+
+[Classifier statistics (on training data)]:
+  * 8.686731s prediction time (0.001448 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 28/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.088s loading time
+  * 34.634s runtime (conversion to HOG)
+  * 0.183s runtime (shuffling)
+HOG descriptor size: (9240,)
+10.575s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.216s loading time
+  * 56.519s runtime (conversion to HOG)
+  * 0.305s runtime (shuffling)
+HOG descriptor size: (9240,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 6.712526s prediction time (0.000710 s/image)
+  * AUC (weighted): 0.998933613
+  * Accuracy: 0.985619118
+  * Precision (weighted): 0.985686117
+  * Recall (weighted): 0.985619118
+  * Confusion Matrix:
+[[5913   87]
+ [  49 3408]]
+
+[Classifier statistics (on training data)]:
+  * 4.395371s prediction time (0.000733 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 29/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.085s loading time
+  * 36.839s runtime (conversion to HOG)
+  * 0.207s runtime (shuffling)
+HOG descriptor size: (9900,)
+11.208s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.118s loading time
+  * 57.654s runtime (conversion to HOG)
+  * 0.298s runtime (shuffling)
+HOG descriptor size: (9900,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 7.944230s prediction time (0.000840 s/image)
+  * AUC (weighted): 0.998925417
+  * Accuracy: 0.986359311
+  * Precision (weighted): 0.986443962
+  * Recall (weighted): 0.986359311
+  * Confusion Matrix:
+[[5913   87]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 4.893448s prediction time (0.000816 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 30/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.099s loading time
+  * 38.737s runtime (conversion to HOG)
+  * 0.204s runtime (shuffling)
+HOG descriptor size: (10560,)
+11.542s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.208s loading time
+  * 64.104s runtime (conversion to HOG)
+  * 0.324s runtime (shuffling)
+HOG descriptor size: (10560,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 7.774299s prediction time (0.000822 s/image)
+  * AUC (weighted): 0.998890078
+  * Accuracy: 0.985513376
+  * Precision (weighted): 0.985588761
+  * Recall (weighted): 0.985513376
+  * Confusion Matrix:
+[[5911   89]
+ [  48 3409]]
+
+[Classifier statistics (on training data)]:
+  * 4.899466s prediction time (0.000817 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 31/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.082s loading time
+  * 27.988s runtime (conversion to HOG)
+  * 0.123s runtime (shuffling)
+HOG descriptor size: (6048,)
+9.387s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.135s loading time
+  * 45.159s runtime (conversion to HOG)
+  * 0.195s runtime (shuffling)
+HOG descriptor size: (6048,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 4.457917s prediction time (0.000471 s/image)
+  * AUC (weighted): 0.999311204
+  * Accuracy: 0.986570794
+  * Precision (weighted): 0.986649161
+  * Recall (weighted): 0.986570794
+  * Confusion Matrix:
+[[5915   85]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 2.859672s prediction time (0.000477 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 32/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.085s loading time
+  * 28.214s runtime (conversion to HOG)
+  * 0.133s runtime (shuffling)
+HOG descriptor size: (6480,)
+10.371s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.122s loading time
+  * 45.917s runtime (conversion to HOG)
+  * 0.211s runtime (shuffling)
+HOG descriptor size: (6480,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 4.721993s prediction time (0.000499 s/image)
+  * AUC (weighted): 0.999212950
+  * Accuracy: 0.987205245
+  * Precision (weighted): 0.987266149
+  * Recall (weighted): 0.987205245
+  * Confusion Matrix:
+[[5921   79]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 3.124518s prediction time (0.000521 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 33/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.134s loading time
+  * 29.345s runtime (conversion to HOG)
+  * 0.136s runtime (shuffling)
+HOG descriptor size: (6912,)
+11.136s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.135s loading time
+  * 44.916s runtime (conversion to HOG)
+  * 0.216s runtime (shuffling)
+HOG descriptor size: (6912,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 5.018802s prediction time (0.000531 s/image)
+  * AUC (weighted): 0.999314724
+  * Accuracy: 0.987945437
+  * Precision (weighted): 0.988028746
+  * Recall (weighted): 0.987945437
+  * Confusion Matrix:
+[[5920   80]
+ [  34 3423]]
+
+[Classifier statistics (on training data)]:
+  * 3.311700s prediction time (0.000552 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 34/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.064s loading time
+  * 23.524s runtime (conversion to HOG)
+  * 0.094s runtime (shuffling)
+HOG descriptor size: (4480,)
+8.642s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.138s loading time
+  * 38.893s runtime (conversion to HOG)
+  * 0.145s runtime (shuffling)
+HOG descriptor size: (4480,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 3.257805s prediction time (0.000344 s/image)
+  * AUC (weighted): 0.998808022
+  * Accuracy: 0.987099503
+  * Precision (weighted): 0.987179340
+  * Recall (weighted): 0.987099503
+  * Confusion Matrix:
+[[5917   83]
+ [  39 3418]]
+
+[Classifier statistics (on training data)]:
+  * 2.207490s prediction time (0.000368 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 35/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.142s loading time
+  * 23.854s runtime (conversion to HOG)
+  * 0.095s runtime (shuffling)
+HOG descriptor size: (4800,)
+8.299s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.132s loading time
+  * 36.305s runtime (conversion to HOG)
+  * 0.153s runtime (shuffling)
+HOG descriptor size: (4800,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 3.685979s prediction time (0.000390 s/image)
+  * AUC (weighted): 0.998720133
+  * Accuracy: 0.984878926
+  * Precision (weighted): 0.984934749
+  * Recall (weighted): 0.984878926
+  * Confusion Matrix:
+[[5912   88]
+ [  55 3402]]
+
+[Classifier statistics (on training data)]:
+  * 2.317685s prediction time (0.000386 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 36/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.077s loading time
+  * 25.261s runtime (conversion to HOG)
+  * 0.103s runtime (shuffling)
+HOG descriptor size: (5120,)
+8.685s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.145s loading time
+  * 40.179s runtime (conversion to HOG)
+  * 0.188s runtime (shuffling)
+HOG descriptor size: (5120,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 4.199912s prediction time (0.000444 s/image)
+  * AUC (weighted): 0.998889210
+  * Accuracy: 0.986253569
+  * Precision (weighted): 0.986319141
+  * Recall (weighted): 0.986253569
+  * Confusion Matrix:
+[[5916   84]
+ [  46 3411]]
+
+[Classifier statistics (on training data)]:
+  * 2.434644s prediction time (0.000406 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 37/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.129s loading time
+  * 21.449s runtime (conversion to HOG)
+  * 0.073s runtime (shuffling)
+HOG descriptor size: (3528,)
+9.598s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.140s loading time
+  * 36.158s runtime (conversion to HOG)
+  * 0.118s runtime (shuffling)
+HOG descriptor size: (3528,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.831324s prediction time (0.000299 s/image)
+  * AUC (weighted): 0.998831260
+  * Accuracy: 0.984561700
+  * Precision (weighted): 0.984631078
+  * Recall (weighted): 0.984561700
+  * Confusion Matrix:
+[[5908   92]
+ [  54 3403]]
+
+[Classifier statistics (on training data)]:
+  * 1.963355s prediction time (0.000327 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 38/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.081s loading time
+  * 22.851s runtime (conversion to HOG)
+  * 0.079s runtime (shuffling)
+HOG descriptor size: (3780,)
+9.206s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.097s loading time
+  * 38.003s runtime (conversion to HOG)
+  * 0.142s runtime (shuffling)
+HOG descriptor size: (3780,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.806238s prediction time (0.000297 s/image)
+  * AUC (weighted): 0.998784640
+  * Accuracy: 0.983187057
+  * Precision (weighted): 0.983299522
+  * Recall (weighted): 0.983187057
+  * Confusion Matrix:
+[[5895  105]
+ [  54 3403]]
+
+[Classifier statistics (on training data)]:
+  * 1.780853s prediction time (0.000297 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 39/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.149s loading time
+  * 22.729s runtime (conversion to HOG)
+  * 0.084s runtime (shuffling)
+HOG descriptor size: (4032,)
+11.335s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.113s loading time
+  * 40.773s runtime (conversion to HOG)
+  * 0.138s runtime (shuffling)
+HOG descriptor size: (4032,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.980617s prediction time (0.000315 s/image)
+  * AUC (weighted): 0.998834828
+  * Accuracy: 0.983821508
+  * Precision (weighted): 0.983925496
+  * Recall (weighted): 0.983821508
+  * Confusion Matrix:
+[[5899  101]
+ [  52 3405]]
+
+[Classifier statistics (on training data)]:
+  * 1.941244s prediction time (0.000324 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 40/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.081s loading time
+  * 17.030s runtime (conversion to HOG)
+  * 0.051s runtime (shuffling)
+HOG descriptor size: (2352,)
+9.910s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.107s loading time
+  * 27.997s runtime (conversion to HOG)
+  * 0.088s runtime (shuffling)
+HOG descriptor size: (2352,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.748344s prediction time (0.000185 s/image)
+  * AUC (weighted): 0.997264632
+  * Accuracy: 0.975679391
+  * Precision (weighted): 0.975922957
+  * Recall (weighted): 0.975679391
+  * Confusion Matrix:
+[[5847  153]
+ [  77 3380]]
+
+[Classifier statistics (on training data)]:
+  * 1.122351s prediction time (0.000187 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 41/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.138s loading time
+  * 17.721s runtime (conversion to HOG)
+  * 0.062s runtime (shuffling)
+HOG descriptor size: (2520,)
+12.229s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.114s loading time
+  * 27.559s runtime (conversion to HOG)
+  * 0.082s runtime (shuffling)
+HOG descriptor size: (2520,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.766376s prediction time (0.000187 s/image)
+  * AUC (weighted): 0.996711889
+  * Accuracy: 0.973353072
+  * Precision (weighted): 0.973648368
+  * Recall (weighted): 0.973353072
+  * Confusion Matrix:
+[[5832  168]
+ [  84 3373]]
+
+[Classifier statistics (on training data)]:
+  * 1.103137s prediction time (0.000184 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 42/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.057s loading time
+  * 16.804s runtime (conversion to HOG)
+  * 0.054s runtime (shuffling)
+HOG descriptor size: (2688,)
+7.733s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.086s loading time
+  * 24.404s runtime (conversion to HOG)
+  * 0.088s runtime (shuffling)
+HOG descriptor size: (2688,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.903521s prediction time (0.000201 s/image)
+  * AUC (weighted): 0.997161556
+  * Accuracy: 0.975467907
+  * Precision (weighted): 0.975656602
+  * Recall (weighted): 0.975467907
+  * Confusion Matrix:
+[[5852  148]
+ [  84 3373]]
+
+[Classifier statistics (on training data)]:
+  * 1.165349s prediction time (0.000194 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 43/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.108s loading time
+  * 15.071s runtime (conversion to HOG)
+  * 0.039s runtime (shuffling)
+HOG descriptor size: (1960,)
+7.152s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.104s loading time
+  * 26.229s runtime (conversion to HOG)
+  * 0.071s runtime (shuffling)
+HOG descriptor size: (1960,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.380613s prediction time (0.000146 s/image)
+  * AUC (weighted): 0.998667679
+  * Accuracy: 0.982764090
+  * Precision (weighted): 0.982914052
+  * Recall (weighted): 0.982764090
+  * Confusion Matrix:
+[[5888  112]
+ [  51 3406]]
+
+[Classifier statistics (on training data)]:
+  * 0.864747s prediction time (0.000144 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 44/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.080s loading time
+  * 14.979s runtime (conversion to HOG)
+  * 0.045s runtime (shuffling)
+HOG descriptor size: (2100,)
+7.353s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.123s loading time
+  * 24.072s runtime (conversion to HOG)
+  * 0.074s runtime (shuffling)
+HOG descriptor size: (2100,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.442904s prediction time (0.000153 s/image)
+  * AUC (weighted): 0.998449571
+  * Accuracy: 0.981389447
+  * Precision (weighted): 0.981581425
+  * Recall (weighted): 0.981389447
+  * Confusion Matrix:
+[[5877  123]
+ [  53 3404]]
+
+[Classifier statistics (on training data)]:
+  * 0.959532s prediction time (0.000160 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 45/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.104s loading time
+  * 14.858s runtime (conversion to HOG)
+  * 0.048s runtime (shuffling)
+HOG descriptor size: (2240,)
+7.265s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.084s loading time
+  * 27.014s runtime (conversion to HOG)
+  * 0.087s runtime (shuffling)
+HOG descriptor size: (2240,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.851280s prediction time (0.000196 s/image)
+  * AUC (weighted): 0.998425369
+  * Accuracy: 0.981283705
+  * Precision (weighted): 0.981438899
+  * Recall (weighted): 0.981283705
+  * Confusion Matrix:
+[[5881  119]
+ [  58 3399]]
+
+[Classifier statistics (on training data)]:
+  * 1.211787s prediction time (0.000202 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 46/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.081s loading time
+  * 13.554s runtime (conversion to HOG)
+  * 0.021s runtime (shuffling)
+HOG descriptor size: (672,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+2.443s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.140s loading time
+  * 19.482s runtime (conversion to HOG)
+  * 0.033s runtime (shuffling)
+HOG descriptor size: (672,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.516969s prediction time (0.000055 s/image)
+  * AUC (weighted): 0.995492865
+  * Accuracy: 0.969123401
+  * Precision (weighted): 0.969727233
+  * Recall (weighted): 0.969123401
+  * Confusion Matrix:
+[[5790  210]
+ [  82 3375]]
+
+[Classifier statistics (on training data)]:
+  * 0.328006s prediction time (0.000055 s/image)
+  * AUC (weighted): 0.998126222
+  * Accuracy: 0.980166667
+  * Precision (weighted): 0.980224774
+  * Recall (weighted): 0.980166667
+  * Confusion Matrix:
+[[2924   76]
+ [  43 2957]]
+
+[Falsely detected images]:
+
+####[TEST 47/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.128s loading time
+  * 12.601s runtime (conversion to HOG)
+  * 0.021s runtime (shuffling)
+HOG descriptor size: (720,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+2.602s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.142s loading time
+  * 20.001s runtime (conversion to HOG)
+  * 0.034s runtime (shuffling)
+HOG descriptor size: (720,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.564405s prediction time (0.000060 s/image)
+  * AUC (weighted): 0.995211069
+  * Accuracy: 0.965210955
+  * Precision (weighted): 0.966100789
+  * Recall (weighted): 0.965210955
+  * Confusion Matrix:
+[[5756  244]
+ [  85 3372]]
+
+[Classifier statistics (on training data)]:
+  * 0.362867s prediction time (0.000060 s/image)
+  * AUC (weighted): 0.998314222
+  * Accuracy: 0.980166667
+  * Precision (weighted): 0.980200014
+  * Recall (weighted): 0.980166667
+  * Confusion Matrix:
+[[2928   72]
+ [  47 2953]]
+
+[Falsely detected images]:
+
+####[TEST 48/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (2, 2)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.089s loading time
+  * 13.339s runtime (conversion to HOG)
+  * 0.017s runtime (shuffling)
+HOG descriptor size: (768,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+3.113s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.129s loading time
+  * 20.674s runtime (conversion to HOG)
+  * 0.040s runtime (shuffling)
+HOG descriptor size: (768,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.584277s prediction time (0.000062 s/image)
+  * AUC (weighted): 0.995478305
+  * Accuracy: 0.967748758
+  * Precision (weighted): 0.968416184
+  * Recall (weighted): 0.967748758
+  * Confusion Matrix:
+[[5780  220]
+ [  85 3372]]
+
+[Classifier statistics (on training data)]:
+  * 0.400252s prediction time (0.000067 s/image)
+  * AUC (weighted): 0.998455667
+  * Accuracy: 0.982666667
+  * Precision (weighted): 0.982688119
+  * Recall (weighted): 0.982666667
+  * Confusion Matrix:
+[[2938   62]
+ [  42 2958]]
+
+[Falsely detected images]:
+
+####[TEST 49/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.134s loading time
+  * 53.535s runtime (conversion to HOG)
+  * 0.660s runtime (shuffling)
+HOG descriptor size: (31752,)
+33.922s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.144s loading time
+  * 80.511s runtime (conversion to HOG)
+  * 1.233s runtime (shuffling)
+HOG descriptor size: (31752,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 23.456352s prediction time (0.002480 s/image)
+  * AUC (weighted): 0.999466011
+  * Accuracy: 0.990483240
+  * Precision (weighted): 0.990514295
+  * Recall (weighted): 0.990483240
+  * Confusion Matrix:
+[[5942   58]
+ [  32 3425]]
+
+[Classifier statistics (on training data)]:
+  * 15.092811s prediction time (0.002515 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 50/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.123s loading time
+  * 51.546s runtime (conversion to HOG)
+  * 0.700s runtime (shuffling)
+HOG descriptor size: (34020,)
+35.341s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.142s loading time
+  * 84.581s runtime (conversion to HOG)
+  * 1.373s runtime (shuffling)
+HOG descriptor size: (34020,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 25.173936s prediction time (0.002662 s/image)
+  * AUC (weighted): 0.999432745
+  * Accuracy: 0.989637306
+  * Precision (weighted): 0.989656347
+  * Recall (weighted): 0.989637306
+  * Confusion Matrix:
+[[5942   58]
+ [  40 3417]]
+
+[Classifier statistics (on training data)]:
+  * 16.867798s prediction time (0.002811 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 51/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.117s loading time
+  * 53.108s runtime (conversion to HOG)
+  * 0.786s runtime (shuffling)
+HOG descriptor size: (36288,)
+35.475s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.451s loading time
+  * 85.655s runtime (conversion to HOG)
+  * 1.522s runtime (shuffling)
+HOG descriptor size: (36288,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 27.070338s prediction time (0.002862 s/image)
+  * AUC (weighted): 0.999467457
+  * Accuracy: 0.989002855
+  * Precision (weighted): 0.989052823
+  * Recall (weighted): 0.989002855
+  * Confusion Matrix:
+[[5931   69]
+ [  35 3422]]
+
+[Classifier statistics (on training data)]:
+  * 17.529922s prediction time (0.002922 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 52/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.620s loading time
+  * 32.554s runtime (conversion to HOG)
+  * 0.364s runtime (shuffling)
+HOG descriptor size: (17640,)
+19.954s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.214s loading time
+  * 51.799s runtime (conversion to HOG)
+  * 0.618s runtime (shuffling)
+HOG descriptor size: (17640,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 13.120835s prediction time (0.001387 s/image)
+  * AUC (weighted): 0.999148587
+  * Accuracy: 0.985196151
+  * Precision (weighted): 0.985319499
+  * Recall (weighted): 0.985196151
+  * Confusion Matrix:
+[[5902   98]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 8.574479s prediction time (0.001429 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 53/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.075s loading time
+  * 32.449s runtime (conversion to HOG)
+  * 0.381s runtime (shuffling)
+HOG descriptor size: (18900,)
+21.078s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.441s loading time
+  * 48.962s runtime (conversion to HOG)
+  * 0.632s runtime (shuffling)
+HOG descriptor size: (18900,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 13.980146s prediction time (0.001478 s/image)
+  * AUC (weighted): 0.999097532
+  * Accuracy: 0.985513376
+  * Precision (weighted): 0.985600267
+  * Recall (weighted): 0.985513376
+  * Confusion Matrix:
+[[5909   91]
+ [  46 3411]]
+
+[Classifier statistics (on training data)]:
+  * 8.369137s prediction time (0.001395 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 54/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.065s loading time
+  * 27.056s runtime (conversion to HOG)
+  * 0.354s runtime (shuffling)
+HOG descriptor size: (20160,)
+17.352s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.107s loading time
+  * 45.620s runtime (conversion to HOG)
+  * 0.632s runtime (shuffling)
+HOG descriptor size: (20160,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 13.056534s prediction time (0.001381 s/image)
+  * AUC (weighted): 0.999077186
+  * Accuracy: 0.984878926
+  * Precision (weighted): 0.984999824
+  * Recall (weighted): 0.984878926
+  * Confusion Matrix:
+[[5901   99]
+ [  44 3413]]
+
+[Classifier statistics (on training data)]:
+  * 8.238863s prediction time (0.001373 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 55/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.063s loading time
+  * 22.821s runtime (conversion to HOG)
+  * 0.217s runtime (shuffling)
+HOG descriptor size: (11088,)
+15.571s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.144s loading time
+  * 35.549s runtime (conversion to HOG)
+  * 0.312s runtime (shuffling)
+HOG descriptor size: (11088,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 7.243989s prediction time (0.000766 s/image)
+  * AUC (weighted): 0.999237200
+  * Accuracy: 0.986676536
+  * Precision (weighted): 0.986775437
+  * Recall (weighted): 0.986676536
+  * Confusion Matrix:
+[[5912   88]
+ [  38 3419]]
+
+[Classifier statistics (on training data)]:
+  * 4.384070s prediction time (0.000731 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 56/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.060s loading time
+  * 21.780s runtime (conversion to HOG)
+  * 0.196s runtime (shuffling)
+HOG descriptor size: (11880,)
+16.086s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.115s loading time
+  * 33.726s runtime (conversion to HOG)
+  * 0.315s runtime (shuffling)
+HOG descriptor size: (11880,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 8.638073s prediction time (0.000913 s/image)
+  * AUC (weighted): 0.999162376
+  * Accuracy: 0.986570794
+  * Precision (weighted): 0.986654886
+  * Recall (weighted): 0.986570794
+  * Confusion Matrix:
+[[5914   86]
+ [  41 3416]]
+
+[Classifier statistics (on training data)]:
+  * 5.067890s prediction time (0.000845 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 57/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.068s loading time
+  * 23.105s runtime (conversion to HOG)
+  * 0.222s runtime (shuffling)
+HOG descriptor size: (12672,)
+17.046s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.200s loading time
+  * 37.864s runtime (conversion to HOG)
+  * 0.341s runtime (shuffling)
+HOG descriptor size: (12672,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 8.805374s prediction time (0.000931 s/image)
+  * AUC (weighted): 0.999271141
+  * Accuracy: 0.986782278
+  * Precision (weighted): 0.986903880
+  * Recall (weighted): 0.986782278
+  * Confusion Matrix:
+[[5909   91]
+ [  34 3423]]
+
+[Classifier statistics (on training data)]:
+  * 5.674565s prediction time (0.000946 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 58/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.106s loading time
+  * 21.845s runtime (conversion to HOG)
+  * 0.160s runtime (shuffling)
+HOG descriptor size: (7938,)
+18.915s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.149s loading time
+  * 44.478s runtime (conversion to HOG)
+  * 0.301s runtime (shuffling)
+HOG descriptor size: (7938,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 7.649904s prediction time (0.000809 s/image)
+  * AUC (weighted): 0.998743226
+  * Accuracy: 0.984350217
+  * Precision (weighted): 0.984449493
+  * Recall (weighted): 0.984350217
+  * Confusion Matrix:
+[[5902   98]
+ [  50 3407]]
+
+[Classifier statistics (on training data)]:
+  * 4.561945s prediction time (0.000760 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 59/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.085s loading time
+  * 25.605s runtime (conversion to HOG)
+  * 0.191s runtime (shuffling)
+HOG descriptor size: (8505,)
+19.053s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.252s loading time
+  * 42.398s runtime (conversion to HOG)
+  * 0.344s runtime (shuffling)
+HOG descriptor size: (8505,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 6.363067s prediction time (0.000673 s/image)
+  * AUC (weighted): 0.998651673
+  * Accuracy: 0.982341123
+  * Precision (weighted): 0.982442794
+  * Recall (weighted): 0.982341123
+  * Confusion Matrix:
+[[5893  107]
+ [  60 3397]]
+
+[Classifier statistics (on training data)]:
+  * 4.096679s prediction time (0.000683 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 60/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.074s loading time
+  * 21.293s runtime (conversion to HOG)
+  * 0.180s runtime (shuffling)
+HOG descriptor size: (9072,)
+14.903s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.128s loading time
+  * 39.562s runtime (conversion to HOG)
+  * 0.341s runtime (shuffling)
+HOG descriptor size: (9072,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 6.903444s prediction time (0.000730 s/image)
+  * AUC (weighted): 0.998865056
+  * Accuracy: 0.984561700
+  * Precision (weighted): 0.984666791
+  * Recall (weighted): 0.984561700
+  * Confusion Matrix:
+[[5902   98]
+ [  48 3409]]
+
+[Classifier statistics (on training data)]:
+  * 4.481843s prediction time (0.000747 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 61/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.079s loading time
+  * 21.252s runtime (conversion to HOG)
+  * 0.133s runtime (shuffling)
+HOG descriptor size: (6048,)
+19.683s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.216s loading time
+  * 31.412s runtime (conversion to HOG)
+  * 0.216s runtime (shuffling)
+HOG descriptor size: (6048,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 4.493278s prediction time (0.000475 s/image)
+  * AUC (weighted): 0.998545126
+  * Accuracy: 0.982869832
+  * Precision (weighted): 0.982993619
+  * Recall (weighted): 0.982869832
+  * Confusion Matrix:
+[[5892  108]
+ [  54 3403]]
+
+[Classifier statistics (on training data)]:
+  * 2.894817s prediction time (0.000482 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 62/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.076s loading time
+  * 20.786s runtime (conversion to HOG)
+  * 0.146s runtime (shuffling)
+HOG descriptor size: (6480,)
+15.766s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.127s loading time
+  * 31.580s runtime (conversion to HOG)
+  * 0.214s runtime (shuffling)
+HOG descriptor size: (6480,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 5.247180s prediction time (0.000555 s/image)
+  * AUC (weighted): 0.998388535
+  * Accuracy: 0.980754996
+  * Precision (weighted): 0.980916041
+  * Recall (weighted): 0.980754996
+  * Confusion Matrix:
+[[5878  122]
+ [  60 3397]]
+
+[Classifier statistics (on training data)]:
+  * 3.258647s prediction time (0.000543 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 63/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.079s loading time
+  * 20.501s runtime (conversion to HOG)
+  * 0.150s runtime (shuffling)
+HOG descriptor size: (6912,)
+16.172s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.193s loading time
+  * 35.975s runtime (conversion to HOG)
+  * 0.350s runtime (shuffling)
+HOG descriptor size: (6912,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 4.920489s prediction time (0.000520 s/image)
+  * AUC (weighted): 0.998485344
+  * Accuracy: 0.982552607
+  * Precision (weighted): 0.982641154
+  * Recall (weighted): 0.982552607
+  * Confusion Matrix:
+[[5896  104]
+ [  61 3396]]
+
+[Classifier statistics (on training data)]:
+  * 3.068264s prediction time (0.000511 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 64/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.072s loading time
+  * 14.296s runtime (conversion to HOG)
+  * 0.077s runtime (shuffling)
+HOG descriptor size: (3780,)
+14.666s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.140s loading time
+  * 22.501s runtime (conversion to HOG)
+  * 0.106s runtime (shuffling)
+HOG descriptor size: (3780,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.650506s prediction time (0.000280 s/image)
+  * AUC (weighted): 0.996752049
+  * Accuracy: 0.972718621
+  * Precision (weighted): 0.973226291
+  * Recall (weighted): 0.972718621
+  * Confusion Matrix:
+[[5812  188]
+ [  70 3387]]
+
+[Classifier statistics (on training data)]:
+  * 1.636148s prediction time (0.000273 s/image)
+  * AUC (weighted): 0.999966778
+  * Accuracy: 0.999333333
+  * Precision (weighted): 0.999334221
+  * Recall (weighted): 0.999333333
+  * Confusion Matrix:
+[[2996    4]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 65/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.055s loading time
+  * 14.143s runtime (conversion to HOG)
+  * 0.075s runtime (shuffling)
+HOG descriptor size: (4050,)
+15.434s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.159s loading time
+  * 21.642s runtime (conversion to HOG)
+  * 0.117s runtime (shuffling)
+HOG descriptor size: (4050,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.741163s prediction time (0.000290 s/image)
+  * AUC (weighted): 0.996254122
+  * Accuracy: 0.971026753
+  * Precision (weighted): 0.971322211
+  * Recall (weighted): 0.971026753
+  * Confusion Matrix:
+[[5822  178]
+ [  96 3361]]
+
+[Classifier statistics (on training data)]:
+  * 1.695707s prediction time (0.000283 s/image)
+  * AUC (weighted): 0.999968222
+  * Accuracy: 0.999666667
+  * Precision (weighted): 0.999666889
+  * Recall (weighted): 0.999666667
+  * Confusion Matrix:
+[[2998    2]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 66/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.046s loading time
+  * 13.869s runtime (conversion to HOG)
+  * 0.079s runtime (shuffling)
+HOG descriptor size: (4320,)
+12.199s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.078s loading time
+  * 21.855s runtime (conversion to HOG)
+  * 0.135s runtime (shuffling)
+HOG descriptor size: (4320,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 3.047130s prediction time (0.000322 s/image)
+  * AUC (weighted): 0.996722013
+  * Accuracy: 0.971978429
+  * Precision (weighted): 0.972391753
+  * Recall (weighted): 0.971978429
+  * Confusion Matrix:
+[[5816  184]
+ [  81 3376]]
+
+[Classifier statistics (on training data)]:
+  * 1.823162s prediction time (0.000304 s/image)
+  * AUC (weighted): 0.999999889
+  * Accuracy: 0.999666667
+  * Precision (weighted): 0.999666889
+  * Recall (weighted): 0.999666667
+  * Confusion Matrix:
+[[2998    2]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 67/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.072s loading time
+  * 13.244s runtime (conversion to HOG)
+  * 0.064s runtime (shuffling)
+HOG descriptor size: (3024,)
+9.997s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.123s loading time
+  * 20.559s runtime (conversion to HOG)
+  * 0.091s runtime (shuffling)
+HOG descriptor size: (3024,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 1.877199s prediction time (0.000198 s/image)
+  * AUC (weighted): 0.998524684
+  * Accuracy: 0.980966480
+  * Precision (weighted): 0.981168957
+  * Recall (weighted): 0.980966480
+  * Confusion Matrix:
+[[5874  126]
+ [  54 3403]]
+
+[Classifier statistics (on training data)]:
+  * 1.224316s prediction time (0.000204 s/image)
+  * AUC (weighted): 0.999999778
+  * Accuracy: 0.999666667
+  * Precision (weighted): 0.999666889
+  * Recall (weighted): 0.999666667
+  * Confusion Matrix:
+[[2998    2]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 68/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.051s loading time
+  * 12.701s runtime (conversion to HOG)
+  * 0.064s runtime (shuffling)
+HOG descriptor size: (3240,)
+10.302s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.098s loading time
+  * 20.242s runtime (conversion to HOG)
+  * 0.100s runtime (shuffling)
+HOG descriptor size: (3240,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.011287s prediction time (0.000213 s/image)
+  * AUC (weighted): 0.998477148
+  * Accuracy: 0.981495189
+  * Precision (weighted): 0.981682438
+  * Recall (weighted): 0.981495189
+  * Confusion Matrix:
+[[5878  122]
+ [  53 3404]]
+
+[Classifier statistics (on training data)]:
+  * 1.296384s prediction time (0.000216 s/image)
+  * AUC (weighted): 0.999999667
+  * Accuracy: 0.999666667
+  * Precision (weighted): 0.999666667
+  * Recall (weighted): 0.999666667
+  * Confusion Matrix:
+[[2999    1]
+ [   1 2999]]
+
+[Falsely detected images]:
+
+####[TEST 69/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.062s loading time
+  * 13.241s runtime (conversion to HOG)
+  * 0.066s runtime (shuffling)
+HOG descriptor size: (3456,)
+10.110s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.126s loading time
+  * 20.745s runtime (conversion to HOG)
+  * 0.102s runtime (shuffling)
+HOG descriptor size: (3456,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.237223s prediction time (0.000237 s/image)
+  * AUC (weighted): 0.998272491
+  * Accuracy: 0.980120546
+  * Precision (weighted): 0.980283867
+  * Recall (weighted): 0.980120546
+  * Confusion Matrix:
+[[5875  125]
+ [  63 3394]]
+
+[Classifier statistics (on training data)]:
+  * 1.380260s prediction time (0.000230 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 0.999833333
+  * Precision (weighted): 0.999833389
+  * Recall (weighted): 0.999833333
+  * Confusion Matrix:
+[[2999    1]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 70/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.055s loading time
+  * 9.557s runtime (conversion to HOG)
+  * 0.018s runtime (shuffling)
+HOG descriptor size: (756,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.932s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.123s loading time
+  * 15.149s runtime (conversion to HOG)
+  * 0.031s runtime (shuffling)
+HOG descriptor size: (756,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.522532s prediction time (0.000055 s/image)
+  * AUC (weighted): 0.994959069
+  * Accuracy: 0.963730570
+  * Precision (weighted): 0.964614746
+  * Recall (weighted): 0.963730570
+  * Confusion Matrix:
+[[5750  250]
+ [  93 3364]]
+
+[Classifier statistics (on training data)]:
+  * 0.320654s prediction time (0.000053 s/image)
+  * AUC (weighted): 0.997548444
+  * Accuracy: 0.977333333
+  * Precision (weighted): 0.977350518
+  * Recall (weighted): 0.977333333
+  * Confusion Matrix:
+[[2923   77]
+ [  59 2941]]
+
+[Falsely detected images]:
+
+####[TEST 71/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.048s loading time
+  * 9.847s runtime (conversion to HOG)
+  * 0.020s runtime (shuffling)
+HOG descriptor size: (810,)
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+1.923s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.230s loading time
+  * 16.157s runtime (conversion to HOG)
+  * 0.032s runtime (shuffling)
+HOG descriptor size: (810,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.549932s prediction time (0.000058 s/image)
+  * AUC (weighted): 0.994563735
+  * Accuracy: 0.962990377
+  * Precision (weighted): 0.963963560
+  * Recall (weighted): 0.962990377
+  * Confusion Matrix:
+[[5742  258]
+ [  92 3365]]
+
+[Classifier statistics (on training data)]:
+  * 0.336101s prediction time (0.000056 s/image)
+  * AUC (weighted): 0.997659222
+  * Accuracy: 0.973833333
+  * Precision (weighted): 0.973890674
+  * Recall (weighted): 0.973833333
+  * Confusion Matrix:
+[[2905   95]
+ [  62 2938]]
+
+[Falsely detected images]:
+
+####[TEST 72/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (3, 3)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.047s loading time
+  * 10.211s runtime (conversion to HOG)
+  * 0.021s runtime (shuffling)
+HOG descriptor size: (864,)
+2.280s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.111s loading time
+  * 17.304s runtime (conversion to HOG)
+  * 0.034s runtime (shuffling)
+HOG descriptor size: (864,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.581410s prediction time (0.000061 s/image)
+  * AUC (weighted): 0.994919294
+  * Accuracy: 0.962673152
+  * Precision (weighted): 0.963794958
+  * Recall (weighted): 0.962673152
+  * Confusion Matrix:
+[[5733  267]
+ [  86 3371]]
+
+[Classifier statistics (on training data)]:
+  * 0.382978s prediction time (0.000064 s/image)
+  * AUC (weighted): 0.997772333
+  * Accuracy: 0.976333333
+  * Precision (weighted): 0.976350482
+  * Recall (weighted): 0.976333333
+  * Confusion Matrix:
+[[2920   80]
+ [  62 2938]]
+
+[Falsely detected images]:
+
+####[TEST 73/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.069s loading time
+  * 47.683s runtime (conversion to HOG)
+  * 1.026s runtime (shuffling)
+HOG descriptor size: (49504,)
+46.418s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.160s loading time
+  * 65.628s runtime (conversion to HOG)
+  * 12.173s runtime (shuffling)
+HOG descriptor size: (49504,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 36.525964s prediction time (0.003862 s/image)
+  * AUC (weighted): 0.999437566
+  * Accuracy: 0.989743047
+  * Precision (weighted): 0.989803198
+  * Recall (weighted): 0.989743047
+  * Confusion Matrix:
+[[5932   68]
+ [  29 3428]]
+
+[Classifier statistics (on training data)]:
+  * 25.552693s prediction time (0.004259 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 74/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.797s loading time
+  * 43.216s runtime (conversion to HOG)
+  * 1.284s runtime (shuffling)
+HOG descriptor size: (53040,)
+54.104s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.824s loading time
+  * 72.095s runtime (conversion to HOG)
+  * 9.663s runtime (shuffling)
+HOG descriptor size: (53040,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 40.899862s prediction time (0.004325 s/image)
+  * AUC (weighted): 0.999415919
+  * Accuracy: 0.988685630
+  * Precision (weighted): 0.988721415
+  * Recall (weighted): 0.988685630
+  * Confusion Matrix:
+[[5933   67]
+ [  40 3417]]
+
+[Classifier statistics (on training data)]:
+  * 30.877696s prediction time (0.005146 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 75/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (4, 4)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    1.007s loading time
+  * 43.713s runtime (conversion to HOG)
+  * 1.336s runtime (shuffling)
+HOG descriptor size: (56576,)
+51.285s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    1.531s loading time
+  * 65.058s runtime (conversion to HOG)
+  * 3.860s runtime (shuffling)
+HOG descriptor size: (56576,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 40.126800s prediction time (0.004243 s/image)
+  * AUC (weighted): 0.999455453
+  * Accuracy: 0.988791371
+  * Precision (weighted): 0.988866826
+  * Recall (weighted): 0.988791371
+  * Confusion Matrix:
+[[5925   75]
+ [  31 3426]]
+
+[Classifier statistics (on training data)]:
+  * 33.848299s prediction time (0.005641 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 76/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.837s loading time
+  * 27.035s runtime (conversion to HOG)
+  * 0.468s runtime (shuffling)
+HOG descriptor size: (26208,)
+24.571s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.819s loading time
+  * 41.438s runtime (conversion to HOG)
+  * 0.877s runtime (shuffling)
+HOG descriptor size: (26208,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 17.734452s prediction time (0.001875 s/image)
+  * AUC (weighted): 0.999044788
+  * Accuracy: 0.983821508
+  * Precision (weighted): 0.983952925
+  * Recall (weighted): 0.983821508
+  * Confusion Matrix:
+[[5895  105]
+ [  48 3409]]
+
+[Classifier statistics (on training data)]:
+  * 10.622355s prediction time (0.001770 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 77/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.062s loading time
+  * 25.479s runtime (conversion to HOG)
+  * 0.503s runtime (shuffling)
+HOG descriptor size: (28080,)
+25.810s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.512s loading time
+  * 42.551s runtime (conversion to HOG)
+  * 1.111s runtime (shuffling)
+HOG descriptor size: (28080,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 19.540143s prediction time (0.002066 s/image)
+  * AUC (weighted): 0.998995757
+  * Accuracy: 0.984032991
+  * Precision (weighted): 0.984129995
+  * Recall (weighted): 0.984032991
+  * Confusion Matrix:
+[[5901   99]
+ [  52 3405]]
+
+[Classifier statistics (on training data)]:
+  * 12.094852s prediction time (0.002016 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 78/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (5, 5)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.106s loading time
+  * 27.200s runtime (conversion to HOG)
+  * 0.552s runtime (shuffling)
+HOG descriptor size: (29952,)
+26.688s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.109s loading time
+  * 42.694s runtime (conversion to HOG)
+  * 1.044s runtime (shuffling)
+HOG descriptor size: (29952,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 20.361746s prediction time (0.002153 s/image)
+  * AUC (weighted): 0.999000771
+  * Accuracy: 0.985090409
+  * Precision (weighted): 0.985172527
+  * Recall (weighted): 0.985090409
+  * Confusion Matrix:
+[[5908   92]
+ [  49 3408]]
+
+[Classifier statistics (on training data)]:
+  * 12.768477s prediction time (0.002128 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 79/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.097s loading time
+  * 20.026s runtime (conversion to HOG)
+  * 0.268s runtime (shuffling)
+HOG descriptor size: (15680,)
+22.130s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.145s loading time
+  * 32.054s runtime (conversion to HOG)
+  * 0.460s runtime (shuffling)
+HOG descriptor size: (15680,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 10.232148s prediction time (0.001082 s/image)
+  * AUC (weighted): 0.999011908
+  * Accuracy: 0.984984667
+  * Precision (weighted): 0.985123075
+  * Recall (weighted): 0.984984667
+  * Confusion Matrix:
+[[5899  101]
+ [  41 3416]]
+
+[Classifier statistics (on training data)]:
+  * 6.731020s prediction time (0.001122 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 80/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.271s loading time
+  * 21.848s runtime (conversion to HOG)
+  * 0.283s runtime (shuffling)
+HOG descriptor size: (16800,)
+23.391s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.131s loading time
+  * 32.553s runtime (conversion to HOG)
+  * 0.456s runtime (shuffling)
+HOG descriptor size: (16800,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 10.763739s prediction time (0.001138 s/image)
+  * AUC (weighted): 0.998992865
+  * Accuracy: 0.984561700
+  * Precision (weighted): 0.984687117
+  * Recall (weighted): 0.984561700
+  * Confusion Matrix:
+[[5899  101]
+ [  45 3412]]
+
+[Classifier statistics (on training data)]:
+  * 6.736918s prediction time (0.001123 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 81/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (6, 6)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.063s loading time
+  * 19.576s runtime (conversion to HOG)
+  * 0.324s runtime (shuffling)
+HOG descriptor size: (17920,)
+22.490s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.202s loading time
+  * 31.633s runtime (conversion to HOG)
+  * 0.579s runtime (shuffling)
+HOG descriptor size: (17920,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 12.315304s prediction time (0.001302 s/image)
+  * AUC (weighted): 0.999061807
+  * Accuracy: 0.985513376
+  * Precision (weighted): 0.985625480
+  * Recall (weighted): 0.985513376
+  * Confusion Matrix:
+[[5905   95]
+ [  42 3415]]
+
+[Classifier statistics (on training data)]:
+  * 7.917603s prediction time (0.001320 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 82/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.253s loading time
+  * 15.855s runtime (conversion to HOG)
+  * 0.183s runtime (shuffling)
+HOG descriptor size: (10752,)
+17.621s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.111s loading time
+  * 24.679s runtime (conversion to HOG)
+  * 0.288s runtime (shuffling)
+HOG descriptor size: (10752,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 6.853405s prediction time (0.000725 s/image)
+  * AUC (weighted): 0.998458008
+  * Accuracy: 0.981918156
+  * Precision (weighted): 0.982014561
+  * Recall (weighted): 0.981918156
+  * Confusion Matrix:
+[[5892  108]
+ [  63 3394]]
+
+[Classifier statistics (on training data)]:
+  * 4.325457s prediction time (0.000721 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 83/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.063s loading time
+  * 16.009s runtime (conversion to HOG)
+  * 0.195s runtime (shuffling)
+HOG descriptor size: (11520,)
+19.398s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.121s loading time
+  * 25.274s runtime (conversion to HOG)
+  * 0.312s runtime (shuffling)
+HOG descriptor size: (11520,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 7.275641s prediction time (0.000769 s/image)
+  * AUC (weighted): 0.998408784
+  * Accuracy: 0.980226287
+  * Precision (weighted): 0.980340598
+  * Recall (weighted): 0.980226287
+  * Confusion Matrix:
+[[5882  118]
+ [  69 3388]]
+
+[Classifier statistics (on training data)]:
+  * 4.817363s prediction time (0.000803 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 84/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (7, 7)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.116s loading time
+  * 16.396s runtime (conversion to HOG)
+  * 0.227s runtime (shuffling)
+HOG descriptor size: (12288,)
+20.691s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.161s loading time
+  * 26.970s runtime (conversion to HOG)
+  * 0.354s runtime (shuffling)
+HOG descriptor size: (12288,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 8.592448s prediction time (0.000909 s/image)
+  * AUC (weighted): 0.998531627
+  * Accuracy: 0.981918156
+  * Precision (weighted): 0.982048542
+  * Recall (weighted): 0.981918156
+  * Confusion Matrix:
+[[5887  113]
+ [  58 3399]]
+
+[Classifier statistics (on training data)]:
+  * 5.074386s prediction time (0.000846 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 85/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.073s loading time
+  * 14.966s runtime (conversion to HOG)
+  * 0.143s runtime (shuffling)
+HOG descriptor size: (7840,)
+19.684s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.121s loading time
+  * 26.039s runtime (conversion to HOG)
+  * 0.240s runtime (shuffling)
+HOG descriptor size: (7840,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 5.235267s prediction time (0.000554 s/image)
+  * AUC (weighted): 0.998265645
+  * Accuracy: 0.981177963
+  * Precision (weighted): 0.981329616
+  * Recall (weighted): 0.981177963
+  * Confusion Matrix:
+[[5881  119]
+ [  59 3398]]
+
+[Classifier statistics (on training data)]:
+  * 3.318625s prediction time (0.000553 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 86/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.113s loading time
+  * 15.088s runtime (conversion to HOG)
+  * 0.139s runtime (shuffling)
+HOG descriptor size: (8400,)
+22.313s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.171s loading time
+  * 24.771s runtime (conversion to HOG)
+  * 0.223s runtime (shuffling)
+HOG descriptor size: (8400,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 5.601720s prediction time (0.000592 s/image)
+  * AUC (weighted): 0.998164015
+  * Accuracy: 0.979909062
+  * Precision (weighted): 0.980081335
+  * Recall (weighted): 0.979909062
+  * Confusion Matrix:
+[[5873  127]
+ [  63 3394]]
+
+[Classifier statistics (on training data)]:
+  * 3.581629s prediction time (0.000597 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 87/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (8, 8)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.083s loading time
+  * 16.229s runtime (conversion to HOG)
+  * 0.153s runtime (shuffling)
+HOG descriptor size: (8960,)
+20.881s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.091s loading time
+  * 24.294s runtime (conversion to HOG)
+  * 0.313s runtime (shuffling)
+HOG descriptor size: (8960,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 5.815097s prediction time (0.000615 s/image)
+  * AUC (weighted): 0.998253929
+  * Accuracy: 0.980332029
+  * Precision (weighted): 0.980456564
+  * Recall (weighted): 0.980332029
+  * Confusion Matrix:
+[[5881  119]
+ [  67 3390]]
+
+[Classifier statistics (on training data)]:
+  * 3.764801s prediction time (0.000627 s/image)
+  * AUC (weighted): 1.000000000
+  * Accuracy: 1.000000000
+  * Precision (weighted): 1.000000000
+  * Recall (weighted): 1.000000000
+  * Confusion Matrix:
+[[3000    0]
+ [   0 3000]]
+
+[Falsely detected images]:
+
+####[TEST 88/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.124s loading time
+  * 12.248s runtime (conversion to HOG)
+  * 0.081s runtime (shuffling)
+HOG descriptor size: (4480,)
+14.760s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.103s loading time
+  * 24.902s runtime (conversion to HOG)
+  * 0.125s runtime (shuffling)
+HOG descriptor size: (4480,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 3.091626s prediction time (0.000327 s/image)
+  * AUC (weighted): 0.996661894
+  * Accuracy: 0.970815269
+  * Precision (weighted): 0.971437379
+  * Recall (weighted): 0.970815269
+  * Confusion Matrix:
+[[5796  204]
+ [  72 3385]]
+
+[Classifier statistics (on training data)]:
+  * 1.994221s prediction time (0.000332 s/image)
+  * AUC (weighted): 0.999861333
+  * Accuracy: 0.997333333
+  * Precision (weighted): 0.997336870
+  * Recall (weighted): 0.997333333
+  * Confusion Matrix:
+[[2988   12]
+ [   4 2996]]
+
+[Falsely detected images]:
+
+####[TEST 89/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.069s loading time
+  * 13.893s runtime (conversion to HOG)
+  * 0.084s runtime (shuffling)
+HOG descriptor size: (4800,)
+17.400s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.079s loading time
+  * 20.792s runtime (conversion to HOG)
+  * 0.135s runtime (shuffling)
+HOG descriptor size: (4800,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.932421s prediction time (0.000310 s/image)
+  * AUC (weighted): 0.995918523
+  * Accuracy: 0.968594692
+  * Precision (weighted): 0.969179805
+  * Recall (weighted): 0.968594692
+  * Confusion Matrix:
+[[5789  211]
+ [  86 3371]]
+
+[Classifier statistics (on training data)]:
+  * 1.793665s prediction time (0.000299 s/image)
+  * AUC (weighted): 0.999893333
+  * Accuracy: 0.997833333
+  * Precision (weighted): 0.997834716
+  * Recall (weighted): 0.997833333
+  * Confusion Matrix:
+[[2991    9]
+ [   4 2996]]
+
+[Falsely detected images]:
+
+####[TEST 90/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (9, 9)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.101s loading time
+  * 12.579s runtime (conversion to HOG)
+  * 0.091s runtime (shuffling)
+HOG descriptor size: (5120,)
+16.045s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.098s loading time
+  * 21.396s runtime (conversion to HOG)
+  * 0.149s runtime (shuffling)
+HOG descriptor size: (5120,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 3.396181s prediction time (0.000359 s/image)
+  * AUC (weighted): 0.996481439
+  * Accuracy: 0.970709527
+  * Precision (weighted): 0.971209406
+  * Recall (weighted): 0.970709527
+  * Confusion Matrix:
+[[5804  196]
+ [  81 3376]]
+
+[Classifier statistics (on training data)]:
+  * 2.133313s prediction time (0.000356 s/image)
+  * AUC (weighted): 0.999947000
+  * Accuracy: 0.998166667
+  * Precision (weighted): 0.998171150
+  * Recall (weighted): 0.998166667
+  * Confusion Matrix:
+[[2990   10]
+ [   1 2999]]
+
+[Falsely detected images]:
+
+####[TEST 91/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.066s loading time
+  * 12.039s runtime (conversion to HOG)
+  * 0.075s runtime (shuffling)
+HOG descriptor size: (3360,)
+7.902s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.103s loading time
+  * 18.067s runtime (conversion to HOG)
+  * 0.120s runtime (shuffling)
+HOG descriptor size: (3360,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.100907s prediction time (0.000222 s/image)
+  * AUC (weighted): 0.998274082
+  * Accuracy: 0.979486095
+  * Precision (weighted): 0.979685727
+  * Recall (weighted): 0.979486095
+  * Confusion Matrix:
+[[5868  132]
+ [  62 3395]]
+
+[Classifier statistics (on training data)]:
+  * 1.298794s prediction time (0.000216 s/image)
+  * AUC (weighted): 0.999966778
+  * Accuracy: 0.997666667
+  * Precision (weighted): 0.997667551
+  * Recall (weighted): 0.997666667
+  * Confusion Matrix:
+[[2991    9]
+ [   5 2995]]
+
+[Falsely detected images]:
+
+####[TEST 92/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.113s loading time
+  * 11.545s runtime (conversion to HOG)
+  * 0.073s runtime (shuffling)
+HOG descriptor size: (3600,)
+9.202s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.094s loading time
+  * 18.978s runtime (conversion to HOG)
+  * 0.110s runtime (shuffling)
+HOG descriptor size: (3600,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.234492s prediction time (0.000236 s/image)
+  * AUC (weighted): 0.998262559
+  * Accuracy: 0.980437771
+  * Precision (weighted): 0.980629216
+  * Recall (weighted): 0.980437771
+  * Confusion Matrix:
+[[5873  127]
+ [  58 3399]]
+
+[Classifier statistics (on training data)]:
+  * 1.420224s prediction time (0.000237 s/image)
+  * AUC (weighted): 0.999979778
+  * Accuracy: 0.997666667
+  * Precision (weighted): 0.997668657
+  * Recall (weighted): 0.997666667
+  * Confusion Matrix:
+[[2990   10]
+ [   4 2996]]
+
+[Falsely detected images]:
+
+####[TEST 93/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (10, 10)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.063s loading time
+  * 12.039s runtime (conversion to HOG)
+  * 0.072s runtime (shuffling)
+HOG descriptor size: (3840,)
+10.066s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.103s loading time
+  * 19.536s runtime (conversion to HOG)
+  * 0.122s runtime (shuffling)
+HOG descriptor size: (3840,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 2.361202s prediction time (0.000250 s/image)
+  * AUC (weighted): 0.998181805
+  * Accuracy: 0.979486095
+  * Precision (weighted): 0.979628057
+  * Recall (weighted): 0.979486095
+  * Confusion Matrix:
+[[5875  125]
+ [  69 3388]]
+
+[Classifier statistics (on training data)]:
+  * 1.537526s prediction time (0.000256 s/image)
+  * AUC (weighted): 0.999992556
+  * Accuracy: 0.998500000
+  * Precision (weighted): 0.998501385
+  * Recall (weighted): 0.998500000
+  * Confusion Matrix:
+[[2993    7]
+ [   2 2998]]
+
+[Falsely detected images]:
+
+####[TEST 94/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 14
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.131s loading time
+  * 8.765s runtime (conversion to HOG)
+  * 0.018s runtime (shuffling)
+HOG descriptor size: (448,)
+0.836s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.138s loading time
+  * 14.269s runtime (conversion to HOG)
+  * 0.023s runtime (shuffling)
+HOG descriptor size: (448,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.270507s prediction time (0.000029 s/image)
+  * AUC (weighted): 0.993935782
+  * Accuracy: 0.960241091
+  * Precision (weighted): 0.961499625
+  * Recall (weighted): 0.960241091
+  * Confusion Matrix:
+[[5716  284]
+ [  92 3365]]
+
+[Classifier statistics (on training data)]:
+  * 0.161568s prediction time (0.000027 s/image)
+  * AUC (weighted): 0.996630333
+  * Accuracy: 0.973000000
+  * Precision (weighted): 0.973053823
+  * Recall (weighted): 0.973000000
+  * Confusion Matrix:
+[[2903   97]
+ [  65 2935]]
+
+[Falsely detected images]:
+
+####[TEST 95/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 15
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.047s loading time
+  * 9.132s runtime (conversion to HOG)
+  * 0.010s runtime (shuffling)
+HOG descriptor size: (480,)
+0.713s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.097s loading time
+  * 14.481s runtime (conversion to HOG)
+  * 0.021s runtime (shuffling)
+HOG descriptor size: (480,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.306676s prediction time (0.000032 s/image)
+  * AUC (weighted): 0.993444171
+  * Accuracy: 0.959712382
+  * Precision (weighted): 0.960882202
+  * Recall (weighted): 0.959712382
+  * Confusion Matrix:
+[[5718  282]
+ [  99 3358]]
+
+[Classifier statistics (on training data)]:
+  * 0.187013s prediction time (0.000031 s/image)
+  * AUC (weighted): 0.996541556
+  * Accuracy: 0.970000000
+  * Precision (weighted): 0.970060377
+  * Recall (weighted): 0.970000000
+  * Confusion Matrix:
+[[2893  107]
+ [  73 2927]]
+
+[Falsely detected images]:
+
+####[TEST 96/96]##################################################################
+[Current parameter sweep]:
+  * Number of orientations: 16
+  * Cell pixel shape: (14, 14)
+  * Number of cells per block: (4, 4)
+  * Block normalisation method: L2-Hys
+  * Power law compression (preprocessing) on: True
+
+[Training SVM model]:
+  * Loading cached unprocessed images from RAM
+    0.101s loading time
+  * 9.358s runtime (conversion to HOG)
+  * 0.010s runtime (shuffling)
+HOG descriptor size: (512,)
+0.975s runtime (SGD training)
+Number of training images loaded: 6000
+
+[Generating test images]:
+  * Loading cached unprocessed test images from RAM
+    0.090s loading time
+  * 15.069s runtime (conversion to HOG)
+  * 0.021s runtime (shuffling)
+HOG descriptor size: (512,)
+Number of testing images loaded: 9457
+
+[Classifier statistics (on test data)]:
+  * 0.327461s prediction time (0.000035 s/image)
+  * AUC (weighted): 0.994025793
+  * Accuracy: 0.959395157
+  * Precision (weighted): 0.960683307
+  * Recall (weighted): 0.959395157
+  * Confusion Matrix:
+[[5711  289]
+ [  95 3362]]
+
+[Classifier statistics (on training data)]:
+  * 0.182512s prediction time (0.000030 s/image)
+  * AUC (weighted): 0.996858333
+  * Accuracy: 0.972333333
+  * Precision (weighted): 0.972363565
+  * Recall (weighted): 0.972333333
+  * Confusion Matrix:
+[[2905   95]
+ [  71 2929]]
+
+[Falsely detected images]:
+
+
+9731.245s elapsed (entire test)
+DONE
