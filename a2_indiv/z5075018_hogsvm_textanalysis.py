@@ -60,7 +60,8 @@ def main():
             'z507_hogsvm_jupyter_results_28March2020.txt',
             'z507_hogsvm_jupyter_results_30March2020_cellpixel_additional.txt',
             'z507_hogsvm_jupyter_results_30March2020_orientation_additional.txt',
-            'z507_hogsvm_jupyter_results_30March2020_all224test.txt'
+            'z507_hogsvm_jupyter_results_30March2020_all224test.txt',
+            'z507_hogsvm_jupyter_results_1Apr2020.txt'
         ]
         entries = []
         for fpi in fp_list:
